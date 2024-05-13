@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Okita&#39;s Blog</title>
+    <link>https://okita1027.github.io/</link>
+    
+    <image>
+      <url>https://okita1027.github.io/images/avatar.png</url>
+      <title>Okita&#39;s Blog</title>
+      <link>https://okita1027.github.io/</link>
+    </image>
+    
+    <atom:link href="https://okita1027.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Mon, 13 May 2024 09:52:50 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>test-note</title>
+      <link>https://okita1027.github.io/test-note/</link>
+      <guid>https://okita1027.github.io/test-note/</guid>
+      <pubDate>Sun, 12 May 2024 07:33:10 GMT</pubDate>
+      
+      <description>&lt;p&gt;这一段文字是摘要，显示在主页和文章页&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://okita1027.github.io/categories/%E6%B5%8B%E8%AF%95/">测试</category>
+      
+      <category domain="https://okita1027.github.io/categories/%E6%B5%8B%E8%AF%95/%E4%B8%BB%E9%A2%98/">主题</category>
+      
+      
+      <category domain="https://okita1027.github.io/tags/%E6%B5%8B%E8%AF%95/">测试</category>
+      
+      
+      <comments>https://okita1027.github.io/test-note/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

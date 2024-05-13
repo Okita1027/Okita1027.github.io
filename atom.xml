@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Okita&#39;s Blog</title>
+  <icon>https://okita1027.github.io/images/avatar.png</icon>
+  
+  <link href="https://okita1027.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://okita1027.github.io/"/>
+  <updated>2024-05-13T09:52:50.687Z</updated>
+  <id>https://okita1027.github.io/</id>
+  
+  <author>
+    <name>Okita</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test-note</title>
+    <link href="https://okita1027.github.io/test-note/"/>
+    <id>https://okita1027.github.io/test-note/</id>
+    <published>2024-05-12T07:33:10.000Z</published>
+    <updated>2024-05-13T09:52:50.687Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这一段文字是摘要，显示在主页和文章页&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="测试" scheme="https://okita1027.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="主题" scheme="https://okita1027.github.io/categories/%E6%B5%8B%E8%AF%95/%E4%B8%BB%E9%A2%98/"/>
+    
+    
+    <category term="测试" scheme="https://okita1027.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
