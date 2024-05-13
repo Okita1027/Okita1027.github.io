@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="沖田さん">
   <meta name="keywords" content="Java、Steam、二次元、钢琴">
@@ -25,6 +27,8 @@
 <meta property="article:tag" content="Java、Steam、二次元、钢琴">
 <meta name="twitter:card" content="summary_large_image">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>沖田さんのブログ</title>
@@ -223,45 +227,6 @@
     
     
       <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/demo/" target="_self">
-          <img src="/demo/demo.png" srcset="/img/loading.gif" lazyload alt="demo">
-        </a>
-      </div>
-    
-    <article class="col-12 col-md-8 mx-auto index-info">
-      <h2 class="index-header">
-        
-        <a href="/demo/" target="_self">
-          demo
-        </a>
-      </h2>
-
-      
-      <a class="index-excerpt " href="/demo/" target="_self">
-        <div>
-          This is Demo Page
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2024-05-12 22:42" pubdate>
-              2024-05-12
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-      <div class="col-12 col-md-4 m-auto index-img">
         <a href="/test-note/" target="_self">
           <img src="/test-note/%E8%8A%B1%E5%AB%81%E5%85%89%E8%BE%89.jpg" srcset="/img/loading.gif" lazyload alt="test-note">
         </a>
@@ -278,7 +243,7 @@
       
       <a class="index-excerpt " href="/test-note/" target="_self">
         <div>
-          TEST-NOTE图片上面必须有一行否则图片的标题（下方灰色字体）显示不出来 &copy; 这是一段脚注  Indent paragraphs to include them in the footnote. `&#123; my code &#125;` Add as many paragraphs as you like.  定义列表First TermThis is the definiti
+          这一段文字是摘要，显示在主页和文章页
         </div>
       </a>
 
@@ -292,6 +257,41 @@
           </div>
         
         
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%B5%8B%E8%AF%95/" class="category-chain-item">测试</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E6%B5%8B%E8%AF%95/%E4%B8%BB%E9%A2%98/" class="category-chain-item">主题</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%B5%8B%E8%AF%95/">#测试</a>
+            
+          </div>
         
       </div>
     </article>
@@ -388,6 +388,30 @@
     </div>
   
   
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
   
   
 </div>
@@ -440,6 +464,8 @@
 
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 
