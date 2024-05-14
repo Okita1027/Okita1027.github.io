@@ -1,3 +1,10 @@
-# 基于Hexo的个人博客
-Vercel镜像站：https://okita1027-github-io.vercel.app/
-CloudFlare镜像站：https://zhiyun.pages.dev/
+# 框架：Hexo主题：Fluid
+## 镜像站
+- CloudFlare => https://zhiyun.pages.dev/
+- Vercel => https://okita1027-github-io.vercel.app/
+- Render => 
+- Netlify => 
+
+
+
+

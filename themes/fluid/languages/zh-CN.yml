@@ -28,6 +28,26 @@ about:
   title: '关于'
   subtitle: '关于'
 
+rss:
+  menu: 'RSS'
+  title: 'RSS2.0'
+  subtitle: 'RSS2.0'
+
+mirror:
+  menu: '镜像站'
+  title: '镜像站'
+  subtitle: '镜像站'
+
+CloudFlare:
+  menu: 'CloudFlare'
+  title: 'CloudFlare'
+  subtitle: 'CloudFlare'
+
+Vercel:
+  menu: 'Vercel'
+  title: 'Vercel'
+  subtitle: 'Vercel'
+
 links:
   menu: '友链'
   title: '友链'
