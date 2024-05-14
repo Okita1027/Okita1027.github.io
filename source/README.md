@@ -1,2 +1,3 @@
 # 基于Hexo的个人博客
-随便提交一下，触发Vercel构建
+Vercel镜像站：https://okita1027-github-io.vercel.app/
+CloudFlare镜像站：https://zhiyun.pages.dev/
