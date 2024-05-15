@@ -45,13 +45,23 @@ CloudFlare:
 
 Vercel:
   menu: 'Vercel'
-  title: 'Vercel'
-  subtitle: 'Vercel'
+  title: '(Magic)'
+  subtitle: 'Vercel(需要魔法)'
 
 links:
   menu: '友链'
   title: '友链'
   subtitle: '友情链接'
+
+# Hexo:
+#   menu: 'Hexo'
+#   title: 'Hexo官网'
+#   subtitle: 'Hexo官网'
+
+# Fluid:
+#   menu: 'Fluid'
+#   title: 'Fluid主题'
+#   subtitle: 'Fluid主题'
 
 page404:
   menu: '页面不存在'
