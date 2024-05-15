@@ -1,8 +1,8 @@
-title: test-note
+title: HelloWorld
 categories: [测试, 主题]
 tags: [测试]
-index_img: /test-note/花嫁光辉.jpg
-banner_img: /test-note/闪闪切嗣.jpg
+index_img: /HelloWorld/花嫁光辉.jpg
+banner_img: /HelloWorld/闪闪切嗣.jpg
 hide: false
 archive: false
 date: 2024-05-12 15:33:00
@@ -11,10 +11,13 @@ date: 2024-05-12 15:33:00
 这一段文字是摘要，显示在主页和文章页
 <!-- more -->
 
-# TEST-NOTE
+官方Hello-World：https://hexo.fluid-dev.com/posts/hello-fluid/
+
+# HelloWorld
+
 图片上面必须有一行否则图片的标题（下方灰色字体）显示不出来
-<img src="/test-note/FGO.png" title="玛修·基列莱特">
-![学妹](/test-note/FGO.png)
+<img src="/HelloWorld/FGO.png" title="玛修·基列莱特">
+![学妹](/HelloWorld/FGO.png)
 
 
 这是一段脚注
@@ -60,8 +63,8 @@ int num = 1;
 {% btn https://www.baidu.com, 去百度, 百度 %}
 ### 组图
 {% gi total 2 2 %}
-![](/test-note/FGO.png)
-![](/test-note/花嫁光辉.jpg)
+![](/HelloWorld/FGO.png)
+![](/HelloWorld/花嫁光辉.jpg)
 {% endgi %}
 ## 脚注
 [^1]: https://pan.baidu.com

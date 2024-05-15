@@ -1,21 +1,22 @@
 <% if(theme.fun_features.typing.enable && in_scope(theme.fun_features.typing.scope) && page.subtitle !== false) { %>
-  <%- js_ex(theme.static_prefix.typed, '/typed.min.js') %>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var subtitle = document.getElementById('subtitle');
-      if (!subtitle || !typing) {
-        return;
-      }
-      var text = subtitle.getAttribute('data-typed-text');
-      <% if (is_home() && theme.index.slogan.api && theme.index.slogan.api.enable) { %>
+    <%- js_ex(theme.static_prefix.typed, '/typed.min.js') %>
+    <script>
+      (function (window, document) {
+        var typing = Fluid.plugins.typing;
+        var subtitle = document.getElementById('subtitle');
+        if (!subtitle || !typing) {
+          return;
+        }
+        var text = subtitle.getAttribute('data-typed-text');
+          <% if (is_home() && theme.index.slogan.api && theme.index.slogan.api.enable) { %>
         jQuery.ajax({
           type: '<%= theme.index.slogan.api.method %>',
           url: '<%- theme.index.slogan.api.url %>',
           headers: <%- JSON.stringify(theme.index.slogan.api.headers || {}) %>,
           dataType: 'json',
-          success: function(result) {
+          success: function (result) {
             var apiText;
+            var hitokoto, from, fromWho;
             if (result) {
               var keys = '<%= theme.index.slogan.api.keys %>'.split(',');
               if (result instanceof Array) {
@@ -24,25 +25,36 @@
               for (const k of keys) {
                 var value = result[k];
                 if (typeof value === 'string') {
-                  apiText = value;
-                  break;
+                  if (hitokoto == null) {
+                    hitokoto = value;
+                  } else if (from == null) {
+                    from = value
+                  } else if (fromWho == null) {
+                    fromWho = value;
+                  }
                 } else if (value instanceof Object) {
                   result = value;
                 }
               }
+              apiText = "<img src='/img/avatar-gray.png' class='my-avatar' /> <br />";
+              apiText += '『' + hitokoto + '』' + '<p style="margin-top: 15px; text-align: right; font-size: 24px; color: #f5f5f5">——';
+              if (fromWho != null) {
+                apiText += fromWho;
+              }
+              apiText += '「' + from + '」</p>';
             }
             apiText ? typing(apiText) : typing(text);
           },
-          error: function(xhr, status, error) {
+          error: function (xhr, status, error) {
             if (error) {
               console.error('Failed to request <%= theme.index.slogan.api.url %>:', error);
             }
             typing(text);
           }
         })
-      <% } else { %>
+          <% } else { %>
         typing(text);
-      <% } %>
-    })(window, document);
-  </script>
+          <% } %>
+      })(window, document);
+    </script>
 <% } %>

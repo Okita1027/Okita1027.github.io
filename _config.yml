@@ -5,8 +5,8 @@
 # Site
 title: 沖田さん の ブログ
 subtitle: 
-description: 
-keywords: 
+description: Okita的博客
+keywords: [博客, 编程, Hexo]
 author: Okita
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -98,8 +98,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
-# Live2D配置
-## Live2D看板娘
+# Live2D看板娘配置
 live2d:
   enable: true
   pluginModelPath: assets/
@@ -108,8 +107,8 @@ live2d:
     use: live2d-widget-model-shizuku
   display:
     position: left
-    width: 200
-    height: 400
+    width: 150
+    height: 300
   mobile:
     # 在手机端显示
     show: false
