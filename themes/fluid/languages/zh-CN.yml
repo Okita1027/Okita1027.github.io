@@ -46,7 +46,12 @@ CloudFlare:
 Vercel:
   menu: 'Vercel'
   title: '(Magic)'
-  subtitle: 'Vercel(需要魔法)'
+  subtitle: 'Vercel'
+
+Netlify:
+  menu: 'Netlify'
+  title: 'Netlify'
+  subtitle: 'Netlify'
 
 links:
   menu: '友链'

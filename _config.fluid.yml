@@ -236,8 +236,8 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css: 
-  - //at.alicdn.com/t/c/font_4546432_ytpnhqu3fo.css  # 用Alibaba图标库的在线地址
-  # - //at.alicdn.com/t/font_1736178_ijqayz9ro8k.css
+  - //at.alicdn.com/t/c/font_4546432_a960t77397r.css  # 用Alibaba图标库的在线地址
+  # - //at.alicdn.com/t/font_1736178_ijqayz9ro8k.css  # 这是主题默认的
 
 
 # 网页访问统计
@@ -361,11 +361,11 @@ navbar:
       }
     - {
         key: "mirror",
-        icon: "iconfont icon-zu1777-copy",
+        icon: "iconfont icon-mirror",
         submenu: [
-          { key: "Vercel", link: 'https://okita1027-github-io.vercel.app/', icon: "iconfont icon-vercel" },
-          { key: "CloudFlare", link: 'https://zhiyun.pages.dev/', icon: "iconfont icon-cloudflare" }
-          # { key: "Netlify", linK: '', icon: "iconfont icon-netlify_" }
+          { key: "Netlify", link: 'https://zhiyun.netlify.app/', icon: "iconfont icon-netlify" },
+          { key: "CloudFlare", link: 'https://zhiyun.pages.dev/', icon: "iconfont icon-cloudflare" },
+          { key: "Vercel", link: 'https://okita1027-github-io.vercel.app/', icon: "iconfont icon-vercel" }
           # { key: "Render", linK: '', icon: "iconfont icon-" }
         ]
     }
