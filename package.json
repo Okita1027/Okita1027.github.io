@@ -5,11 +5,11 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
+    "server": "hexo server",
     "deploy": "hexo deploy",
     "local": "hexo clean && hexo generate && hexo server",
     "push": "hexo clean && hexo generate && hexo deploy",
-    "submit": "hexo clean && hexo generate && hexo deploy && git add . && git commit -m '更新' && git push origin master",
-    "server": "hexo server"
+    "pushAll": "hexo clean && hexo generate && hexo deploy && git add . && git commit -m 默认信息 && git push origin master"
   },
   "hexo": {
     "version": "7.2.0"
