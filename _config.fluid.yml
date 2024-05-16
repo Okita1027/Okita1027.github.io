@@ -87,11 +87,11 @@ fun_features:
 
     # 打印速度，数字越大越慢
     # Typing speed, the larger the number, the slower
-    typeSpeed: 70
+    typeSpeed: 60
 
     # 游标字符
     # Cursor character
-    cursorChar: "_"
+    cursorChar: " "
 
     # 是否循环播放效果
     # If true, loop animation
@@ -509,7 +509,8 @@ index:
 
       # 请求地址
       # Request url
-      url: "https://v1.hitokoto.cn/?c=b"
+      # url: "https://v1.hitokoto.cn/?c=b"
+      url: "https://v1.hitokoto.cn/"
 
       # 请求方法
       # Request method
@@ -1033,13 +1034,19 @@ links:
       title: "Hexo",
       intro: "博客框架",
       link: "https://hexo.io/zh-cn/",
-      avatar: "/img/Hexo.png"
+      avatar: "/img/friendship/Hexo.png"
     }
     - {
       title: "Fluid",
       intro: "主题使用指南",
       link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/Fluid.png"
+      avatar: "/img/friendship/Fluid.png"
+    }
+    - {
+      title: "一言",
+      intro: "首页的一句话",
+      link: "https://hitokoto.cn/",
+      avatar: "/img/friendship/hitokoto.png"
     }
 
 
@@ -1081,10 +1088,13 @@ static_prefix:
   internal_img: /img
 
   anchor: https://lib.baomitu.com/anchor-js/4.3.1/
+  # anchor: https://cdn.staticfile.net/anchor-js/4.3.1/anchor.js
 
   github_markdown: https://lib.baomitu.com/github-markdown-css/4.0.0/
+  # github_markdown: https://cdn.staticfile.net/github-markdown-css/4.0.0/github-markdown.css
 
   jquery: https://lib.baomitu.com/jquery/3.6.4/
+  # jquery: https://cdn.staticfile.net/jquery/3.6.4/jquery.js
 
   bootstrap: https://lib.baomitu.com/twitter-bootstrap/4.6.1/
 
@@ -1093,6 +1103,7 @@ static_prefix:
   tocbot: https://lib.baomitu.com/tocbot/4.20.1/
 
   typed: https://lib.baomitu.com/typed.js/2.0.12/
+  # typed: https://cdn.staticfile.net/typed.js/2.0.12/typed.js
 
   fancybox: https://lib.baomitu.com/fancybox/3.5.7/
 
@@ -1103,10 +1114,13 @@ static_prefix:
   katex: https://lib.baomitu.com/KaTeX/0.16.2/
 
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
+  # busuanzi: https://cdn.staticfile.net/busuanzi/2.3.0/bsz.pure.mini.js
 
   clipboard: https://lib.baomitu.com/clipboard.js/2.0.11/
+  # clipboard: https://cdn.staticfile.net/clipboard.js/2.0.11/clipboard.js
 
   mermaid: https://lib.baomitu.com/mermaid/8.14.0/
+  # mermaid: https://cdn.staticfile.net/mermaid/8.14.0/mermaid.js
 
   valine: https://lib.baomitu.com/valine/1.5.1/
 
@@ -1121,5 +1135,6 @@ static_prefix:
   discuss: https://lib.baomitu.com/discuss/1.2.1/
 
   hint: https://lib.baomitu.com/hint.css/2.7.0/
+  # hint: https://cdn.staticfile.net/hint.css/2.7.0/hint.css
 
   moment: https://lib.baomitu.com/moment.js/2.29.4/
