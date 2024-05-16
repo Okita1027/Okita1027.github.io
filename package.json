@@ -9,7 +9,7 @@
     "deploy": "hexo deploy",
     "local": "hexo clean && hexo generate && hexo server",
     "push": "hexo clean && hexo generate && hexo deploy",
-    "pushAll": "hexo clean && hexo generate && hexo deploy && git add . && git commit -m 修改一言 && git push origin master"
+    "pushAll": "hexo clean && hexo generate && hexo deploy && git add . && git commit -m 首页图片路径 && git push origin master"
   },
   "hexo": {
     "version": "7.2.0"
