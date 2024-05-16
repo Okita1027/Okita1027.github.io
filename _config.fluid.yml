@@ -100,7 +100,7 @@ fun_features:
     # 在指定页面开启，不填则在所有页面开启
     # Enable in specified page, all pages by default
     # Options: home | post | tag | category | about | links | page | 404
-    scope: []
+    scope: [ ]
 
   # 为文章内容中的标题添加锚图标
   # Add an anchor icon to the title on the post page
@@ -112,7 +112,7 @@ fun_features:
     # Options: hover | always | touch
     visible: hover
     # Options: § | # | ❡
-    icon: ""
+    icon: "§"
 
   # 加载进度条
   # Progress bar when loading
@@ -224,7 +224,7 @@ color:
 # 主题字体配置
 # Font
 font:
-  font_size: 18px # 全局字号
+  font_size: 16px # 全局字号
   font_family: JetBrains Mono, serif
   letter_spacing: 0.02em
   code_font_size: 90% # 代码的字号
@@ -235,14 +235,14 @@ custom_js:
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css: 
+custom_css:
   - //at.alicdn.com/t/c/font_4546432_a960t77397r.css  # 用Alibaba图标库的在线地址
   # - //at.alicdn.com/t/font_1736178_ijqayz9ro8k.css  # 这是主题默认的
 
 
 # 网页访问统计
 # Analysis of website visitors
-web_analytics:  # 网页访问统计
+web_analytics: # 网页访问统计
   enable: true
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
@@ -350,24 +350,24 @@ navbar:
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "rss", link: "/rss2.xml", icon: "iconfont icon-rss" }
-    - { 
-        key: "links",
-        icon: "iconfont icon-link-fill",
-        link: "/links/"
+    - {
+      key: "links",
+      icon: "iconfont icon-link-fill",
+      link: "/links/"
         # submenu: [
         #   { key: "Hexo", link: "https://hexo.io/zh-cn/", icon: "iconfont icon-"},
         #   { key: "Fluid", link: "https://hexo.fluid-dev.com/docs/", icon: "iconfont icon-"}
         # ]
-      }
+    }
     - {
-        key: "mirror",
-        icon: "iconfont icon-mirror",
-        submenu: [
-          { key: "Netlify", link: 'https://zhiyun.netlify.app/', icon: "iconfont icon-netlify" },
-          { key: "CloudFlare", link: 'https://zhiyun.pages.dev/', icon: "iconfont icon-cloudflare" },
-          { key: "Vercel", link: 'https://okita1027-github-io.vercel.app/', icon: "iconfont icon-vercel" }
-          # { key: "Render", linK: '', icon: "iconfont icon-" }
-        ]
+      key: "mirror",
+      icon: "iconfont icon-mirror",
+      submenu: [
+        { key: "Netlify", link: 'https://zhiyun.netlify.app/', icon: "iconfont icon-netlify" },
+        { key: "CloudFlare", link: 'https://zhiyun.pages.dev/', icon: "iconfont icon-cloudflare" },
+        { key: "Vercel", link: 'https://okita1027-github-io.vercel.app/', icon: "iconfont icon-vercel" }
+        # { key: "Render", linK: '', icon: "iconfont icon-" }
+      ]
     }
 
 
@@ -443,9 +443,14 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><b>Hexo</b></a>
     &
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><b>Fluid</b></a>
+    <div style="font-size: 0.85rem">
+      <span id="timeDate">载入天数...</span>
+      <span id="times">载入时分秒...</span>
+      <script src="/js/duration.js"></script>
+    </div>
   '
 
   # 展示网站的 PV、UV 统计数
@@ -519,11 +524,11 @@ index:
 
       # 请求头
       # Request headers
-      headers: {}
+      headers: { }
 
       # 从请求结果获取字符串的取值字段，最终必须是一个字符串，例如返回结果为 {"data": {"author": "fluid", "content": "An elegant theme"}}, 则取值字段为 ['data', 'content']；如果返回是列表则自动选择第一项
       # The value field of the string obtained from the response. For example, the response content is {"data": {"author": "fluid", "content": "An elegant theme"}}, the expected `keys: ['data','content']`; if the return is a list, the first item is automatically selected
-      keys: [data, hitokoto, from, from_who]
+      keys: [ data, hitokoto, from, from_who ]
 
 
   # 自动截取文章摘要
@@ -706,12 +711,12 @@ post:
     enable: true
     # 放大后图片链接替换规则，可用于将压缩图片链接替换为原图片链接，如 ['-slim', ''] 是将链接中 `-slim` 移除；如果想使用正则请使用 `re:` 前缀，如 ['re:\\d{3,4}\\/\\d{3,4}\\/', '']
     # The image url replacement when zooming, the feature can be used to replace the compressed image to the original image, eg: ['-slim', ''] removes `-slim` from the image url when zooming; if you want to use regular, use prefix `re:`, eg: ['re:\\d{3,4}\\/\\d{3,4}\\/','']
-    img_url_replace: ['-slim', '']
+    img_url_replace: [ '-slim', '' ]
 
   # 脚注语法，会在文章底部生成脚注，如果 Markdown 渲染器本身支持，则建议关闭，否则可能会冲突
   # Support footnote syntax, footnotes will be generated at the bottom of the post page. If the Markdown renderer itself supports it, please disable it, otherwise it may conflict
   footnote:
-    enable: true
+    enable: false
     # 脚注的节标题，也可以在 front-matter 中通过 `footnote: <h2>Reference</h2>` 这种形式修改单独页面的 header
     # The section title of the footnote, you can also modify the header of a single page in the form of `footnote: <h2>Reference</h2>` in front-matter
     header: '<h2>参考</h2>' # 等同于在文章中手动写 ‘## 参考’
@@ -794,9 +799,9 @@ gitalk:
   clientSecret:
   repo:
   owner:
-  admin: ['name']
+  admin: [ 'name' ]
   language: zh-CN
-  labels: ['Gitalk']
+  labels: [ 'Gitalk' ]
   perPage: 10
   pagerDirection: last
   distractionFreeMode: false
@@ -817,8 +822,8 @@ valine:
   path: window.location.pathname
   placeholder:
   avatar: 'retro'
-  meta: ['nick', 'mail', 'link']
-  requiredFields: []
+  meta: [ 'nick', 'mail', 'link' ]
+  requiredFields: [ ]
   pageSize: 10
   lang: 'zh-CN'
   highlight: false
@@ -835,10 +840,10 @@ valine:
 waline:
   serverURL: ''
   path: window.location.pathname
-  meta: ['nick', 'mail', 'link']
-  requiredMeta: ['nick']
+  meta: [ 'nick', 'mail', 'link' ]
+  requiredMeta: [ 'nick' ]
   lang: 'zh-CN'
-  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+  emoji: [ 'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo' ]
   dark: 'html[data-user-color-scheme="dark"]'
   wordLimit: 0
   pageSize: 10
@@ -867,7 +872,7 @@ remark42:
   site_id:
   max_shown_comments: 10
   locale: zh
-  components: ['embed']
+  components: [ 'embed' ]
 
 # Twikoo
 # 支持腾讯云、Vercel、Railway 等多种平台部署
@@ -973,7 +978,7 @@ tag:
 # 关于页
 # About Page
 #---------------------------
-about: 
+about:
   enable: true
   banner_img: /img/default.png
   banner_img_height: 100
