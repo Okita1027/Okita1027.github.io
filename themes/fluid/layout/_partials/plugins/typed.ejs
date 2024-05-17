@@ -21,7 +21,6 @@
             var hitokoto, from, fromWho;
             // 从一言接口得到的JSON结果
             if (result) {
-              console.log(result);
               // 需要的结果字段名，取决于_config[.主题名称].yml中的配置
               var keys = '<%= theme.index.slogan.api.keys %>'.split(',');
               if (result instanceof Array) {
@@ -52,7 +51,6 @@
               if (fromWho != null) {
                 apiText += fromWho;
               }
-              // 加上作品来源
               apiText += '「' + from + '」</p>';
             }
             apiText ? typing(apiText) : typing(text);

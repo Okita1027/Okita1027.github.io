@@ -716,10 +716,11 @@ post:
   # 脚注语法，会在文章底部生成脚注，如果 Markdown 渲染器本身支持，则建议关闭，否则可能会冲突
   # Support footnote syntax, footnotes will be generated at the bottom of the post page. If the Markdown renderer itself supports it, please disable it, otherwise it may conflict
   footnote:
-    enable: false
+    enable: true
     # 脚注的节标题，也可以在 front-matter 中通过 `footnote: <h2>Reference</h2>` 这种形式修改单独页面的 header
     # The section title of the footnote, you can also modify the header of a single page in the form of `footnote: <h2>Reference</h2>` in front-matter
-    header: '<h2>参考</h2>' # 等同于在文章中手动写 ‘## 参考’
+#    header: '<h2>参考</h2>' # 等同于在文章中手动写 ‘## 参考’
+    header:
 
   # 数学公式，开启之前需要更换 Markdown 渲染器，否则复杂公式会有兼容问题，具体请见：https://hexo.fluid-dev.com/docs/guide/##latex-数学公式
   # Mathematical formula. If enable, you need to change the Markdown renderer, see: https://hexo.fluid-dev.com/docs/en/guide/#math

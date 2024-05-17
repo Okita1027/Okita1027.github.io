@@ -1,3 +1,4 @@
+---
 title: HelloWorld
 categories: [测试, 主题]
 tags: [测试]
@@ -11,15 +12,11 @@ date: 2024-05-12 15:33:00
 这一段文字是摘要，显示在主页和文章页
 <!-- more -->
 
-官方Hello-World：https://hexo.fluid-dev.com/posts/hello-fluid/
+{% fold @折 %}
+请为
+{% endfold %}
 
 # HelloWorld
-
-图片上面必须有一行否则图片的标题（下方灰色字体）显示不出来
-<img src="/HelloWorld/FGO.png" title="玛修·基列莱特">
-![学妹](/HelloWorld/FGO.png)
-
-
 这是一段脚注
 <!-- 空一行 -->
     Indent paragraphs to include them in the footnote.
@@ -61,11 +58,7 @@ int num = 1;
 {% cb text, checked?, incline? %}
 ### 按钮
 {% btn https://www.baidu.com, 去百度, 百度 %}
-### 组图
-{% gi total 2 2 %}
-![](/HelloWorld/FGO.png)
-![](/HelloWorld/花嫁光辉.jpg)
-{% endgi %}
+
 ## 脚注
 [^1]: https://pan.baidu.com
 [^2]: https://yiyan.baidu.com
