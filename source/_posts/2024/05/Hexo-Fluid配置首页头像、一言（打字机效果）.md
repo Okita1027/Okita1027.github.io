@@ -4,7 +4,7 @@ categories: [Hexo, Fluid]
 tags: [Hexo]
 hide: false
 archive: false
-comments: false
+comment: true
 date: 2024-05-16 14:44:48
 excerpt: Hexo博客Fluid主题下的配置首页的头像、随机一句话（打字机效果）
 index_img:

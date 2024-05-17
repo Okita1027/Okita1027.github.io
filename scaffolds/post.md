@@ -13,5 +13,5 @@ banner_img:
 # permalink: null
 hide: false
 archive: false
-comments: false
+comment: false
 ---
