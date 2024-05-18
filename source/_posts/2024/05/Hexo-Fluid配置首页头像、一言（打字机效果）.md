@@ -50,7 +50,7 @@ index:
 {% endgi %}
 - 现状：官方提供的配置能够请求接口获取JSON数据，但只能选定**其中一个字段**在首页渲染，此时我希望能同时保留`hitokoto`、`from_who`、`from`。
 - 解决方案：修改打字机程序`typed.ejs`，有背景色的是修改的代码。
-{% code lang:js mark:18-56 %}
+{% code lang:js mark:18-58 %}
 <% if(theme.fun_features.typing.enable && in_scope(theme.fun_features.typing.scope) && page.subtitle !== false) { %>
     <%- js_ex(theme.static_prefix.typed, '/typed.min.js') %>
     <script>

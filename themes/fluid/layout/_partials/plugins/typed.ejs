@@ -45,8 +45,12 @@
               // 头像
               apiText = "<img src='/img/avatar-gray.png' class='my-avatar' />";
               // 样式
-              apiText += '<p style="font-size: 30px; text-align: center">『&#12288;' + hitokoto + '』</p>' +
-              '<p style="margin-top: 15px; text-align: right; font-size: 24px; color: #e0e0e0">——';
+              apiText += '<p style="font-size: 30px; text-align: center">『&#12288;' + hitokoto;
+              // 根据一言末尾是否有句号来判断是否添加空格
+              if (hitokoto.charAt(hitokoto.length - 1) !== '。') {
+                apiText += '&#12288;';
+              }
+              apiText += '』</p>' + '<p style="margin-top: 15px; text-align: right; font-size: 24px; color: #e0e0e0">——';
               // 一言的发言人可能未知
               if (fromWho != null) {
                 apiText += fromWho;
