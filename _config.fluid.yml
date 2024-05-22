@@ -87,7 +87,7 @@ fun_features:
 
     # 打印速度，数字越大越慢
     # Typing speed, the larger the number, the slower
-    typeSpeed: 75
+    typeSpeed: 85
 
     # 游标字符
     # Cursor character
@@ -583,7 +583,7 @@ post:
       # 格式参照 ISO-8601 日期格式化
       # ISO-8601 date format
       # See: http://momentjs.cn/docs/#/parsing/string-format/
-      format: "LL a"
+      format: "llll"
 
     # 字数统计
     # Word count
@@ -618,7 +618,7 @@ post:
     # 格式参照 ISO-8601 日期格式化
     # ISO-8601 date format
     # See: http://momentjs.cn/docs/#/parsing/string-format/
-    date_format: "LL a"
+    date_format: "llll"
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
@@ -992,7 +992,7 @@ about:
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/Okita1027", tip: "Okita1027" }
     - { class: "iconfont icon-qq-fill", qrcode: "/img/qq(wall).png" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/wechat.png" }
+    # - { class: "iconfont icon-wechat-fill", qrcode: "/img/wechat.png" }
     # - { class: "iconfont icon-mail", tip: "2368932388@qq.com" }
     - { class: "iconfont icon-steam", link: "https://steamcommunity.com/id/qzy1027/", tip: "866857027" }
 

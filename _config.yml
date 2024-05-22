@@ -115,17 +115,6 @@ live2d:
   rect:
     opacity:0.7
 
-# Hexo-Admin 配置
-# 暂时省略
-#admin:
-#  username: your_username
-#  password: your_password
-#  password_hash: your_password by MD5
-#  port: 4000
-#  base_url: /
-#  secret: your_secret_key 用于加密cookie的密码
-#  deploy_command: 'hexo generate && hexo deploy'
-
 # Deployment 部署
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
