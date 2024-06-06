@@ -2,8 +2,8 @@
 title: HelloWorld
 categories: [Hexo, Fluid]
 tags: [测试]
-index_img: /HelloWorld/花嫁光辉.jpg
-banner_img: /HelloWorld/闪闪切嗣.jpg
+index_img: /HelloWorld/闪闪切嗣.jpg
+banner_img: /HelloWorld/花嫁光辉.jpg
 hide: false
 archive: false
 #date: 2024-05-12 15:33:00
@@ -11,6 +11,8 @@ archive: false
 
 这一段文字是摘要，显示在主页和文章页
 <!-- more -->
+
+
 
 # HelloWorld
 这是一段脚注
