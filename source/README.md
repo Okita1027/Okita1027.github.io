@@ -7,4 +7,3 @@
 - Netlify => https://zhiyun.netlify.app/
 - CloudFlare => https://zhiyun.pages.dev/
 - Vercel（需要魔法） => https://okita1027-github-io.vercel.app/
-- Render => 
