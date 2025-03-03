@@ -6,7 +6,7 @@ index_img: /HelloWorld/闪闪切嗣.jpg
 banner_img: /HelloWorld/花嫁光辉.jpg
 hide: false
 archive: false
-#date: 2024-05-12 15:33:00
+date: 2024-05-12 15:33:00
 ---
 
 这一段文字是摘要，显示在主页和文章页
