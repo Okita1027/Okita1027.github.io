@@ -13,7 +13,7 @@ banner_img:
 # permalink: null
 hide: false
 archive: false
-comment: false
+comment: true
 ---
 
 <!-- more -->
