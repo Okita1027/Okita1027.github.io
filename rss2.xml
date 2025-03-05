@@ -15,8 +15,23 @@
     <atom:link href="https://okita1027.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Tue, 04 Mar 2025 15:30:40 GMT</pubDate>
+    <pubDate>Wed, 05 Mar 2025 15:17:31 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>实习记录3-5</title>
+      <link>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-5/</link>
+      <guid>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-5/</guid>
+      <pubDate>Wed, 05 Mar 2025 14:57:45 GMT</pubDate>
+      
+      <description>&lt;p&gt;今天又是5点20分开始开会……&lt;/p&gt;</description>
+      
+      
+      
+      
+      
+      
+    </item>
     
     <item>
       <title>实习记录（第三周——周二）</title>
@@ -45,8 +60,6 @@
       <category domain="https://okita1027.github.io/tags/%E5%AE%9E%E4%B9%A0/">实习</category>
       
       
-      <comments>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-4/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -67,8 +80,6 @@
       
       <category domain="https://okita1027.github.io/tags/%E5%AE%9E%E4%B9%A0/">实习</category>
       
-      
-      <comments>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-3/#disqus_thread</comments>
       
     </item>
     
