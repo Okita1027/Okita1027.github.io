@@ -15,8 +15,23 @@
     <atom:link href="https://okita1027.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Wed, 05 Mar 2025 15:17:31 GMT</pubDate>
+    <pubDate>Fri, 07 Mar 2025 12:53:02 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>实习记录3-7</title>
+      <link>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-7/</link>
+      <guid>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-7/</guid>
+      <pubDate>Fri, 07 Mar 2025 11:17:16 GMT</pubDate>
+      
+      <description>&lt;p&gt;我入职第一天就被人事告知每天都要写工作日志，老板有一次让部门经理写个工作计划，后来开会的时候问他弄了没有（老板在以前的会议中强调自己吩咐的事情2天内必须有回复），项目计划表早就发在了工作计划&amp;amp;日志群里，难得有一个文件类型的消息他居然不知道，我以为日志群他是压根儿不看的，顶多也就扫一眼……&lt;/p&gt;</description>
+      
+      
+      
+      
+      
+      
+    </item>
     
     <item>
       <title>实习记录3-5</title>
@@ -29,12 +44,18 @@
       
       
       
+      <category domain="https://okita1027.github.io/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://okita1027.github.io/categories/%E5%B7%A5%E4%BD%9C/%E5%AE%9E%E4%B9%A0/">实习</category>
+      
+      
+      <category domain="https://okita1027.github.io/tags/%E5%AE%9E%E4%B9%A0/">实习</category>
       
       
     </item>
     
     <item>
-      <title>实习记录（第三周——周二）</title>
+      <title>实习记录3-4</title>
       <link>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-4/</link>
       <guid>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-4/</guid>
       <pubDate>Tue, 04 Mar 2025 14:27:07 GMT</pubDate>
@@ -63,7 +84,7 @@
     </item>
     
     <item>
-      <title>实习记录（第三周——周一）</title>
+      <title>实习记录3-3</title>
       <link>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-3/</link>
       <guid>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-3/</guid>
       <pubDate>Mon, 03 Mar 2025 13:15:30 GMT</pubDate>
