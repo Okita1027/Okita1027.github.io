@@ -11,13 +11,12 @@ index_img:
 banner_img:
 ---
 # 头像
-> 原文链接：[传送门](https://blog.ayaka.space/2024/01/From-Halo-To-Hexo/#2%EF%BC%89Hexo)
 1. 在 `scripts` 文件夹下新建 `Avatar.js`
 ```js
 // Description: Adds a custom avatar to the top of the page
 hexo.extend.injector.register('head_begin', '<link rel="stylesheet" href="/css/my-avatar.css">', 'default');
 ```
-2. 在 `source/css` 文件夹下新建 `my-avatar.css`
+1. 在 `source/css` 文件夹下新建 `my-avatar.css`
 ```css
 .my-avatar:hover {
   transform: rotate(360deg); /* 鼠标悬停时旋转 */
@@ -50,7 +49,7 @@ index:
 {% endgi %}
 - 现状：官方提供的配置能够请求接口获取JSON数据，但只能选定**其中一个字段**在首页渲染，此时我希望能同时保留`hitokoto`、`from_who`、`from`。
 - 解决方案：修改打字机程序`typed.ejs`，有背景色的是修改的代码。
-{% code lang:js mark:18-58 %}
+{% code lang:js mark:18-57 %}
 <% if(theme.fun_features.typing.enable && in_scope(theme.fun_features.typing.scope) && page.subtitle !== false) { %>
     <%- js_ex(theme.static_prefix.typed, '/typed.min.js') %>
     <script>
