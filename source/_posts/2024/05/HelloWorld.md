@@ -3,7 +3,7 @@ title: HelloWorld
 categories: [Hexo, Fluid]
 tags: [测试]
 index_img: /HelloWorld/闪闪切嗣.jpg
-banner_img: /HelloWorld/花嫁光辉.jpg
+banner_img: img/fgo/Stella.jpg
 hide: false
 archive: false
 date: 2024-05-12 15:33:00

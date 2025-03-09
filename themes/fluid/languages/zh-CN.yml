@@ -45,7 +45,7 @@ CloudFlare:
 
 Vercel:
   menu: 'Vercel'
-  title: '(Need Magic)'
+  title: ' '
   subtitle: 'Vercel'
 
 Netlify:
