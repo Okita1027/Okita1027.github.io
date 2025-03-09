@@ -38,11 +38,6 @@ mirror:
   title: '镜像站'
   subtitle: '镜像站'
 
-CloudFlare:
-  menu: 'CloudFlare'
-  title: 'CloudFlare'
-  subtitle: 'CloudFlare'
-
 Vercel:
   menu: 'Vercel'
   title: ' '
@@ -52,6 +47,16 @@ Netlify:
   menu: 'Netlify'
   title: 'Netlify'
   subtitle: 'Netlify'
+
+CloudFlare:
+  menu: 'CloudFlare'
+  title: 'CloudFlare'
+  subtitle: 'CloudFlare'
+
+StormKit:
+  menu: 'StormKit'
+  title: 'StormKit'
+  subtitle: 'StormKit'
 
 links:
   menu: '友链'

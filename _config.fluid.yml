@@ -363,10 +363,11 @@ navbar:
       key: "mirror",
       icon: "iconfont icon-mirror",
       submenu: [
+        { key: "Stormkit", link: 'https://razorbrass-zd2nww.stormkit.dev/', icon: "iconfont icon-storm" },
         { key: "Vercel", link: 'https://okita1027-github-io.vercel.app/', icon: "iconfont icon-vercel" },
         { key: "Netlify", link: 'https://zhiyun.netlify.app/', icon: "iconfont icon-netlify" },
         { key: "CloudFlare", link: 'https://zhiyun.pages.dev/', icon: "iconfont icon-cloudflare" }
-        # { key: "Render", linK: '', icon: "iconfont icon-" }
+        # { key: "Render", link: '', icon: "iconfont icon-" }
       ]
     }
 
