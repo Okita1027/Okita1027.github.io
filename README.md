@@ -4,6 +4,7 @@
 - gh-pages分支用于渲染GitHubPages
 
 ## 镜像站
-- Netlify => https://zhiyun.netlify.app/
+- Netlify(可直连) => https://zhiyun.netlify.app/
+- Vercel => https://okita1027-github-io.vercel.app/
 - CloudFlare => https://zhiyun.pages.dev/
-- Vercel（需要魔法） => https://okita1027-github-io.vercel.app/
+- Stormkit => https://razorbrass-zd2nww.stormkit.dev/
