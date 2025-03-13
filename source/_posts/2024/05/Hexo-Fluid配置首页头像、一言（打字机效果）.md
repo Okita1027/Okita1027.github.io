@@ -11,12 +11,12 @@ index_img:
 banner_img:
 ---
 # 配置头像
-1. 在 `scripts` 文件夹下新建 `Avatar.js`
+1. 在主题目录下的`scripts` 文件夹下新建 `Avatar.js`
 ```js
 // Description: Adds a custom avatar to the top of the page
 hexo.extend.injector.register('head_begin', '<link rel="stylesheet" href="/css/my-avatar.css">', 'default');
 ```
-1. 在 `source/css` 文件夹下新建 `my-avatar.css`
+1. 在主题目录下的`source/css` 文件夹下新建 `my-avatar.css`
 ```css
 .my-avatar:hover {
   transform: rotate(360deg); /* 鼠标悬停时旋转 */
@@ -41,7 +41,7 @@ index:
     # If empty, text based on `subtitle` in hexo config
     text: "<img src='/img/图片名.后缀' class='my-avatar' /> <br /> 欢迎语"
 ```
-4. 把头像图放到**主题目录下的** `source/img` 文件夹下，名称同步上面的`图片名.后缀`。
+4. 把头像图放到主题目录下的 `source/img` 文件夹下，名称同步上面的`图片名.后缀`。
 # 配置一言
 {% gi 2 2 %}
 ![配置多参数不生效](https://cdn.jsdelivr.net/gh/Okita1027/blog-images@master/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/invaild-default.png)
