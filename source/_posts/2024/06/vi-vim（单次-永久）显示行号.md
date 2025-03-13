@@ -3,7 +3,7 @@ title: vi/vim（单次/永久）显示行号
 categories: [Linux, Shell]
 tags: []
 hide: false
-archive: false
+archive: true
 comment: false
 date: 2024-06-16 14:27:03
 index_img:
