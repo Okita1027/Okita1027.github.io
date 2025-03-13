@@ -15,8 +15,31 @@
     <atom:link href="https://okita1027.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Wed, 12 Mar 2025 12:05:26 GMT</pubDate>
+    <pubDate>Thu, 13 Mar 2025 14:47:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>实习记录3-13</title>
+      <link>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-13/</link>
+      <guid>https://okita1027.github.io/%E5%AE%9E%E4%B9%A0%E8%AE%B0%E5%BD%953-13/</guid>
+      <pubDate>Thu, 13 Mar 2025 14:11:06 GMT</pubDate>
+      
+      <description>&lt;p&gt;利用早上坐公交的时间读书，试了几天，感觉效果还不错，如果时间充裕的话，我应该考虑在日志上稍微总结一下今天的所学……&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://okita1027.github.io/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://okita1027.github.io/categories/%E5%B7%A5%E4%BD%9C/%E5%AE%9E%E4%B9%A0/">实习</category>
+      
+      
+      <category domain="https://okita1027.github.io/tags/%E5%AE%9E%E4%B9%A0/">实习</category>
+      
+      <category domain="https://okita1027.github.io/tags/%E9%98%85%E8%AF%BB/">阅读</category>
+      
+      
+    </item>
     
     <item>
       <title>实习记录3-6</title>
