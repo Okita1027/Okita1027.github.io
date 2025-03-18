@@ -28,6 +28,11 @@ about:
   title: '关于'
   subtitle: '关于'
 
+knowledge-database:
+  menu: '知识库'
+  title: '知识库'
+  subtitle: '知识库'
+
 rss:
   menu: 'RSS'
   title: 'RSS2.0'
