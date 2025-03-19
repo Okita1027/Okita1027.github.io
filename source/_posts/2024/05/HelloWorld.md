@@ -1,7 +1,7 @@
 ---
 title: HelloWorld
-categories: [Hexo, Fluid]
-tags: [测试]
+categories: [Hexo]
+tags: [Hexo]
 index_img: /HelloWorld/闪闪切嗣.jpg
 banner_img: img/fgo/Stella.jpg
 hide: false
