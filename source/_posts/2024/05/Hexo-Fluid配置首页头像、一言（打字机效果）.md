@@ -1,5 +1,5 @@
 ---
-title: Hexo-Fluid配置首页头像、一言（打字机效果）
+title: Hexo Fluid配置首页头像、一言（打字机效果）
 categories: [Hexo]
 tags: [Hexo]
 hide: false

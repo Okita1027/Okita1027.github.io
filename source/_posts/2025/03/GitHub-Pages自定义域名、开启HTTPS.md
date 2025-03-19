@@ -10,11 +10,13 @@ index_img:
 banner_img:
 ---
 
+GitHub Pages绑定自定义域名、开启HTTPS
+
 <!-- more -->
 
-## 购买域名
+# 购买域名
 我用的[NameSilo](https://www.namesilo.com)，能用支付宝
-## 绑定自定义域名
+# 绑定自定义域名
 1. 打开[GitHub设置里的Pages](https://github.com/settings/pages)
 
 2. 点击`Add a domain`，输入你的域名，之后页面上会出现如下文字：
@@ -47,7 +49,7 @@ banner_img:
 4. 添加完之后，回到刚才GitHub的Pages域名设置页面点击`Verify`，此时GitHub已经成功添加了自定义域名。
 5. 找到你的博客仓库，进入Settings->Pages，在该页面上的Custom domain填入你的域名并保存。
 
-## 开启HTTPS
+# 开启HTTPS
 
 刚才绑定域名设置的下方有一个`Enforce HTTPS的选项`，如果它无法勾选，并且提示：
 
