@@ -15,8 +15,35 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Sun, 16 Mar 2025 09:52:10 GMT</pubDate>
+    <pubDate>Wed, 19 Mar 2025 03:33:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>GitHub Pages自定义域名、开启HTTPS</title>
+      <link>https://zhiyun.blog/GitHub-Pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E3%80%81%E5%BC%80%E5%90%AFHTTPS/</link>
+      <guid>https://zhiyun.blog/GitHub-Pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E3%80%81%E5%BC%80%E5%90%AFHTTPS/</guid>
+      <pubDate>Wed, 19 Mar 2025 02:42:30 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;购买域名&quot;&gt;&lt;a href=&quot;#购买域名&quot; class=&quot;headerlink&quot; title=&quot;购买域名&quot;&gt;&lt;/a&gt;购买域名&lt;/h2&gt;&lt;p&gt;我用的&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://zhiyun.blog/categories/Hexo/">Hexo</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/Hexo/">Hexo</category>
+      
+      
+    </item>
     
     <item>
       <title>实习记录3-15</title>
@@ -240,8 +267,6 @@
       
       <category domain="https://zhiyun.blog/categories/Hexo/">Hexo</category>
       
-      <category domain="https://zhiyun.blog/categories/Hexo/Fluid/">Fluid</category>
-      
       
       <category domain="https://zhiyun.blog/tags/Hexo/">Hexo</category>
       
@@ -263,10 +288,8 @@
       
       <category domain="https://zhiyun.blog/categories/Hexo/">Hexo</category>
       
-      <category domain="https://zhiyun.blog/categories/Hexo/Fluid/">Fluid</category>
       
-      
-      <category domain="https://zhiyun.blog/tags/%E6%B5%8B%E8%AF%95/">测试</category>
+      <category domain="https://zhiyun.blog/tags/Hexo/">Hexo</category>
       
       
       <comments>https://zhiyun.blog/HelloWorld/#disqus_thread</comments>
