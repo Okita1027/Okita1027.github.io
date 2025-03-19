@@ -236,7 +236,7 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
-  - //at.alicdn.com/t/c/font_4546432_a960t77397r.css  # 用Alibaba图标库的在线地址
+  - //at.alicdn.com/t/c/font_4546432_nzwrzrw809s.css  # 用Alibaba图标库的在线地址
   # - //at.alicdn.com/t/font_1736178_ijqayz9ro8k.css  # 这是主题默认的
 
 
@@ -349,6 +349,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "knowledge-database", link: "/kd/", icon: "iconfont icon-knowledge" }
     - { key: "rss", link: "/rss2.xml", icon: "iconfont icon-rss" }
     - {
       key: "links",
