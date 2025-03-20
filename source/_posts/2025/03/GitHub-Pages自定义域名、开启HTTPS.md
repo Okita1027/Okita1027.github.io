@@ -4,7 +4,7 @@ categories: [Hexo]
 tags: [Hexo]
 hide: false
 archive: false
-comment: false
+comment: true
 date: 2025-03-19 10:42:30
 index_img:
 banner_img:
