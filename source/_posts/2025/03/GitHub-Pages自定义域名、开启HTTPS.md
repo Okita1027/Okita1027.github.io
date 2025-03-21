@@ -15,7 +15,7 @@ GitHub Pages绑定自定义域名、开启HTTPS
 <!-- more -->
 
 # 购买域名
-我用的[NameSilo](https://www.namesilo.com)，能用支付宝
+[NameSilo](https://www.namesilo.com)能用支付宝
 # 绑定自定义域名
 1. 打开[GitHub设置里的Pages](https://github.com/settings/pages)
 

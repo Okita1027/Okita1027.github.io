@@ -12,6 +12,7 @@
 - gh-pages：生成的HTML页面，渲染GitHubPages
 ## 镜像站
 - Netlify(可直连) => https://zhiyun.netlify.app/
+  - 自定义域名：https://zhiyun.space
 - Vercel => https://okita1027-github-io.vercel.app/
 - CloudFlare => https://zhiyun.pages.dev/
 - Stormkit => https://razorbrass-zd2nww.stormkit.dev/

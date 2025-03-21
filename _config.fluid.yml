@@ -349,15 +349,16 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "knowledge-database", link: "/kd/", icon: "iconfont icon-knowledge" }
+    # - { key: "knowledge-database", link: "/kd/", icon: "iconfont icon-knowledge" }
+    - { key: "knowledge-database", link: "https://kd.zhiyun.space", icon: "iconfont icon-knowledge" }
     - { key: "rss", link: "/rss2.xml", icon: "iconfont icon-rss" }
     - {
       key: "links",
       icon: "iconfont icon-link-fill",
       link: "/links/"
         # submenu: [
-        #   { key: "Hexo", link: "https://hexo.io/zh-cn/", icon: "iconfont icon-"},
-        #   { key: "Fluid", link: "https://hexo.fluid-dev.com/docs/", icon: "iconfont icon-"}
+        #   { key: "Hexo", link: "https://hexo.io/zh-cn/", icon: "iconfont icon-hexo"},
+        #   { key: "Fluid", link: "https://hexo.fluid-dev.com/docs/", icon: "iconfont icon-fluid"}
         # ]
     }
     - {
@@ -368,7 +369,7 @@ navbar:
         { key: "Stormkit", link: 'https://razorbrass-zd2nww.stormkit.dev/', icon: "iconfont icon-storm" },
         { key: "Netlify", link: 'https://zhiyun.netlify.app/', icon: "iconfont icon-netlify" },
         { key: "CloudFlare", link: 'https://zhiyun.pages.dev/', icon: "iconfont icon-cloudflare" }
-        # { key: "Render", link: '', icon: "iconfont icon-" }
+        # { key: "Render", link: '', icon: "iconfont icon-render" }
       ]
     }
 
