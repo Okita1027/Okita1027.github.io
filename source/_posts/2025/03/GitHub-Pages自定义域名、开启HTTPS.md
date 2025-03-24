@@ -61,4 +61,5 @@ GitHub Pages绑定自定义域名、开启HTTPS
 | ---- | -------- | --------------- | --------------- | ----------------------------------------------------- |
 | CAA  | @        | letsencrypt.org | 0(non-critical) | issue(domain name of the certificate issuer to trust) |
 
+> 上面用的是NameSilo的解析服务，不同服务商添加SSL证书的方式不太一样，有些是可以申请免费SSL证书并自动解析的。
 此时Github上的`Enforce HTTPS`选项就能够勾选了。
