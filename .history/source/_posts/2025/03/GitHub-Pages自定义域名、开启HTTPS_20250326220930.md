@@ -10,13 +10,13 @@ index_img:
 banner_img:
 ---
 
-GitHub Pages绑定自定义域名、（在NameSilo上解析）开启HTTPS
+GitHub Pages绑定自定义域名、开启HTTPS
 
 <!-- more -->
 
 # 购买域名
 [NameSilo](https://www.namesilo.com)能用支付宝
-国外域名最大的好处是解析云服务器地址时不需要备案
+国外域名最大的好处是需要解析服务器资源
 # 绑定自定义域名
 1. 打开[GitHub设置里的Pages](https://github.com/settings/pages)
 
