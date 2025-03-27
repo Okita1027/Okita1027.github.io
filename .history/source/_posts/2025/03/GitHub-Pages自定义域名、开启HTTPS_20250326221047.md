@@ -10,7 +10,7 @@ index_img:
 banner_img:
 ---
 
-GitHub Pages绑定自定义域名、（在NameSilo上解析）开启HTTPS
+GitHub Pages绑定自定义域名、（在Namesilo）开启HTTPS
 
 <!-- more -->
 
