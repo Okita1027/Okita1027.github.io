@@ -99,6 +99,16 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
+encrypt:
+  enable: true
+  theme: flip
+  abstract: 本文已被加密, 请输入密码后查看
+  message: 请输入访问密码
+  tags:
+  - {name: 实习, password: 7777}
+  wrong_pass_message: 密码错误
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+
 # Live2D看板娘配置
 live2d:
   enable: true
