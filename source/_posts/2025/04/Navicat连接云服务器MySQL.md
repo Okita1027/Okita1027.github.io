@@ -4,7 +4,7 @@ categories: [数据库, MySQL]
 tags: [MySQL]
 hide: false
 archive: false
-comment: false
+comment: true
 password: ''
 date: 2025-04-14 22:56:54
 index_img:
