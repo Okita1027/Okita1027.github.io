@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-07-07T16:46:41.513Z</updated>
+  <updated>2025-07-07T23:34:37.834Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -21,23 +21,18 @@
     <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/"/>
     <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/</id>
     <published>2025-07-07T16:07:25.000Z</published>
-    <updated>2025-07-07T16:46:41.513Z</updated>
+    <updated>2025-07-07T23:34:37.834Z</updated>
     
     
-    <summary type="html">&lt;p&gt;跟着官方教程快速上手了Razor Pages Movie、了解工程中的各个目录&amp;#x2F;文件的作用、程序运行后各组件之间的联系、@&amp;#x2F;page&amp;#x2F;model指令，过程中也留意了C#的语法。&lt;br&gt;实操步骤主要分三步：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;创建工程&lt;/li&gt;
-&lt;li&gt;建立实体目录、类&lt;/li&gt;
-&lt;li&gt;建立页面目录、生成CRUD代码&lt;ul&gt;
-&lt;li&gt;根据写好的实体类 “使用实体框架生成Razor页面（CURD）”&lt;/li&gt;
-&lt;li&gt;利用 PMC(程序包管理器控制台) 的两条命令：&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Add-Migration InitialCreate&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Update-Database&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;p&gt;跟着官方教程快速上手了Razor Pages</summary>
+        
+      
     
     
     
@@ -47,6 +42,8 @@
     
     
     <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   

@@ -18,17 +18,18 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="跟着官方教程快速上手了Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序运行后各组件之间的联系、@&#x2F;page&#x2F;model指令，过程中也留意了C#的语法。实操步骤主要分三步：  创建工程 建立实体目录、类 建立页面目录、生成CRUD代码 根据写好的实体类 “使用实体框架生成Razor页面（CURD）” 利用 PMC(程序包管理器控制台) 的两条命">
+    <meta name="description" content="跟着官方教程快速上手了Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。实操步骤主要分三步：  创建工程 建立实体目录、类 建立页面目录、生成CRUD代码  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”">
 <meta property="og:type" content="article">
 <meta property="og:title" content="工作日志25-7-8">
 <meta property="og:url" content="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="跟着官方教程快速上手了Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序运行后各组件之间的联系、@&#x2F;page&#x2F;model指令，过程中也留意了C#的语法。实操步骤主要分三步：  创建工程 建立实体目录、类 建立页面目录、生成CRUD代码 根据写好的实体类 “使用实体框架生成Razor页面（CURD）” 利用 PMC(程序包管理器控制台) 的两条命">
+<meta property="og:description" content="跟着官方教程快速上手了Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。实操步骤主要分三步：  创建工程 建立实体目录、类 建立页面目录、生成CRUD代码  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-07-07T16:07:25.000Z">
-<meta property="article:modified_time" content="2025-07-07T16:46:41.513Z">
+<meta property="article:modified_time" content="2025-07-07T23:34:37.834Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
+<meta property="article:tag" content="日志">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -343,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          129 字
+          164 字
         
       </span>
     
@@ -408,7 +409,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月8日星期二 00:46
+                    本文最后更新于 2025年7月8日星期二 07:34
                   
                 
               </p>
@@ -416,21 +417,22 @@
             
               <div class="markdown-body">
                 
-                <p>跟着官方教程快速上手了Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序运行后各组件之间的联系、@&#x2F;page&#x2F;model指令，过程中也留意了C#的语法。<br>实操步骤主要分三步：</p>
-<ul>
+                <span id="more"></span>
+
+<p>跟着官方教程快速上手了Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。<br>实操步骤主要分三步：</p>
+<ol>
 <li>创建工程</li>
 <li>建立实体目录、类</li>
-<li>建立页面目录、生成CRUD代码<ul>
-<li>根据写好的实体类 “使用实体框架生成Razor页面（CURD）”</li>
-<li>利用 PMC(程序包管理器控制台) 的两条命令：<ul>
-<li><code>Add-Migration InitialCreate</code></li>
-<li><code>Update-Database</code></li>
-</ul>
+<li>建立页面目录、生成CRUD代码<br>  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”<br>  b. 利用 PMC(程序包管理器控制台) 的两条命令：<ul>
+<li><code>Add-Migration</code></li>
+<li><code>Update-Database</code><blockquote>
+<p>在修改实体类后，可重新执行a、b步骤同步页面与数据库</p>
+</blockquote>
 </li>
 </ul>
 </li>
-</ul>
-<span id="more"></span>
+</ol>
+
                 
               </div>
             
@@ -471,6 +473,8 @@
       <i class="iconfont icon-tags"></i>
       
         <a href="/tags/%E5%B7%A5%E4%BD%9C/" class="print-no-link">#工作</a>
+      
+        <a href="/tags/%E6%97%A5%E5%BF%97/" class="print-no-link">#日志</a>
       
     </div>
   
