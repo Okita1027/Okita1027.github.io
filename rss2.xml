@@ -15,7 +15,7 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Mon, 07 Jul 2025 23:34:37 GMT</pubDate>
+    <pubDate>Mon, 07 Jul 2025 23:37:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -30,7 +30,7 @@
           
       <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
-&lt;p&gt;跟着官方教程快速上手了Razor Pages</description>
+&lt;p&gt;跟着官方教程快速上手了部分Razor Pages</description>
           
         
       
