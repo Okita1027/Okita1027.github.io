@@ -15,8 +15,42 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Sun, 27 Apr 2025 09:41:21 GMT</pubDate>
+    <pubDate>Mon, 07 Jul 2025 16:42:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>工作日志25-7-8</title>
+      <link>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/</link>
+      <guid>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/</guid>
+      <pubDate>Mon, 07 Jul 2025 16:07:25 GMT</pubDate>
+      
+      <description>&lt;p&gt;跟着官方教程快速上手了Razor页面、了解工程中的各个目录&amp;#x2F;文件的作用、程序运行后各组件之间的联系、@&amp;#x2F;page&amp;#x2F;model，过程中也留意了C#的语法。&lt;br&gt;实操步骤主要分三步：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建工程&lt;/li&gt;
+&lt;li&gt;建立实体类&lt;/li&gt;
+&lt;li&gt;生成CRUD代码&lt;ul&gt;
+&lt;li&gt;根据写好的实体类 使用实体框架生成Razor页面（CURD）&lt;/li&gt;
+&lt;li&gt;利用PMC(程序包管理器控制台)的两条命令：&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Add-Migration InitialCreate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Update-Database&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE%E6%99%BA%E8%83%BD%E8%A3%85%E5%A4%87/">孟腾智能装备</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      
+    </item>
     
     <item>
       <title>实习日志4-27</title>
@@ -346,25 +380,6 @@
       
       
       <category domain="https://zhiyun.blog/tags/%E5%AE%9E%E4%B9%A0/">实习</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>vi/vim（单次/永久）显示行号</title>
-      <link>https://zhiyun.blog/vi-vim%EF%BC%88%E5%8D%95%E6%AC%A1-%E6%B0%B8%E4%B9%85%EF%BC%89%E6%98%BE%E7%A4%BA%E8%A1%8C%E5%8F%B7/</link>
-      <guid>https://zhiyun.blog/vi-vim%EF%BC%88%E5%8D%95%E6%AC%A1-%E6%B0%B8%E4%B9%85%EF%BC%89%E6%98%BE%E7%A4%BA%E8%A1%8C%E5%8F%B7/</guid>
-      <pubDate>Sun, 16 Jun 2024 06:27:03 GMT</pubDate>
-      
-      <description>&lt;p&gt;Linux的vi&amp;#x2F;vim编辑器中显示行号（单次&amp;#x2F;永久）&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://zhiyun.blog/categories/Linux/">Linux</category>
-      
-      <category domain="https://zhiyun.blog/categories/Linux/Shell/">Shell</category>
-      
       
       
     </item>
