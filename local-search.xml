@@ -8,7 +8,7 @@
     <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/"/>
     <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/</url>
     
-    <content type="html"><![CDATA[<p>跟着官方教程快速上手了Razor页面、了解工程中的各个目录&#x2F;文件的作用、程序运行后各组件之间的联系、@&#x2F;page&#x2F;model，过程中也留意了C#的语法。<br>实操步骤主要分三步：</p><ul><li>创建工程</li><li>建立实体类</li><li>生成CRUD代码<ul><li>根据写好的实体类 使用实体框架生成Razor页面（CURD）</li><li>利用PMC(程序包管理器控制台)的两条命令：<ul><li><code>Add-Migration InitialCreate</code></li><li><code>Update-Database</code></li></ul></li></ul></li></ul><span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<p>跟着官方教程快速上手了Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序运行后各组件之间的联系、@&#x2F;page&#x2F;model指令，过程中也留意了C#的语法。<br>实操步骤主要分三步：</p><ul><li>创建工程</li><li>建立实体目录、类</li><li>建立页面目录、生成CRUD代码<ul><li>根据写好的实体类 “使用实体框架生成Razor页面（CURD）”</li><li>利用 PMC(程序包管理器控制台) 的两条命令：<ul><li><code>Add-Migration InitialCreate</code></li><li><code>Update-Database</code></li></ul></li></ul></li></ul><span id="more"></span>]]></content>
     
     
     <categories>
