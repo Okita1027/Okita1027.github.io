@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>工作日志25-7-9</title>
+    <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-9/"/>
+    <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-9/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>跟着教程快速上手了基于控制器的Web API 和 最小API，之后学习了基础篇中概述、应用启动、依赖关系注入（服务）、本机AOT、中间件的部分内容。</p><ul><li>Web API与MVC不同，是纯后端接口，自带SWAGGER用于测试接口，最小API是用最少的程序文件和独特、简洁语法的WebAPI</li><li>依赖关系注入这一章节与Spring中IOC非常接近，其核心思想是将实例交给容器管理，避免频繁NEW。在主启动类中注册服务类，然后在需要的地方进行注入（最常见的注入方式是构造函数）</li><li>本机AOT是一种全新的程序执行方式：能将.NET程序运行相关的所有代码、依赖编译成特定的机器码达成一个能直接执行的文件。</li><li>中间件是按照顺序执行的、构成程序请求管道的一系列组件。<ul><li>中间件使用顺序非常重要，错误的使用在某些情况下会导致程序崩溃，比如把用户的鉴权放在了认证前面。</li><li>中间件能用于限流，能划分用户群的限流分区、对不同群里应用不同的限流算法、执行不同的限流后响应。</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>工作日志25-7-8</title>
     <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/"/>
     <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/</url>
@@ -161,9 +190,9 @@
     
     <tags>
       
-      <tag>阅读</tag>
-      
       <tag>面试</tag>
+      
+      <tag>阅读</tag>
       
     </tags>
     
