@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>工作周志25-7-12</title>
+    <link href="/%E5%B7%A5%E4%BD%9C%E5%91%A8%E5%BF%9725-7-12/"/>
+    <url>/%E5%B7%A5%E4%BD%9C%E5%91%A8%E5%BF%9725-7-12/</url>
+    
+    <content type="html"><![CDATA[<p>周志&amp;学习报告</p><span id="more"></span><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><ol><li>跟着官方教程上手了.NET Core中的 Razor Pages、Web API和MVC项目，实现了这几个项目的基本增删改查效果。</li><li>熟悉了.NET Core中的重要概念，如：依赖注入【类似Spring中的IOC】、中间件【请求发送过来以后会经历除了控制器类方法之外还有一系列中间件的处理】、配置【控制某些程序比如日志的执行方式】、多环境【更高次元的配置（换环境&#x3D;&gt;换一整套配置）】、日志【记录程序的运行状态，便于排查问题】、HTTP上下文【请求里都有些什么信息】、路由【请求发过来以后匹配哪个路控制器类中的方法】、静态文件【wwwroot】、异常处理【开发&#x2F;生产2套逻辑】、Web API工程中常用的注解、请求处理方式【基本和SpringBoot一样（注解、处理&#x2F;响应方法）】</li><li>了解.NET Core中一些偏底层的应用，如本机AOT【独特的编译运行机制，简化、加速程序运行】、主机【Program.cs前几行定义的程序启动的核心】、分析器【IDE、SDK等环境给你的提示、警告】</li><li>定期记录并上传日志、笔记到云端zhiyun.blog、kd.zhiyun.space</li><li>了解到今后的新能源项目会用到哪些技术，项目实施的现场环境</li></ol><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>在学习依赖关系注入（服务）这一章节时，发现与Spring容器相似，但没有找到另一相关概念AOP的知识</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>在网络上查找相关资料</li><li>使用各种AI大模型提问，如GPT、Gemini等</li><li>与周围的同事交流</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>下周开始学习EF Core，然后尽可能多得利用所学知识做一个增删改查DEMO</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>周志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>工作日志25-7-11</title>
     <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-11/"/>
     <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-11/</url>
