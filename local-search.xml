@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>工作日志25-7-11</title>
+    <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-11/"/>
+    <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-11/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>今日学习内容：</p><ul><li>HttpContext<ul><li>HttpRequest</li><li>HttpResponse</li><li>RequestAborted（请求失败&#x2F;被丢弃）</li><li>Abort（手动停止请求）</li><li>User</li><li>Features(底层实现)</li><li>线程不安全性</li></ul></li><li>路由<ul><li>路由的2种使用方式<ul><li>约定式（统一配置规则）</li><li>特性（注解）</li></ul></li><li>路由模板</li><li>路由约束</li><li>特殊路由段</li><li>路由优先级</li><li>路由组</li></ul></li></ul><p>日志归档：</p><ul><li>zhiyun.blog</li><li>zhiyun.space</li></ul><p>笔记归档：</p><ul><li>zhiyun.blog&#x2F;kd</li><li>kd.zhiyun.space</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>工作日志25-7-10</title>
+    <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-10/"/>
+    <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-10/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>今天继续学习中间件、主机、配置、选项、环境、日志记录与监视<br>承接昨天速率中间件的学习：在主启动类注册好了中间件后，还可以在控制类&#x2F;Action方法上利用注解更精确地指定该类&#x2F;方法使用的策略；<br>响应缓存中间件能够对用户对同一个接口的访问结果进行缓存，但该中间件没有手动删除缓存的操作。在主启动类启用该中间后，也需要在控制器类的方法上利用相关注解配置其具体的缓存选项。<br>请求解压缩中间件能够检测传入的HTTP请求中是否压缩过的请求体，是的话会自动对其进行解压，该中间件默认支持Gzip、Brotli算法<br>中间件可以自定义，其中有一种基于工厂的实现方式，其优点是能够自主控制中间件的实例化方式。<br>配置的加载、覆盖顺序与SpringBoot中的规则相同，命令行配置大于代码配置。要在程序中读取配置，可以直接注入IConfiguration来读取，另一种是使用选项的方式，此方式是将配置绑定某个类上，然后再读取类的数据，此种方式还能用利用数据注解对字段进行验证。<br>环境比起配置而言是更高层次的程序配置，环境配置覆盖顺序与配置覆盖的优先级顺序相似，环境配置能够在代码中进行访问。<br>日志的几个关键点：类别、级别、ID。日志的使用方式：配置、注册、使用。除了.NET自带的日志，还可以集成第三方日志记录提供程序。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>工作日志25-7-9</title>
+    <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-9/"/>
+    <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-9/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>跟着教程快速上手了基于控制器的Web API 和 最小API，之后学习了基础篇中概述、应用启动、依赖关系注入（服务）、本机AOT、中间件的部分内容。</p><ul><li>Web API与MVC不同，是纯后端接口，自带SWAGGER用于测试接口，最小API是用最少的程序文件和独特、简洁语法的WebAPI</li><li>依赖关系注入这一章节与Spring中IOC非常接近，其核心思想是将实例交给容器管理，避免频繁NEW。在主启动类中注册服务类，然后在需要的地方进行注入（最常见的注入方式是构造函数）</li><li>本机AOT是一种全新的程序执行方式：能将.NET程序运行相关的所有代码、依赖编译成特定的机器码达成一个能直接执行的文件。</li><li>中间件是按照顺序执行的、构成程序请求管道的一系列组件。<ul><li>中间件使用顺序非常重要，错误的使用在某些情况下会导致程序崩溃，比如把用户的鉴权放在了认证前面。</li><li>中间件能用于限流，能划分用户群的限流分区、对不同群里应用不同的限流算法、执行不同的限流后响应。</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>工作日志25-7-8</title>
+    <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/"/>
+    <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>今天实践了RazerPagesMovie的剩余部分和MvcMovie。</p><ol><li>在Razor的cshtml中，C#与HTML的混合语法写起来与JSP类似，其指令均以@开头。</li><li>在纯Razor案例中,cshtml展现数据，旗下cs处理数据</li><li>这两个案例实践中:在Models目录中写好种子模型类并在主启动类Program.cs中初始化，便能够实现（在数据库表无值的情况下）自动生成事先定义好的数据。</li><li>要实现编辑数据时的约束，可在模型类的字段上添加注解。</li><li>与Spring MVC相比，接口方法的路径声明由方法名决定，Index为默认访问路径，请求方式、路由可以在注解中声明。</li><li>在接口方法参数中，（默认情况下）id是路径传参（可在Program.cs更改），其余名称是字符串拼接，并且声明参数的左右位置不影响实际传参时的顺序</li><li>Shared目录下的Layout.cshtml是所有页面的整体布局，其中@ViewData[“Title”]显示的是其他页面中定义好的该变量；@RenderBody展现的是各个不同的子页面。</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>工作日志25-7-7</title>
+    <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-7/"/>
+    <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-7/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>跟着官方教程快速上手了部分Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。<br>实操步骤主要分三步：</p><ol><li>创建工程</li><li>建立实体目录、类</li><li>建立页面目录、生成CRUD代码<br>  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”<br>  b. 利用 PMC(程序包管理器控制台) 的两条命令：<ul><li><code>Add-Migration</code></li><li><code>Update-Database</code><blockquote><p>在修改实体类后，可重新执行a、b步骤同步页面与数据库</p></blockquote></li></ul></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>正颌正畸25-4-22</title>
+    <link href="/%E6%AD%A3%E9%A2%8C%E6%AD%A3%E7%95%B825-4-22/"/>
+    <url>/%E6%AD%A3%E9%A2%8C%E6%AD%A3%E7%95%B825-4-22/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>16岁，我第一次因智齿发炎而去附近的口腔诊所治疗，同时得知了自己有反颌（地包天）的问题，诊所的医生告诉我这种情况若是10年前发现可以只通过矫正解决，而现在必须依赖手术了，并推荐我去上海9院看。当月我便去了上海检查并首次得知<em>正颌正畸</em>这一联合治疗方案：18岁后骨骼稳定了才能开始治疗、期间每隔一个多月去一次、总周期3年、总费用15万（不可使用医保）；我还记得当时医生最后说：“这个其实做不做都行，主要看你自己”。</p></blockquote><span id="more"></span><p>20岁，我忙着备考，考上之后又想等工作稳定之后再去做（此时家里人并不反对我做这个）。现在22了，在校外实习，虽然算不上工作稳定但我认为已经可以去看了。于是又提前做了点功课，结果家里人这时候又反对我做了。我想治疗的主要理由是提高咀嚼效率，父母反对的主要理由是伤筋动骨后遗症太大。我的症状非常明确，只有通过手术才能治好，但父母还是希望不开刀，做做矫正稍微改善一下咬合问题。</p><p>（沈国芳）专家的号源紧张，提前2个礼拜放号出来的当天早上就得约，晚上很可能就没了。因为父母此时反对我治疗，我只好抱着看一看、听听意见的想法去就诊了……</p><p>进门之前，主任的助理就拿了张治疗流程单子给我看：如果打算治疗，首次就诊得做一堆检查（有2个项目还得预约之后改日做）、二次就诊是做口腔模型、三次就诊才会讨论具体的治疗方案，这一整套实施治疗之前的流程下来怕是得有半年……</p><p>面见医生后，我得知自己除了反颌还有偏颌的问题（我以前照镜子的时候就有感觉到异常，老妈居然还说看不出来……）。得知自己的实际情况更严重后，我更想做这个治疗了，但苦于当下父母的反对，我还是没能将事先准备好的问题都拿出来，我又不能说自己和父母的想法相悖；还被他吐槽说什么“没想清楚要不要做就过来了、问起来什么都不知道看病效率低”。这话听着就很奇怪：医院作为服务提供者居然要求服务消费者事先做一大堆相关功课？服务者不完整提供相关信息供消费者选择反而让消费者自己预习、提问？难道专家门诊只负责治疗的执行？不好含讲解现状、治疗流程、注意事项等前置知识，然后引导作为外行的患者做出选择？<br>“挂专家号就是打算接受治疗了，那之前的相关问题应该在普通号问清楚，确定治疗后直接来专家号这里根据个人情况讨论定制方案”。我得出了这样的结论。</p><p>今天看完病，昨晚还坚决反对的家人表示你坚持要做就做吧。我昨晚听到反对意见或都快放弃治疗，打算这辈子就这样了，所以今天医生感觉我还没想好做不做的情况下，我也自然而然没问具体的治疗流程和细节。</p><p>折腾了一天结果并没有什么进展（虽然也没抱太高期望），下次来应该是正式工作稳定之后了……</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+      <category>医疗</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>正颌正畸</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Navicat连接云服务器MySQL</title>
+    <link href="/Navicat%E8%BF%9E%E6%8E%A5%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8MySQL/"/>
+    <url>/Navicat%E8%BF%9E%E6%8E%A5%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8MySQL/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>用root连接搞了好久没连上，最后重新建了一个用户成功了……</p></blockquote><span id="more"></span><ol><li><p>先去服务器的MySQL命令行执行如下命令：</p><ol><li><code>CREATE USER &#39;用户名&#39;@&#39;%&#39; IDENTIFIED BY &#39;密码&#39;;</code></li><li><code>GRANT ALL PRIVILEGES ON *.* TO &#39;用户名&#39;@&#39;%&#39; WITH GRANT OPTION;</code></li><li><code>FLUSH PRIVILEGES;</code></li></ol></li><li><p>Navicat新建连接，分别在以下2个标签中输入连接参数：</p><ol><li><p>常规</p><table><thead><tr><th>KEY</th><th>VALUE</th></tr></thead><tbody><tr><td>连接名称</td><td>随便写</td></tr><tr><td>主机</td><td>localhost</td></tr><tr><td>端口</td><td>3306</td></tr><tr><td>用户名</td><td>第一步中创建的用户名</td></tr><tr><td>密码</td><td>第一步中创建的密码</td></tr></tbody></table></li><li><p>SSH</p><table><thead><tr><th>KEY</th><th>VALUE</th></tr></thead><tbody><tr><td>主机</td><td>云服务器IP</td></tr><tr><td>端口</td><td>22</td></tr><tr><td>用户名</td><td>服务器用户名</td></tr><tr><td>验证方式</td><td>密码</td></tr><tr><td>密码</td><td>服务器密码</td></tr></tbody></table></li></ol></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>数据库</category>
+      
+      <category>MySQL</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>MySQL</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>GitHub Pages自定义域名、开启HTTPS</title>
+    <link href="/GitHub-Pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E3%80%81%E5%BC%80%E5%90%AFHTTPS/"/>
+    <url>/GitHub-Pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E3%80%81%E5%BC%80%E5%90%AFHTTPS/</url>
+    
+    <content type="html"><![CDATA[<p>GitHub Pages绑定自定义域名、（在NameSilo上解析）开启HTTPS</p><span id="more"></span><h1 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h1><p><a href="https://www.namesilo.com/">NameSilo</a>能用支付宝<br>国外域名最大的好处是解析云服务器地址时不需要备案</p><h1 id="绑定自定义域名"><a href="#绑定自定义域名" class="headerlink" title="绑定自定义域名"></a>绑定自定义域名</h1><ol><li><p>打开<a href="https://github.com/settings/pages">GitHub设置里的Pages</a></p></li><li><p>点击<code>Add a domain</code>，输入你的域名，之后页面上会出现如下文字：</p><ul><li><p>Create a TXT record in your DNS configuration for the following hostname: </p><p><code>下划线开头的代码</code></p></li><li><p>Use this code for the value of the TXT record: </p><p><code>数字和字母组成的代码</code></p></li><li><p>Wait until your DNS configuration changes. This could take up to 24 hours to propagate.</p></li></ul></li><li><p>在你的购买域名的地方找到DNS解析服务，添加如下记录</p><table><thead><tr><th align="center">Type</th><th align="center">Name</th><th align="center">Value</th></tr></thead><tbody><tr><td align="center">TXT</td><td align="center"><code>下划线开头的代码</code></td><td align="center"><code>数字和字母组成的代码</code></td></tr><tr><td align="center">A</td><td align="center">@</td><td align="center">185.199.108.153</td></tr><tr><td align="center">A</td><td align="center">@</td><td align="center">185.199.109.153</td></tr><tr><td align="center">A</td><td align="center">@</td><td align="center">185.199.110.153</td></tr><tr><td align="center">A</td><td align="center">@</td><td align="center">185.199.111.153</td></tr><tr><td align="center">AAAA</td><td align="center">@</td><td align="center">2606:50c0:8000::153</td></tr><tr><td align="center">AAAA</td><td align="center">@</td><td align="center">2606:50c0:8001::153</td></tr><tr><td align="center">AAAA</td><td align="center">@</td><td align="center">2606:50c0:8002::153</td></tr><tr><td align="center">AAAA</td><td align="center">@</td><td align="center">2606:50c0:8003::153</td></tr><tr><td align="center">CNAME</td><td align="center">www</td><td align="center">你的github用户名.github.io</td></tr></tbody></table></li><li><p>添加完之后，回到刚才GitHub的Pages域名设置页面点击<code>Verify</code>，此时GitHub已经成功添加了自定义域名。</p></li><li><p>找到你的博客仓库，进入Settings-&gt;Pages，在该页面上的Custom domain填入你的域名并保存。</p></li></ol><h1 id="开启HTTPS"><a href="#开启HTTPS" class="headerlink" title="开启HTTPS"></a>开启HTTPS</h1><p>刚才绑定域名设置的下方有一个<code>Enforce HTTPS的选项</code>，如果它无法勾选，并且提示：</p><p><code>Unavailable for your site because your domain is not properly configured to support HTTPS</code>的话，</p><p>回到DNS解析服务，再添加一条记录：</p><table><thead><tr><th>Type</th><th>Hostname</th><th>Value</th><th>Flag</th><th>Tag</th></tr></thead><tbody><tr><td>CAA</td><td>@</td><td>letsencrypt.org</td><td>0(non-critical)</td><td>issue(domain name of the certificate issuer to trust)</td></tr></tbody></table><p>此时Github上的<code>Enforce HTTPS</code>选项就能够勾选了。</p><blockquote><p>上面用的是NameSilo的解析服务，不同服务商添加SSL证书的方式不太一样，有些是可以申请免费SSL证书并自动解析的。</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>vi/vim（单次/永久）显示行号</title>
+    <link href="/vi-vim%EF%BC%88%E5%8D%95%E6%AC%A1-%E6%B0%B8%E4%B9%85%EF%BC%89%E6%98%BE%E7%A4%BA%E8%A1%8C%E5%8F%B7/"/>
+    <url>/vi-vim%EF%BC%88%E5%8D%95%E6%AC%A1-%E6%B0%B8%E4%B9%85%EF%BC%89%E6%98%BE%E7%A4%BA%E8%A1%8C%E5%8F%B7/</url>
+    
+    <content type="html"><![CDATA[<p>Linux的vi&#x2F;vim编辑器中显示行号（单次&#x2F;永久）</p><span id="more"></span><h2 id="单次"><a href="#单次" class="headerlink" title="单次"></a>单次</h2><p><code>vi/vim 文件名</code>进入命令模式后，输入<code>:set number</code>或<code>:set nu</code></p><h2 id="永久"><a href="#永久" class="headerlink" title="永久"></a>永久</h2><p><code>echo set number &gt;&gt; ~/.vimr</code>或<code>echo set nu &gt;&gt; ~/.vimrc</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Linux</category>
+      
+      <category>Shell</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hexo Fluid配置首页头像、一言（打字机效果）</title>
+    <link href="/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/"/>
+    <url>/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<h1 id="配置头像"><a href="#配置头像" class="headerlink" title="配置头像"></a>配置头像</h1><ol><li>在主题目录下的<code>scripts</code> 文件夹下新建 <code>Avatar.js</code><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-comment">// Description: Adds a custom avatar to the top of the page</span><br>hexo.<span class="hljs-property">extend</span>.<span class="hljs-property">injector</span>.<span class="hljs-title function_">register</span>(<span class="hljs-string">&#x27;head_begin&#x27;</span>, <span class="hljs-string">&#x27;&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/my-avatar.css&quot;&gt;&#x27;</span>, <span class="hljs-string">&#x27;default&#x27;</span>);<br></code></pre></td></tr></table></figure></li><li>在主题目录下的<code>source/css</code> 文件夹下新建 <code>my-avatar.css</code><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.my-avatar</span><span class="hljs-selector-pseudo">:hover</span> &#123;<br>  <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(<span class="hljs-number">360deg</span>); <span class="hljs-comment">/* 鼠标悬停时旋转 */</span><br>&#125;<br><br><span class="hljs-selector-class">.my-avatar</span> &#123;<br>  <span class="hljs-attribute">width</span>: <span class="hljs-number">150px</span>;<br>  <span class="hljs-attribute">height</span>: <span class="hljs-number">150px</span>;<br>  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;   <span class="hljs-comment">/* 将图片圆形化 */</span><br>  <span class="hljs-attribute">transition</span>: transform <span class="hljs-number">0.5s</span>; <span class="hljs-comment">/* 过渡效果 */</span><br>  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">50px</span>;  <span class="hljs-comment">/* 与下面的文字对齐 */</span><br>&#125;<br></code></pre></td></tr></table></figure></li><li>修改主题配置文件 <code>_config.fluid.yml</code><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">index:</span> <br>  <span class="hljs-comment"># 首页副标题的独立设置</span><br>  <span class="hljs-comment"># Independent config of home page subtitle</span><br>  <span class="hljs-attr">slogan:</span><br>    <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-comment"># 为空则按 hexo config.subtitle 显示</span><br>    <span class="hljs-comment"># If empty, text based on `subtitle` in hexo config</span><br>    <span class="hljs-attr">text:</span> <span class="hljs-string">&quot;&lt;img src=&#x27;/img/图片名.后缀&#x27; class=&#x27;my-avatar&#x27; /&gt; &lt;br /&gt; 欢迎语&quot;</span><br></code></pre></td></tr></table></figure></li><li>把头像图放到主题目录下的 <code>source/img</code> 文件夹下，名称同步上面的<code>图片名.后缀</code>。</li></ol><h1 id="配置一言"><a href="#配置一言" class="headerlink" title="配置一言"></a>配置一言</h1><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="https://cdn.jsdelivr.net/gh/Okita1027/blog-images@master/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/invaild-default.png" alt="配置多参数不生效"></div><div class="group-image-wrap"><img src="https://cdn.jsdelivr.net/gh/Okita1027/blog-images@master/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/hitokoto-example.png" alt="一言接口示例"></div></div></div><ul><li>现状：官方提供的配置能够请求接口获取JSON数据，但只能选定<strong>其中一个字段</strong>在首页渲染，此时我希望能同时保留<code>hitokoto</code>、<code>from_who</code>、<code>from</code>。</li><li>解决方案：修改打字机程序<code>typed.ejs</code>，有背景色的是修改的代码。<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><code class="hljs js">&lt;% <span class="hljs-keyword">if</span>(theme.<span class="hljs-property">fun_features</span>.<span class="hljs-property">typing</span>.<span class="hljs-property">enable</span> &amp;&amp; <span class="hljs-title function_">in_scope</span>(theme.<span class="hljs-property">fun_features</span>.<span class="hljs-property">typing</span>.<span class="hljs-property">scope</span>) &amp;&amp; page.<span class="hljs-property">subtitle</span> !== <span class="hljs-literal">false</span>) &#123; %&gt;<br>    &lt;%- <span class="hljs-title function_">js_ex</span>(theme.<span class="hljs-property">static_prefix</span>.<span class="hljs-property">typed</span>, <span class="hljs-string">&#x27;/typed.min.js&#x27;</span>) %&gt;<br>    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="language-javascript"><span class="language-xml">        (<span class="hljs-keyword">function</span> (<span class="hljs-params"><span class="hljs-variable language_">window</span>, <span class="hljs-variable language_">document</span></span>) &#123;</span></span><br><span class="language-javascript"><span class="language-xml">            <span class="hljs-keyword">var</span> typing = <span class="hljs-title class_">Fluid</span>.<span class="hljs-property">plugins</span>.<span class="hljs-property">typing</span>;</span></span><br><span class="language-javascript"><span class="language-xml">            <span class="hljs-keyword">var</span> subtitle = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;subtitle&#x27;</span>);</span></span><br><span class="language-javascript"><span class="language-xml">            <span class="hljs-keyword">if</span> (!subtitle || !typing) &#123;</span></span><br><span class="language-javascript"><span class="language-xml">                <span class="hljs-keyword">return</span>;</span></span><br><span class="language-javascript"><span class="language-xml">            &#125;</span></span><br><span class="language-javascript"><span class="language-xml">            <span class="hljs-keyword">var</span> text = subtitle.<span class="hljs-title function_">getAttribute</span>(<span class="hljs-string">&#x27;data-typed-text&#x27;</span>);</span></span><br><span class="language-javascript"><span class="language-xml">            &lt;% <span class="hljs-keyword">if</span> (<span class="hljs-title function_">is_home</span>() &amp;&amp; theme.<span class="hljs-property">index</span>.<span class="hljs-property">slogan</span>.<span class="hljs-property">api</span> &amp;&amp; theme.<span class="hljs-property">index</span>.<span class="hljs-property">slogan</span>.<span class="hljs-property">api</span>.<span class="hljs-property">enable</span>) &#123; %&gt;</span></span><br><span class="language-javascript"><span class="language-xml">            jQuery.<span class="hljs-title function_">ajax</span>(&#123;</span></span><br><span class="language-javascript"><span class="language-xml">                <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;&lt;%= theme.index.slogan.api.method %&gt;&#x27;</span>,</span></span><br><span class="language-javascript"><span class="language-xml">                <span class="hljs-attr">url</span>: <span class="hljs-string">&#x27;&lt;%- theme.index.slogan.api.url %&gt;&#x27;</span>,</span></span><br><span class="language-javascript"><span class="language-xml">                <span class="hljs-attr">headers</span>: &lt;%- <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(theme.<span class="hljs-property">index</span>.<span class="hljs-property">slogan</span>.<span class="hljs-property">api</span>.<span class="hljs-property">headers</span> || &#123;&#125;) %&gt;,</span></span><br><span class="language-javascript"><span class="language-xml">                <span class="hljs-attr">dataType</span>: <span class="hljs-string">&#x27;json&#x27;</span>,</span></span><br><span class="language-javascript"><span class="language-xml">                <span class="hljs-attr">success</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params">result</span>) &#123;</span></span><br><mark><span class="language-javascript"><span class="language-xml">                    <span class="hljs-comment">// 打字机输出内容</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                    <span class="hljs-keyword">var</span> apiText;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                    <span class="hljs-comment">// 一言、来源作品、发言人</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                    <span class="hljs-keyword">var</span> hitokoto, <span class="hljs-keyword">from</span>, fromWho;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                    <span class="hljs-comment">// 从一言接口得到的JSON结果</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                    <span class="hljs-keyword">if</span> (result) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-comment">// 需要的结果字段名，取决于_config[.主题名称].yml中的配置</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-keyword">var</span> keys = <span class="hljs-string">&#x27;&lt;%= theme.index.slogan.api.keys %&gt;&#x27;</span>.<span class="hljs-title function_">split</span>(<span class="hljs-string">&#x27;,&#x27;</span>);</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-keyword">if</span> (result <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Array</span>) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                            <span class="hljs-comment">// 得到 去掉外层&#123;&#125;的 数据</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                            result = result[<span class="hljs-number">0</span>];</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        &#125;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-comment">// 取出实际展示的字段</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> k <span class="hljs-keyword">of</span> keys) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                            <span class="hljs-keyword">var</span> value = result[k];</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                            <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> value === <span class="hljs-string">&#x27;string&#x27;</span>) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                <span class="hljs-keyword">if</span> (hitokoto == <span class="hljs-literal">null</span>) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                    hitokoto = value;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                &#125; <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-keyword">from</span> == <span class="hljs-literal">null</span>) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                    <span class="hljs-keyword">from</span> = value</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                &#125; <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (fromWho == <span class="hljs-literal">null</span>) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                    fromWho = value;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                &#125;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                            &#125; <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (value <span class="hljs-keyword">instanceof</span> <span class="hljs-title class_">Object</span>) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                result = value;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                            &#125;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        &#125;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-comment">// 头像</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        apiText = <span class="hljs-string">&quot;&lt;img src=&#x27;/img/avatar-gray.png&#x27; class=&#x27;my-avatar&#x27; /&gt;&quot;</span>;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-comment">// 样式</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        apiText += <span class="hljs-string">&#x27;&lt;p style=&quot;font-size: 30px; text-align: center&quot;&gt;『&amp;#12288;&#x27;</span> + hitokoto + <span class="hljs-string">&#x27;』&lt;/p&gt;&#x27;</span> +</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                                <span class="hljs-string">&#x27;&lt;p style=&quot;margin-top: 15px; text-align: right; font-size: 24px; color: #e0e0e0&quot;&gt;——&#x27;</span>;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-comment">// 一言的发言人可能未知</span></span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        <span class="hljs-keyword">if</span> (fromWho != <span class="hljs-literal">null</span>) &#123;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                            apiText += fromWho;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        &#125;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                        apiText += <span class="hljs-string">&#x27;「&#x27;</span> + <span class="hljs-keyword">from</span> + <span class="hljs-string">&#x27;」&lt;/p&gt;&#x27;</span>;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                    &#125;</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                    apiText ? <span class="hljs-title function_">typing</span>(apiText) : <span class="hljs-title function_">typing</span>(text);</span></span></mark><br><mark><span class="language-javascript"><span class="language-xml">                &#125;,</span></span></mark><br><span class="language-javascript"><span class="language-xml">                <span class="hljs-attr">error</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params">xhr, status, error</span>) &#123;</span></span><br><span class="language-javascript"><span class="language-xml">                    <span class="hljs-keyword">if</span> (error) &#123;</span></span><br><span class="language-javascript"><span class="language-xml">                        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">&#x27;Failed to request &lt;%= theme.index.slogan.api.url %&gt;:&#x27;</span>, error);</span></span><br><span class="language-javascript"><span class="language-xml">                    &#125;</span></span><br><span class="language-javascript"><span class="language-xml">                    <span class="hljs-title function_">typing</span>(text);</span></span><br><span class="language-javascript"><span class="language-xml">                &#125;</span></span><br><span class="language-javascript"><span class="language-xml">            &#125;)</span></span><br><span class="language-javascript"><span class="language-xml">            &lt;% &#125; <span class="hljs-keyword">else</span> &#123; %&gt;</span></span><br><span class="language-javascript"><span class="language-xml">            <span class="hljs-title function_">typing</span>(text);</span></span><br><span class="language-javascript"><span class="language-xml">            &lt;% &#125; %&gt;</span></span><br><span class="language-javascript"><span class="language-xml">        &#125;)(<span class="hljs-variable language_">window</span>, <span class="hljs-variable language_">document</span>);</span></span><br><span class="language-javascript"><span class="language-xml">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span><br>&lt;% &#125; %&gt; <br></code></pre></td></tr></table></figure></li></ul><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://developer.hitokoto.cn/sentence/demo.html">一言开发者中心</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://hexo.fluid-dev.com/docs/guide/#slogan-%E6%89%93%E5%AD%97%E6%9C%BA">Fluid官方打字机配置</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a href="https://blog.ayaka.space/2024/01/From-Halo-To-Hexo/#2%EF%BC%89Hexo">从Halo迁移到Hexo，放弃变质的Halo博客</a><a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>HelloWorld</title>
+    <link href="/HelloWorld/"/>
+    <url>/HelloWorld/</url>
+    
+    <content type="html"><![CDATA[<p>这一段文字是摘要，显示在主页和文章页</p><span id="more"></span><h1 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="HelloWorld"></a>HelloWorld</h1><p>这是一段脚注</p><!-- 空一行 --><pre><code class="hljs">Indent paragraphs to include them in the footnote.`&#123; my code &#125;`Add as many paragraphs as you like.</code></pre><h2 id="定义列表"><a href="#定义列表" class="headerlink" title="定义列表"></a>定义列表</h2><dl><dt>First Term</dt><dd>This is the definition of the first term.</dd></dl><dl><dt>Second Term<br>: This is one definition of the second term.</dt><dd>This is another definition of the second term.</dd></dl><h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><ul><li><input checked="" disabled="" type="checkbox"> Write the press release</li><li><input disabled="" type="checkbox"> Update the website</li><li><input disabled="" type="checkbox"> Contact the media</li></ul><h2 id="使用-Emoji-表情"><a href="#使用-Emoji-表情" class="headerlink" title="使用 Emoji 表情"></a>使用 Emoji 表情</h2><p>😂</p><h2 id="Tag插件"><a href="#Tag插件" class="headerlink" title="Tag插件"></a>Tag插件</h2><h3 id="便签"><a href="#便签" class="headerlink" title="便签"></a>便签</h3><p>在markdown中加入如下代码使用便签</p><div class="note note-success">            <p>文字或者<code>markdown</code>都可以</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-type">int</span> <span class="hljs-variable">num</span> <span class="hljs-operator">=</span> <span class="hljs-number">1</span>;<br></code></pre></td></tr></table></figure>          </div><h3 id="行内标签"><a href="#行内标签" class="headerlink" title="行内标签"></a>行内标签</h3><span class="label label-primary">123</span><h3 id="折叠块"><a href="#折叠块" class="headerlink" title="折叠块"></a>折叠块</h3>    <div class="fold">      <div class="fold-title fold-info collapsed" data-toggle="collapse" href="#collapse-0d0df90d" role="button" aria-expanded="false" aria-controls="collapse-0d0df90d">        <div class="fold-arrow">▶</div>这是标题      </div>      <div class="fold-collapse collapse" id="collapse-0d0df90d">        <div class="fold-content">          <p>需要折叠的一段内容，支持markdown</p>        </div>      </div>    </div><h3 id="勾选框"><a href="#勾选框" class="headerlink" title="勾选框"></a>勾选框</h3>            <input type="checkbox"  checked="checked">text          <h3 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h3><a class="btn" href="https://www.baidu.com"  title="百度" target="_blank">去百度</a><h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://pan.baidu.com/">https://pan.baidu.com</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://yiyan.baidu.com/">https://yiyan.baidu.com</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
