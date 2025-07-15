@@ -15,7 +15,7 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Tue, 15 Jul 2025 23:16:09 GMT</pubDate>
+    <pubDate>Tue, 15 Jul 2025 23:40:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -35,6 +35,14 @@
       
       
       
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/">孟腾</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/">周志</category>
       
       
     </item>
@@ -56,6 +64,14 @@
       
       
       
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/">孟腾</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/">周志</category>
       
       
     </item>
