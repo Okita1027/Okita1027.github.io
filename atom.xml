@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-07-15T23:51:14.882Z</updated>
+  <updated>2025-07-16T22:36:50.823Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>工作日志25-7-16</title>
-    <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-16/"/>
-    <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-16/</id>
-    <published>2025-07-15T23:16:09.000Z</published>
-    <updated>2025-07-15T23:51:14.882Z</updated>
+    <title>工作日志25-7-17</title>
+    <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-17/"/>
+    <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-17/</id>
+    <published>2025-07-16T22:36:33.000Z</published>
+    <updated>2025-07-16T22:36:50.823Z</updated>
     
     
       
@@ -29,6 +29,37 @@
         
         
     <summary type="html">&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工作日志25-7-16</title>
+    <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-16/"/>
+    <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-16/</id>
+    <published>2025-07-15T23:16:09.000Z</published>
+    <updated>2025-07-16T10:47:49.773Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;p&gt;今天主要学习了EF Core中的更改跟踪、日志记录、事件和诊断和一些C#独特的语法。&lt;br&gt;EF</summary>
         
       
     
@@ -371,25 +402,6 @@
     
     
     <summary type="html">Hexo博客Fluid主题下的配置首页的头像、随机一句话（打字机效果）</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://zhiyun.blog/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://zhiyun.blog/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HelloWorld</title>
-    <link href="https://zhiyun.blog/HelloWorld/"/>
-    <id>https://zhiyun.blog/HelloWorld/</id>
-    <published>2024-05-12T07:33:00.000Z</published>
-    <updated>2025-03-22T13:39:31.384Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这一段文字是摘要，显示在主页和文章页&lt;/p&gt;</summary>
     
     
     

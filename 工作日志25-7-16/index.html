@@ -18,13 +18,15 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta property="og:type" content="article">
+    <meta name="description" content="今天主要学习了EF Core中的更改跟踪、日志记录、事件和诊断和一些C#独特的语法。EF Core:  更改跟踪 实体状态：没有跟踪、已跟踪（已添加、已修改、已删除、未更改） 更改检测：快照【默认&amp;推荐】、通知、手动触发 更改跟踪器API：访问跟踪器中的数据 标识解析：缓存作用-对一条记录进行查找后会放入跟踪器中，后续相同的请求直接从这里拿   日志记录、事件和诊断 Microsoft">
+<meta property="og:type" content="article">
 <meta property="og:title" content="工作日志25-7-16">
 <meta property="og:url" content="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-16/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
+<meta property="og:description" content="今天主要学习了EF Core中的更改跟踪、日志记录、事件和诊断和一些C#独特的语法。EF Core:  更改跟踪 实体状态：没有跟踪、已跟踪（已添加、已修改、已删除、未更改） 更改检测：快照【默认&amp;推荐】、通知、手动触发 更改跟踪器API：访问跟踪器中的数据 标识解析：缓存作用-对一条记录进行查找后会放入跟踪器中，后续相同的请求直接从这里拿   日志记录、事件和诊断 Microsoft">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-07-15T23:16:09.000Z">
-<meta property="article:modified_time" content="2025-07-15T23:51:14.882Z">
+<meta property="article:modified_time" content="2025-07-16T10:47:49.773Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
 <meta property="article:tag" content="日志">
@@ -342,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 字
+          344 字
         
       </span>
     
@@ -353,7 +355,7 @@
         
         
         
-          1 分钟
+          4 分钟
         
       </span>
     
@@ -407,7 +409,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月16日星期三 07:51
+                    本文最后更新于 2025年7月16日星期三 18:47
                   
                 
               </p>
@@ -416,6 +418,34 @@
               <div class="markdown-body">
                 
                 <span id="more"></span>
+
+<p>今天主要学习了EF Core中的更改跟踪、日志记录、事件和诊断和一些C#独特的语法。<br>EF Core:</p>
+<ul>
+<li>更改跟踪<ul>
+<li>实体状态：没有跟踪、已跟踪（已添加、已修改、已删除、未更改）</li>
+<li>更改检测：快照【默认&amp;推荐】、通知、手动触发</li>
+<li>更改跟踪器API：访问跟踪器中的数据</li>
+<li>标识解析：缓存作用-对一条记录进行查找后会放入跟踪器中，后续相同的请求直接从这里拿</li>
+</ul>
+</li>
+<li>日志记录、事件和诊断<ul>
+<li>Microsoft.Extensions.Logging:.NET官方抽象</li>
+<li>简单日志记录：快捷的日志服务，用于开发</li>
+<li>事件<ul>
+<li>传统.NET事件：SavedChanges()前后执行</li>
+<li>拦截器：自定义特定的接口，在接口相关操作前后执行</li>
+</ul>
+</li>
+<li>侦听器：在EF Core的内部操作执行过程中的特定点拦截、修改甚至阻止这些操作</li>
+</ul>
+</li>
+<li>诊断侦听器：相比拦截、侦听器来说，能捕获更加细致的信息，更底层<br>C#:</li>
+<li>索引器：让集合也能像数组那样用[]</li>
+<li>解构赋值：一下子创建、赋予多个值（多从元组获取）</li>
+<li>LINQ：用类似SQL的语法操作集合，比Java中的Stream API更强</li>
+<li>部分类&#x2F;方法：可以把类、方法拆分成多个，运行的时候再组合起来；多用于自定义框架</li>
+</ul>
+
                 
               </div>
             
@@ -513,6 +543,12 @@
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-17/" title="工作日志25-7-17">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">工作日志25-7-17</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
