@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-07-15T01:00:24.194Z</updated>
+  <updated>2025-07-18T08:40:50.285Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -15,6 +15,112 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工作周志25-7-18</title>
+    <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E5%91%A8%E5%BF%9725-7-18/"/>
+    <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E5%91%A8%E5%BF%9725-7-18/</id>
+    <published>2025-07-18T01:44:57.000Z</published>
+    <updated>2025-07-18T08:40:50.285Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;周志&amp;amp;学习报告&lt;br&gt;本周主要学习的是EF Core，之后写了一个图书管理系统的DEMO&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="周志" scheme="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工作日志25-7-17</title>
+    <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-17/"/>
+    <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-17/</id>
+    <published>2025-07-16T22:36:33.000Z</published>
+    <updated>2025-07-18T06:24:15.003Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天学习完EF Core，开始做DEMO【图书管理系统】&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工作日志25-7-16</title>
+    <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-16/"/>
+    <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-16/</id>
+    <published>2025-07-15T23:16:09.000Z</published>
+    <updated>2025-07-16T09:38:07.187Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;p&gt;今天主要学习了EF Core中的更改跟踪、日志记录、事件和诊断和一些C#独特的语法。&lt;br&gt;EF</summary>
+        
+      
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工作日志25-7-15</title>
+    <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-15/"/>
+    <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-15/</id>
+    <published>2025-07-15T23:15:49.000Z</published>
+    <updated>2025-07-16T00:27:28.882Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>工作日志25-7-14</title>
@@ -301,44 +407,6 @@
     
     <category term="Shell" scheme="https://zhiyun.blog/categories/Linux/Shell/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo Fluid配置首页头像、一言（打字机效果）</title>
-    <link href="https://zhiyun.blog/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/"/>
-    <id>https://zhiyun.blog/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/</id>
-    <published>2024-05-16T06:44:48.000Z</published>
-    <updated>2025-07-08T01:36:29.783Z</updated>
-    
-    
-    <summary type="html">Hexo博客Fluid主题下的配置首页的头像、随机一句话（打字机效果）</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://zhiyun.blog/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://zhiyun.blog/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HelloWorld</title>
-    <link href="https://zhiyun.blog/HelloWorld/"/>
-    <id>https://zhiyun.blog/HelloWorld/</id>
-    <published>2024-05-12T07:33:00.000Z</published>
-    <updated>2025-07-08T01:36:29.768Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这一段文字是摘要，显示在主页和文章页&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://zhiyun.blog/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://zhiyun.blog/tags/Hexo/"/>
     
   </entry>
   
