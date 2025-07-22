@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>工作日志25-7-22</title>
+    <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-22/"/>
+    <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-22/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="学习JavaScript"><a href="#学习JavaScript" class="headerlink" title="学习JavaScript"></a>学习JavaScript</h2><p><a href="https://zh.javascript.info/">现代 JavaScript 教程</a></p><p><a href="https://liaoxuefeng.com/books/javascript/introduction/index.html">简介 - JavaScript教程 - 廖雪峰的官方网站</a></p><ul><li><code>??</code>运算符</li><li>循环与迭代<ul><li>for…in</li><li>for…of</li></ul></li><li>函数中的Arguments对象</li><li>OOP<ul><li><code>this</code></li><li>不存在的属性</li><li>Symbol类型</li></ul></li></ul><h2 id="复习-NET"><a href="#复习-NET" class="headerlink" title="复习.NET"></a>复习.NET</h2><h3 id="自定义异常过滤器"><a href="#自定义异常过滤器" class="headerlink" title="自定义异常过滤器"></a>自定义异常过滤器</h3><ol><li>自定义异常过滤器<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs C#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">ArgumentExceptionFilter</span> : <span class="hljs-title">IExceptionFilter</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">OnException</span>(<span class="hljs-params">ExceptionContext context</span>)</span><br>    &#123;<br>        <span class="hljs-keyword">if</span> (context.Exception <span class="hljs-keyword">is</span> ArgumentException argumentException)<br>        &#123;<br>            context.Result = <span class="hljs-keyword">new</span> BadRequestObjectResult(<span class="hljs-keyword">new</span><br>            &#123;<br>                Title = <span class="hljs-string">&quot;参数异常——来自ArgumentExceptionFilter&quot;</span>,<br>                Detail = argumentException.Message,<br>                StatusCode = <span class="hljs-number">400</span><br>            &#125;);<br><br>            context.ExceptionHandled = <span class="hljs-literal">true</span>;<br>        &#125;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></li><li>注册服务<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs C#">builder.Services.AddControllers(options =&gt;<br>&#123;<br>    options.Filters.Add(<span class="hljs-keyword">new</span> ArgumentExceptionFilter());<br>&#125;);<br></code></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>工作日志25-7-21</title>
     <link href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-21/"/>
     <url>/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-21/</url>

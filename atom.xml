@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-07-21T23:41:33.464Z</updated>
+  <updated>2025-07-22T15:12:29.506Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工作日志25-7-22</title>
+    <link href="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-22/"/>
+    <id>https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-22/</id>
+    <published>2025-07-22T14:36:04.000Z</published>
+    <updated>2025-07-22T15:12:29.506Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h2 id=&quot;学习JavaScript&quot;&gt;&lt;a href=&quot;#学习JavaScript&quot; class=&quot;headerlink&quot; title=&quot;学习JavaScript&quot;&gt;&lt;/a&gt;学习JavaScript&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>工作日志25-7-21</title>
@@ -395,29 +425,6 @@
     
     
     <category term="正颌正畸" scheme="https://zhiyun.blog/tags/%E6%AD%A3%E9%A2%8C%E6%AD%A3%E7%95%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Navicat连接云服务器MySQL</title>
-    <link href="https://zhiyun.blog/Navicat%E8%BF%9E%E6%8E%A5%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8MySQL/"/>
-    <id>https://zhiyun.blog/Navicat%E8%BF%9E%E6%8E%A5%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8MySQL/</id>
-    <published>2025-04-14T14:56:54.000Z</published>
-    <updated>2025-04-27T09:23:56.943Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;用root连接搞了好久没连上，最后重新建了一个用户成功了……&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="数据库" scheme="https://zhiyun.blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="MySQL" scheme="https://zhiyun.blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
-    
-    
-    <category term="MySQL" scheme="https://zhiyun.blog/tags/MySQL/"/>
     
   </entry>
   
