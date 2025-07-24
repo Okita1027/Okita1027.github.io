@@ -18,15 +18,15 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="今天实践了RazerPagesMovie的剩余部分和MvcMovie。  在Razor的cshtml中，C#与HTML的混合语法写起来与JSP类似，其指令均以@开头。 在纯Razor案例中,cshtml展现数据，旗下cs处理数据 这两个案例实践中:在Models目录中写好种子模型类并在主启动类Program.cs中初始化，便能够实现（在数据库表无值的情况下）自动生成事先定义好的数据。 要实现编">
+    <meta name="description" content="完善图书管理DEMO复习C#、.NET Core、EF Core .NET 工程文件.csproj: 123456789101112131415161718192021222324252627282930313233343536&lt;Project Sdk&#x3D;&quot;Microsoft.NET.Sdk.Web&quot;&gt;  &lt;PropertyGroup&gt;    &lt;T">
 <meta property="og:type" content="article">
-<meta property="og:title" content="工作日志25-7-8">
-<meta property="og:url" content="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/index.html">
+<meta property="og:title" content="日志25-7-21">
+<meta property="og:url" content="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-21/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="今天实践了RazerPagesMovie的剩余部分和MvcMovie。  在Razor的cshtml中，C#与HTML的混合语法写起来与JSP类似，其指令均以@开头。 在纯Razor案例中,cshtml展现数据，旗下cs处理数据 这两个案例实践中:在Models目录中写好种子模型类并在主启动类Program.cs中初始化，便能够实现（在数据库表无值的情况下）自动生成事先定义好的数据。 要实现编">
+<meta property="og:description" content="完善图书管理DEMO复习C#、.NET Core、EF Core .NET 工程文件.csproj: 123456789101112131415161718192021222324252627282930313233343536&lt;Project Sdk&#x3D;&quot;Microsoft.NET.Sdk.Web&quot;&gt;  &lt;PropertyGroup&gt;    &lt;T">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-08T15:50:06.000Z">
-<meta property="article:modified_time" content="2025-07-08T16:43:01.012Z">
+<meta property="article:published_time" content="2025-07-21T15:50:51.000Z">
+<meta property="article:modified_time" content="2025-07-23T10:35:15.284Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
 <meta property="article:tag" content="日志">
@@ -36,7 +36,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>工作日志25-7-8 — 沖田さん の ブログ</title>
+  <title>日志25-7-21 — 沖田さん の ブログ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -321,7 +321,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="工作日志25-7-8"></span>
+            <span id="subtitle" data-typed-text="日志25-7-21"></span>
           
         </div>
 
@@ -332,8 +332,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-08 23:50" pubdate>
-          2025年7月8日星期二 23:50
+        <time datetime="2025-07-21 23:50" pubdate>
+          2025年7月21日星期一 23:50
         </time>
       </span>
     
@@ -344,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          285 字
+          367 字
         
       </span>
     
@@ -355,7 +355,7 @@
         
         
         
-          3 分钟
+          4 分钟
         
       </span>
     
@@ -404,12 +404,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">工作日志25-7-8</h1>
+            <h1 id="seo-header">日志25-7-21</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月9日星期三 00:43
+                    本文最后更新于 2025年7月23日星期三 18:35
                   
                 
               </p>
@@ -418,18 +418,9 @@
               <div class="markdown-body">
                 
                 <span id="more"></span>
-
-<p>今天实践了RazerPagesMovie的剩余部分和MvcMovie。</p>
-<ol>
-<li>在Razor的cshtml中，C#与HTML的混合语法写起来与JSP类似，其指令均以@开头。</li>
-<li>在纯Razor案例中,cshtml展现数据，旗下cs处理数据</li>
-<li>这两个案例实践中:在Models目录中写好种子模型类并在主启动类Program.cs中初始化，便能够实现（在数据库表无值的情况下）自动生成事先定义好的数据。</li>
-<li>要实现编辑数据时的约束，可在模型类的字段上添加注解。</li>
-<li>与Spring MVC相比，接口方法的路径声明由方法名决定，Index为默认访问路径，请求方式、路由可以在注解中声明。</li>
-<li>在接口方法参数中，（默认情况下）id是路径传参（可在Program.cs更改），其余名称是字符串拼接，并且声明参数的左右位置不影响实际传参时的顺序</li>
-<li>Shared目录下的Layout.cshtml是所有页面的整体布局，其中@ViewData[“Title”]显示的是其他页面中定义好的该变量；@RenderBody展现的是各个不同的子页面。</li>
-</ol>
-
+<p>完善图书管理DEMO<br>复习C#、.NET Core、EF Core</p>
+<h2 id="NET-工程文件"><a href="#NET-工程文件" class="headerlink" title=".NET 工程文件"></a>.NET 工程文件</h2><p><code>.csproj</code>:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><code class="hljs XML"><span class="hljs-tag">&lt;<span class="hljs-name">Project</span> <span class="hljs-attr">Sdk</span>=<span class="hljs-string">&quot;Microsoft.NET.Sdk.Web&quot;</span>&gt;</span><br><br>  <span class="hljs-tag">&lt;<span class="hljs-name">PropertyGroup</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">TargetFramework</span>&gt;</span>net8.0<span class="hljs-tag">&lt;/<span class="hljs-name">TargetFramework</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">Nullable</span>&gt;</span>enable<span class="hljs-tag">&lt;/<span class="hljs-name">Nullable</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">ImplicitUsings</span>&gt;</span>enable<span class="hljs-tag">&lt;/<span class="hljs-name">ImplicitUsings</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">RootNamespace</span>&gt;</span>DEMO_CRUD<span class="hljs-tag">&lt;/<span class="hljs-name">RootNamespace</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">UserSecretsId</span>&gt;</span>1340a55c-d821-44f2-827e-1d76d1e294c8<span class="hljs-tag">&lt;/<span class="hljs-name">UserSecretsId</span>&gt;</span><br>  <span class="hljs-tag">&lt;/<span class="hljs-name">PropertyGroup</span>&gt;</span><br><br>  <span class="hljs-comment">&lt;!-- 类似于前端的package.json、Java的pom.xml，记录了该程序用到了哪些包 --&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">ItemGroup</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Mapster&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;7.4.0&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Mapster.DependencyInjection&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;1.0.1&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Masuit.Tools.Core&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;2025.4.5&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Microsoft.AspNetCore.Authentication.JwtBearer&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;8.0.18&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Microsoft.AspNetCore.OpenApi&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;8.0.11&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Microsoft.EntityFrameworkCore.Sqlite&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;8.0.18&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Microsoft.EntityFrameworkCore.SqlServer&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;8.0.11&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Microsoft.EntityFrameworkCore.Tools&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;8.0.11&quot;</span>&gt;</span><br>      <span class="hljs-comment">&lt;!--表示该包的所有资产都是私有的,</span><br><span class="hljs-comment">          不会传递给引用此项目的其他项目--&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">PrivateAssets</span>&gt;</span>all<span class="hljs-tag">&lt;/<span class="hljs-name">PrivateAssets</span>&gt;</span><br>      <span class="hljs-comment">&lt;!--指定要包含的资产类型--&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">IncludeAssets</span>&gt;</span>runtime; build; native; contentfiles; analyzers; buildtransitive<span class="hljs-tag">&lt;/<span class="hljs-name">IncludeAssets</span>&gt;</span><br>    <span class="hljs-tag">&lt;/<span class="hljs-name">PackageReference</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Microsoft.VisualStudio.Web.CodeGeneration.Design&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;8.0.7&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Pomelo.EntityFrameworkCore.MySql&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;8.0.3&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Serilog.AspNetCore&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;9.0.0&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Serilog.Sinks.File&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;7.0.0&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;Swashbuckle.AspNetCore&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;6.9.0&quot;</span> /&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">&quot;System.IdentityModel.Tokens.Jwt&quot;</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">&quot;8.12.1&quot;</span> /&gt;</span><br>  <span class="hljs-tag">&lt;/<span class="hljs-name">ItemGroup</span>&gt;</span><br><br><span class="hljs-tag">&lt;/<span class="hljs-name">Project</span>&gt;</span><br><br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -483,8 +474,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>工作日志25-7-8</div>
-      <div>https://zhiyun.blog/工作日志25-7-8/</div>
+      <div>日志25-7-21</div>
+      <div>https://zhiyun.blog/日志25-7-21/</div>
     </div>
     <div class="license-meta">
       
@@ -496,7 +487,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月8日</div>
+          <div>2025年7月21日</div>
         </div>
       
       
@@ -528,9 +519,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-9/" title="工作日志25-7-9">
+                      <a href="/%E6%97%A5%E5%BF%9725-7-22/" title="日志25-7-22">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">工作日志25-7-9</span>
+                        <span class="hidden-mobile">日志25-7-22</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -538,8 +529,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-7/" title="工作日志25-7-7">
-                        <span class="hidden-mobile">工作日志25-7-7</span>
+                      <a href="/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="由代理引起的Git报错解决方法">
+                        <span class="hidden-mobile">由代理引起的Git报错解决方法</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

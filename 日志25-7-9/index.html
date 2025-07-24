@@ -18,15 +18,15 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="今天继续学习中间件、主机、配置、选项、环境、日志记录与监视承接昨天速率中间件的学习：在主启动类注册好了中间件后，还可以在控制类&#x2F;Action方法上利用注解更精确地指定该类&#x2F;方法使用的策略；响应缓存中间件能够对用户对同一个接口的访问结果进行缓存，但该中间件没有手动删除缓存的操作。在主启动类启用该中间后，也需要在控制器类的方法上利用相关注解配置其具体的缓存选项。请求解压缩中间件">
+    <meta name="description" content="跟着教程快速上手了基于控制器的Web API 和 最小API，之后学习了基础篇中概述、应用启动、依赖关系注入（服务）、本机AOT、中间件的部分内容。  Web API与MVC不同，是纯后端接口，自带SWAGGER用于测试接口，最小API是用最少的程序文件和独特、简洁语法的WebAPI 依赖关系注入这一章节与Spring中IOC非常接近，其核心思想是将实例交给容器管理，避免频繁NEW。在主启动类">
 <meta property="og:type" content="article">
-<meta property="og:title" content="工作日志25-7-10">
-<meta property="og:url" content="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-10/index.html">
+<meta property="og:title" content="日志25-7-9">
+<meta property="og:url" content="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-9/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="今天继续学习中间件、主机、配置、选项、环境、日志记录与监视承接昨天速率中间件的学习：在主启动类注册好了中间件后，还可以在控制类&#x2F;Action方法上利用注解更精确地指定该类&#x2F;方法使用的策略；响应缓存中间件能够对用户对同一个接口的访问结果进行缓存，但该中间件没有手动删除缓存的操作。在主启动类启用该中间后，也需要在控制器类的方法上利用相关注解配置其具体的缓存选项。请求解压缩中间件">
+<meta property="og:description" content="跟着教程快速上手了基于控制器的Web API 和 最小API，之后学习了基础篇中概述、应用启动、依赖关系注入（服务）、本机AOT、中间件的部分内容。  Web API与MVC不同，是纯后端接口，自带SWAGGER用于测试接口，最小API是用最少的程序文件和独特、简洁语法的WebAPI 依赖关系注入这一章节与Spring中IOC非常接近，其核心思想是将实例交给容器管理，避免频繁NEW。在主启动类">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-10T23:09:18.000Z">
-<meta property="article:modified_time" content="2025-07-11T23:28:18.597Z">
+<meta property="article:published_time" content="2025-07-09T14:47:02.000Z">
+<meta property="article:modified_time" content="2025-07-23T10:35:37.628Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
 <meta property="article:tag" content="日志">
@@ -36,7 +36,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>工作日志25-7-10 — 沖田さん の ブログ</title>
+  <title>日志25-7-9 — 沖田さん の ブログ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -321,7 +321,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="工作日志25-7-10"></span>
+            <span id="subtitle" data-typed-text="日志25-7-9"></span>
           
         </div>
 
@@ -332,8 +332,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-11 07:09" pubdate>
-          2025年7月11日星期五 07:09
+        <time datetime="2025-07-09 22:47" pubdate>
+          2025年7月9日星期三 22:47
         </time>
       </span>
     
@@ -344,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          459 字
+          329 字
         
       </span>
     
@@ -355,7 +355,7 @@
         
         
         
-          5 分钟
+          3 分钟
         
       </span>
     
@@ -404,12 +404,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">工作日志25-7-10</h1>
+            <h1 id="seo-header">日志25-7-9</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月12日星期六 07:28
+                    本文最后更新于 2025年7月23日星期三 18:35
                   
                 
               </p>
@@ -419,7 +419,17 @@
                 
                 <span id="more"></span>
 
-<p>今天继续学习中间件、主机、配置、选项、环境、日志记录与监视<br>承接昨天速率中间件的学习：在主启动类注册好了中间件后，还可以在控制类&#x2F;Action方法上利用注解更精确地指定该类&#x2F;方法使用的策略；<br>响应缓存中间件能够对用户对同一个接口的访问结果进行缓存，但该中间件没有手动删除缓存的操作。在主启动类启用该中间后，也需要在控制器类的方法上利用相关注解配置其具体的缓存选项。<br>请求解压缩中间件能够检测传入的HTTP请求中是否压缩过的请求体，是的话会自动对其进行解压，该中间件默认支持Gzip、Brotli算法<br>中间件可以自定义，其中有一种基于工厂的实现方式，其优点是能够自主控制中间件的实例化方式。<br>配置的加载、覆盖顺序与SpringBoot中的规则相同，命令行配置大于代码配置。要在程序中读取配置，可以直接注入IConfiguration来读取，另一种是使用选项的方式，此方式是将配置绑定某个类上，然后再读取类的数据，此种方式还能用利用数据注解对字段进行验证。<br>环境比起配置而言是更高层次的程序配置，环境配置覆盖顺序与配置覆盖的优先级顺序相似，环境配置能够在代码中进行访问。<br>日志的几个关键点：类别、级别、ID。日志的使用方式：配置、注册、使用。除了.NET自带的日志，还可以集成第三方日志记录提供程序。</p>
+<p>跟着教程快速上手了基于控制器的Web API 和 最小API，之后学习了基础篇中概述、应用启动、依赖关系注入（服务）、本机AOT、中间件的部分内容。</p>
+<ul>
+<li>Web API与MVC不同，是纯后端接口，自带SWAGGER用于测试接口，最小API是用最少的程序文件和独特、简洁语法的WebAPI</li>
+<li>依赖关系注入这一章节与Spring中IOC非常接近，其核心思想是将实例交给容器管理，避免频繁NEW。在主启动类中注册服务类，然后在需要的地方进行注入（最常见的注入方式是构造函数）</li>
+<li>本机AOT是一种全新的程序执行方式：能将.NET程序运行相关的所有代码、依赖编译成特定的机器码达成一个能直接执行的文件。</li>
+<li>中间件是按照顺序执行的、构成程序请求管道的一系列组件。<ul>
+<li>中间件使用顺序非常重要，错误的使用在某些情况下会导致程序崩溃，比如把用户的鉴权放在了认证前面。</li>
+<li>中间件能用于限流，能划分用户群的限流分区、对不同群里应用不同的限流算法、执行不同的限流后响应。</li>
+</ul>
+</li>
+</ul>
 
                 
               </div>
@@ -474,8 +484,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>工作日志25-7-10</div>
-      <div>https://zhiyun.blog/工作日志25-7-10/</div>
+      <div>日志25-7-9</div>
+      <div>https://zhiyun.blog/日志25-7-9/</div>
     </div>
     <div class="license-meta">
       
@@ -487,7 +497,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月11日</div>
+          <div>2025年7月9日</div>
         </div>
       
       
@@ -519,9 +529,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-11/" title="工作日志25-7-11">
+                      <a href="/%E6%97%A5%E5%BF%9725-7-10/" title="日志25-7-10">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">工作日志25-7-11</span>
+                        <span class="hidden-mobile">日志25-7-10</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -529,8 +539,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-9/" title="工作日志25-7-9">
-                        <span class="hidden-mobile">工作日志25-7-9</span>
+                      <a href="/%E6%97%A5%E5%BF%9725-7-8/" title="日志25-7-8">
+                        <span class="hidden-mobile">日志25-7-8</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

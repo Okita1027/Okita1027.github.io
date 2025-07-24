@@ -18,15 +18,15 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="今天主要学习管理数据库架构、查询数据、保存数据这3个章节。  管理数据库架构 迁移：写好C#实体类后用迁移指令生成数据库表，更换环境后可以再用迁移指令复刻当时记录下来的数据库表 创建和删除API：用于测试环境 逆向工程：先创建数据库表，再生成实体类型代码   查询数据 跟踪查询：DbContext默认记录查询结果，在调用saveChanges()后，会自动生成执行相关的修改代码 加载相关数据：">
+    <meta name="description" content="跟着官方教程快速上手了部分Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。实操步骤主要分三步：  创建工程 建立实体目录、类 建立页面目录、生成CRUD代码  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”">
 <meta property="og:type" content="article">
-<meta property="og:title" content="工作日志25-7-15">
-<meta property="og:url" content="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-15/index.html">
+<meta property="og:title" content="日志25-7-7">
+<meta property="og:url" content="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-7/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="今天主要学习管理数据库架构、查询数据、保存数据这3个章节。  管理数据库架构 迁移：写好C#实体类后用迁移指令生成数据库表，更换环境后可以再用迁移指令复刻当时记录下来的数据库表 创建和删除API：用于测试环境 逆向工程：先创建数据库表，再生成实体类型代码   查询数据 跟踪查询：DbContext默认记录查询结果，在调用saveChanges()后，会自动生成执行相关的修改代码 加载相关数据：">
+<meta property="og:description" content="跟着官方教程快速上手了部分Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。实操步骤主要分三步：  创建工程 建立实体目录、类 建立页面目录、生成CRUD代码  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-15T23:15:49.000Z">
-<meta property="article:modified_time" content="2025-07-15T23:51:20.847Z">
+<meta property="article:published_time" content="2025-07-07T16:07:25.000Z">
+<meta property="article:modified_time" content="2025-07-23T10:35:42.182Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
 <meta property="article:tag" content="日志">
@@ -36,7 +36,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>工作日志25-7-15 — 沖田さん の ブログ</title>
+  <title>日志25-7-7 — 沖田さん の ブログ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -321,7 +321,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="工作日志25-7-15"></span>
+            <span id="subtitle" data-typed-text="日志25-7-7"></span>
           
         </div>
 
@@ -332,8 +332,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-16 07:15" pubdate>
-          2025年7月16日星期三 07:15
+        <time datetime="2025-07-08 00:07" pubdate>
+          2025年7月8日星期二 00:07
         </time>
       </span>
     
@@ -344,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          438 字
+          166 字
         
       </span>
     
@@ -355,7 +355,7 @@
         
         
         
-          4 分钟
+          2 分钟
         
       </span>
     
@@ -404,12 +404,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">工作日志25-7-15</h1>
+            <h1 id="seo-header">日志25-7-7</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月16日星期三 07:51
+                    本文最后更新于 2025年7月23日星期三 18:35
                   
                 
               </p>
@@ -419,43 +419,19 @@
                 
                 <span id="more"></span>
 
-<p>今天主要学习管理数据库架构、查询数据、保存数据这3个章节。</p>
-<ul>
-<li>管理数据库架构<ul>
-<li>迁移：写好C#实体类后用迁移指令生成数据库表，更换环境后可以再用迁移指令复刻当时记录下来的数据库表</li>
-<li>创建和删除API：用于测试环境</li>
-<li>逆向工程：先创建数据库表，再生成实体类型代码</li>
-</ul>
-</li>
-<li>查询数据<ul>
-<li>跟踪查询：DbContext默认记录查询结果，在调用saveChanges()后，会自动生成执行相关的修改代码</li>
-<li>加载相关数据：当一个类拥有其他类的数据时，指定被包含的类如何加载<ul>
-<li>预先加载：【推荐】查询主实体后立刻加载</li>
-<li>延迟加载：查询主实体后，手动加载</li>
-<li>显式加载：访问导航属性时再加载</li>
-</ul>
-</li>
-<li>拆分查询：将一个大的SQL拆成多个小SQL</li>
-<li>复杂查询运算符：SQL中的聚合函数</li>
-<li>SQL查询：直接使用原生SQL语句来查询</li>
-<li>查询标记：为生成的SQL语句产生注释</li>
-<li>NULL值的比较：SQL中的NULL值严格来说是UNKNOWN,在比较2个NULL值时要用Object.Equal()</li>
-</ul>
-</li>
-<li>保存数据<ul>
-<li>基本保存：跟踪查询直接使用SaveChanges(),非跟踪查询需要追加Attach()或Update()</li>
-<li>相关数据：当一个类中存在其他类数据时，添加&#x2F;删除&#x2F;修改父子关系都会导致父类&#x2F;子类同步被添加&#x2F;删除&#x2F;修改外键</li>
-<li>级联删除：默认启用，删除父类时，子类也被删除</li>
-<li>版本冲突：EF Core使用乐观锁</li>
-<li>ExecuteUpdate()、ExecuteDelete()：直接在SQL服务器执行修改&#x2F;删除操作</li>
-<li>事务<ul>
-<li>显示事务</li>
-<li>隐式事务</li>
-</ul>
+<p>跟着官方教程快速上手了部分Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。<br>实操步骤主要分三步：</p>
+<ol>
+<li>创建工程</li>
+<li>建立实体目录、类</li>
+<li>建立页面目录、生成CRUD代码<br>  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”<br>  b. 利用 PMC(程序包管理器控制台) 的两条命令：<ul>
+<li><code>Add-Migration</code></li>
+<li><code>Update-Database</code><blockquote>
+<p>在修改实体类后，可重新执行a、b步骤同步页面与数据库</p>
+</blockquote>
 </li>
 </ul>
 </li>
-</ul>
+</ol>
 
                 
               </div>
@@ -510,8 +486,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>工作日志25-7-15</div>
-      <div>https://zhiyun.blog/工作日志25-7-15/</div>
+      <div>日志25-7-7</div>
+      <div>https://zhiyun.blog/日志25-7-7/</div>
     </div>
     <div class="license-meta">
       
@@ -523,7 +499,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月16日</div>
+          <div>2025年7月8日</div>
         </div>
       
       
@@ -555,9 +531,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-16/" title="工作日志25-7-16">
+                      <a href="/%E6%97%A5%E5%BF%9725-7-8/" title="日志25-7-8">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">工作日志25-7-16</span>
+                        <span class="hidden-mobile">日志25-7-8</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -565,8 +541,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-14/" title="工作日志25-7-14">
-                        <span class="hidden-mobile">工作日志25-7-14</span>
+                      <a href="/%E6%AD%A3%E9%A2%8C%E6%AD%A3%E7%95%B825-4-22/" title="正颌正畸25-4-22">
+                        <span class="hidden-mobile">正颌正畸25-4-22</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

@@ -18,15 +18,15 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="跟着教程快速上手了基于控制器的Web API 和 最小API，之后学习了基础篇中概述、应用启动、依赖关系注入（服务）、本机AOT、中间件的部分内容。  Web API与MVC不同，是纯后端接口，自带SWAGGER用于测试接口，最小API是用最少的程序文件和独特、简洁语法的WebAPI 依赖关系注入这一章节与Spring中IOC非常接近，其核心思想是将实例交给容器管理，避免频繁NEW。在主启动类">
+    <meta name="description" content="今天主要学习了EF Core中的更改跟踪、日志记录、事件和诊断和一些C#独特的语法。EF Core:  更改跟踪 实体状态：没有跟踪、已跟踪（已添加、已修改、已删除、未更改） 更改检测：快照【默认&amp;推荐】、通知、手动触发 更改跟踪器API：访问跟踪器中的数据 标识解析：缓存作用-对一条记录进行查找后会放入跟踪器中，后续相同的请求直接从这里拿   日志记录、事件和诊断 Microsoft">
 <meta property="og:type" content="article">
-<meta property="og:title" content="工作日志25-7-9">
-<meta property="og:url" content="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-9/index.html">
+<meta property="og:title" content="日志25-7-16">
+<meta property="og:url" content="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-16/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="跟着教程快速上手了基于控制器的Web API 和 最小API，之后学习了基础篇中概述、应用启动、依赖关系注入（服务）、本机AOT、中间件的部分内容。  Web API与MVC不同，是纯后端接口，自带SWAGGER用于测试接口，最小API是用最少的程序文件和独特、简洁语法的WebAPI 依赖关系注入这一章节与Spring中IOC非常接近，其核心思想是将实例交给容器管理，避免频繁NEW。在主启动类">
+<meta property="og:description" content="今天主要学习了EF Core中的更改跟踪、日志记录、事件和诊断和一些C#独特的语法。EF Core:  更改跟踪 实体状态：没有跟踪、已跟踪（已添加、已修改、已删除、未更改） 更改检测：快照【默认&amp;推荐】、通知、手动触发 更改跟踪器API：访问跟踪器中的数据 标识解析：缓存作用-对一条记录进行查找后会放入跟踪器中，后续相同的请求直接从这里拿   日志记录、事件和诊断 Microsoft">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-09T14:47:02.000Z">
-<meta property="article:modified_time" content="2025-07-09T23:47:39.829Z">
+<meta property="article:published_time" content="2025-07-15T23:16:09.000Z">
+<meta property="article:modified_time" content="2025-07-23T10:35:23.819Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
 <meta property="article:tag" content="日志">
@@ -36,7 +36,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>工作日志25-7-9 — 沖田さん の ブログ</title>
+  <title>日志25-7-16 — 沖田さん の ブログ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -321,7 +321,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="工作日志25-7-9"></span>
+            <span id="subtitle" data-typed-text="日志25-7-16"></span>
           
         </div>
 
@@ -332,8 +332,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-09 22:47" pubdate>
-          2025年7月9日星期三 22:47
+        <time datetime="2025-07-16 07:16" pubdate>
+          2025年7月16日星期三 07:16
         </time>
       </span>
     
@@ -344,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          329 字
+          344 字
         
       </span>
     
@@ -355,7 +355,7 @@
         
         
         
-          3 分钟
+          4 分钟
         
       </span>
     
@@ -404,12 +404,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">工作日志25-7-9</h1>
+            <h1 id="seo-header">日志25-7-16</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月10日星期四 07:47
+                    本文最后更新于 2025年7月23日星期三 18:35
                   
                 
               </p>
@@ -419,16 +419,31 @@
                 
                 <span id="more"></span>
 
-<p>跟着教程快速上手了基于控制器的Web API 和 最小API，之后学习了基础篇中概述、应用启动、依赖关系注入（服务）、本机AOT、中间件的部分内容。</p>
+<p>今天主要学习了EF Core中的更改跟踪、日志记录、事件和诊断和一些C#独特的语法。<br>EF Core:</p>
 <ul>
-<li>Web API与MVC不同，是纯后端接口，自带SWAGGER用于测试接口，最小API是用最少的程序文件和独特、简洁语法的WebAPI</li>
-<li>依赖关系注入这一章节与Spring中IOC非常接近，其核心思想是将实例交给容器管理，避免频繁NEW。在主启动类中注册服务类，然后在需要的地方进行注入（最常见的注入方式是构造函数）</li>
-<li>本机AOT是一种全新的程序执行方式：能将.NET程序运行相关的所有代码、依赖编译成特定的机器码达成一个能直接执行的文件。</li>
-<li>中间件是按照顺序执行的、构成程序请求管道的一系列组件。<ul>
-<li>中间件使用顺序非常重要，错误的使用在某些情况下会导致程序崩溃，比如把用户的鉴权放在了认证前面。</li>
-<li>中间件能用于限流，能划分用户群的限流分区、对不同群里应用不同的限流算法、执行不同的限流后响应。</li>
+<li>更改跟踪<ul>
+<li>实体状态：没有跟踪、已跟踪（已添加、已修改、已删除、未更改）</li>
+<li>更改检测：快照【默认&amp;推荐】、通知、手动触发</li>
+<li>更改跟踪器API：访问跟踪器中的数据</li>
+<li>标识解析：缓存作用-对一条记录进行查找后会放入跟踪器中，后续相同的请求直接从这里拿</li>
 </ul>
 </li>
+<li>日志记录、事件和诊断<ul>
+<li>Microsoft.Extensions.Logging:.NET官方抽象</li>
+<li>简单日志记录：快捷的日志服务，用于开发</li>
+<li>事件<ul>
+<li>传统.NET事件：SavedChanges()前后执行</li>
+<li>拦截器：自定义特定的接口，在接口相关操作前后执行</li>
+</ul>
+</li>
+<li>侦听器：在EF Core的内部操作执行过程中的特定点拦截、修改甚至阻止这些操作</li>
+</ul>
+</li>
+<li>诊断侦听器：相比拦截、侦听器来说，能捕获更加细致的信息，更底层<br>C#:</li>
+<li>索引器：让集合也能像数组那样用[]</li>
+<li>解构赋值：一下子创建、赋予多个值（多从元组获取）</li>
+<li>LINQ：用类似SQL的语法操作集合，比Java中的Stream API更强</li>
+<li>部分类&#x2F;方法：可以把类、方法拆分成多个，运行的时候再组合起来；多用于自定义框架</li>
 </ul>
 
                 
@@ -484,8 +499,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>工作日志25-7-9</div>
-      <div>https://zhiyun.blog/工作日志25-7-9/</div>
+      <div>日志25-7-16</div>
+      <div>https://zhiyun.blog/日志25-7-16/</div>
     </div>
     <div class="license-meta">
       
@@ -497,7 +512,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月9日</div>
+          <div>2025年7月16日</div>
         </div>
       
       
@@ -529,9 +544,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-10/" title="工作日志25-7-10">
+                      <a href="/%E6%97%A5%E5%BF%9725-7-17/" title="日志25-7-17">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">工作日志25-7-10</span>
+                        <span class="hidden-mobile">日志25-7-17</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -539,8 +554,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/" title="工作日志25-7-8">
-                        <span class="hidden-mobile">工作日志25-7-8</span>
+                      <a href="/%E6%97%A5%E5%BF%9725-7-15/" title="日志25-7-15">
+                        <span class="hidden-mobile">日志25-7-15</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
