@@ -18,25 +18,25 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="今天开始进入EF Core的学习，主要学习了 DbContext的配置和初始化、创建模型 这2个章节。  DbContext的配置和初始化 概述：数据库上下文，记录实体类、数据库的信息，负责与数据库的交互操作 上下文池：池化技术，统一管理、分配使用上下文，提高性能   创建模型 实体属性：C#中，字段和属性是2个概念，EF CORE会以属性为标准作为数据库中的列名 生成的值：数据库在INSERT">
+    <meta name="description" content="上午看DbContext:  使用方法 基本依赖注入 直接new DbContext工厂   DbContextOptions （用来创建DbContext时候的配置选项） Expression表达式树构建 动态构造的查询：Expression是用特别麻烦的语法来定义一个Lambda表达式 已编译的模型：可以事先把C#实体类编译、配置好，把原本程序启动时要做的工作提前完成，这样，DbConte">
 <meta property="og:type" content="article">
-<meta property="og:title" content="工作日志25-7-14">
-<meta property="og:url" content="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-14/index.html">
+<meta property="og:title" content="日志25-7-24">
+<meta property="og:url" content="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-24/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="今天开始进入EF Core的学习，主要学习了 DbContext的配置和初始化、创建模型 这2个章节。  DbContext的配置和初始化 概述：数据库上下文，记录实体类、数据库的信息，负责与数据库的交互操作 上下文池：池化技术，统一管理、分配使用上下文，提高性能   创建模型 实体属性：C#中，字段和属性是2个概念，EF CORE会以属性为标准作为数据库中的列名 生成的值：数据库在INSERT">
+<meta property="og:description" content="上午看DbContext:  使用方法 基本依赖注入 直接new DbContext工厂   DbContextOptions （用来创建DbContext时候的配置选项） Expression表达式树构建 动态构造的查询：Expression是用特别麻烦的语法来定义一个Lambda表达式 已编译的模型：可以事先把C#实体类编译、配置好，把原本程序启动时要做的工作提前完成，这样，DbConte">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-14T23:43:36.000Z">
-<meta property="article:modified_time" content="2025-07-15T01:00:24.194Z">
+<meta property="article:published_time" content="2025-07-24T22:57:16.000Z">
+<meta property="article:modified_time" content="2025-07-25T09:37:06.905Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
-<meta property="article:tag" content="周志">
+<meta property="article:tag" content="日志">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>工作日志25-7-14 — 沖田さん の ブログ</title>
+  <title>日志25-7-24 — 沖田さん の ブログ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -321,7 +321,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="工作日志25-7-14"></span>
+            <span id="subtitle" data-typed-text="日志25-7-24"></span>
           
         </div>
 
@@ -332,8 +332,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-15 07:43" pubdate>
-          2025年7月15日星期二 07:43
+        <time datetime="2025-07-25 06:57" pubdate>
+          2025年7月25日星期五 06:57
         </time>
       </span>
     
@@ -344,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          387 字
+          176 字
         
       </span>
     
@@ -355,7 +355,7 @@
         
         
         
-          4 分钟
+          2 分钟
         
       </span>
     
@@ -404,12 +404,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">工作日志25-7-14</h1>
+            <h1 id="seo-header">日志25-7-24</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月15日星期二 09:00
+                    本文最后更新于 2025年7月25日星期五 17:37
                   
                 
               </p>
@@ -418,28 +418,37 @@
               <div class="markdown-body">
                 
                 <span id="more"></span>
-<p>今天开始进入EF Core的学习，主要学习了 DbContext的配置和初始化、创建模型 这2个章节。</p>
+
+<p>上午看DbContext:</p>
 <ul>
-<li>DbContext的配置和初始化<ul>
-<li>概述：数据库上下文，记录实体类、数据库的信息，负责与数据库的交互操作</li>
-<li>上下文池：池化技术，统一管理、分配使用上下文，提高性能</li>
+<li>使用方法<ul>
+<li>基本依赖注入</li>
+<li>直接new</li>
+<li>DbContext工厂</li>
 </ul>
 </li>
-<li>创建模型<ul>
-<li>实体属性：C#中，字段和属性是2个概念，EF CORE会以属性为标准作为数据库中的列名</li>
-<li>生成的值：数据库在INSERT&#x2F;UPDATE时自动填充数据</li>
-<li>阴影和索引器属性：C#类中不存在，但是想数据中存在</li>
-<li>关系：在多对多的关系中，EF CORE会自动创建中间连接类</li>
-<li>索引和约束：主键、外键自动创建聚集、非聚集索引</li>
-<li>继承：父类和子类在数据库中的存储方式（TPT、TPH、TPC）</li>
-<li>支持字段：EF CORE默认以属性作为存储在DB的字段，此时可以手动指定</li>
-<li>值转换&#x2F;值比较器：C#类 &lt;&#x3D;&gt; DB字段</li>
-<li>数据种子：启动程序发现DB为空时，初始化程序中定义的数据</li>
-<li>高级表映射：一个包含其他类中的类数据存储在1或多张表</li>
-<li>无键实体&#x2F;从属实体：都没有主键；后者依赖于父类，前者只用于查询</li>
-<li>空间数据</li>
-<li>批量配置</li>
-<li>具有相同DbContext的交替模型：一个上下文基于不同条件绑定不同实体类</li>
+<li>DbContextOptions （用来创建DbContext时候的配置选项）</li>
+<li>Expression表达式树构建 动态构造的查询：Expression是用特别麻烦的语法来定义一个Lambda表达式</li>
+<li>已编译的模型：可以事先把C#实体类编译、配置好，把原本程序启动时要做的工作提前完成，这样，DbContext启动时就不需要再做这些工作了<ul>
+<li>在实体类特别特别多的时候有用</li>
+</ul>
+</li>
+</ul>
+<p>下午看JavaScript：</p>
+<ul>
+<li>let和var</li>
+<li>模板字符串</li>
+<li>标签函数</li>
+<li>生成器</li>
+<li>弱引用集合<ul>
+<li>WeakSet</li>
+<li>WeakMap</li>
+</ul>
+</li>
+<li>常见的内置函数整理</li>
+<li>OOP里JS的独特写法<ul>
+<li>构造函数</li>
+<li>私有字段</li>
 </ul>
 </li>
 </ul>
@@ -485,7 +494,7 @@
       
         <a href="/tags/%E5%B7%A5%E4%BD%9C/" class="print-no-link">#工作</a>
       
-        <a href="/tags/%E5%91%A8%E5%BF%97/" class="print-no-link">#周志</a>
+        <a href="/tags/%E6%97%A5%E5%BF%97/" class="print-no-link">#日志</a>
       
     </div>
   
@@ -497,8 +506,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>工作日志25-7-14</div>
-      <div>https://zhiyun.blog/工作日志25-7-14/</div>
+      <div>日志25-7-24</div>
+      <div>https://zhiyun.blog/日志25-7-24/</div>
     </div>
     <div class="license-meta">
       
@@ -510,7 +519,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月15日</div>
+          <div>2025年7月25日</div>
         </div>
       
       
@@ -542,9 +551,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-15/" title="工作日志25-7-15">
+                      <a href="/%E6%97%A5%E5%BF%9725-7-25/" title="日志25-7-25">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">工作日志25-7-15</span>
+                        <span class="hidden-mobile">日志25-7-25</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -552,8 +561,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E5%91%A8%E5%BF%9725-7-12/" title="工作周志25-7-12">
-                        <span class="hidden-mobile">工作周志25-7-12</span>
+                      <a href="/%E6%97%A5%E5%BF%9725-7-23/" title="日志25-7-23">
+                        <span class="hidden-mobile">日志25-7-23</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

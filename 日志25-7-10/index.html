@@ -18,15 +18,15 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="跟着官方教程快速上手了部分Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。实操步骤主要分三步：  创建工程 建立实体目录、类 建立页面目录、生成CRUD代码  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”">
+    <meta name="description" content="今天继续学习中间件、主机、配置、选项、环境、日志记录与监视承接昨天速率中间件的学习：在主启动类注册好了中间件后，还可以在控制类&#x2F;Action方法上利用注解更精确地指定该类&#x2F;方法使用的策略；响应缓存中间件能够对用户对同一个接口的访问结果进行缓存，但该中间件没有手动删除缓存的操作。在主启动类启用该中间后，也需要在控制器类的方法上利用相关注解配置其具体的缓存选项。请求解压缩中间件">
 <meta property="og:type" content="article">
-<meta property="og:title" content="工作日志25-7-7">
-<meta property="og:url" content="https://zhiyun.blog/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-7/index.html">
+<meta property="og:title" content="日志25-7-10">
+<meta property="og:url" content="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-10/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="跟着官方教程快速上手了部分Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。实操步骤主要分三步：  创建工程 建立实体目录、类 建立页面目录、生成CRUD代码  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”">
+<meta property="og:description" content="今天继续学习中间件、主机、配置、选项、环境、日志记录与监视承接昨天速率中间件的学习：在主启动类注册好了中间件后，还可以在控制类&#x2F;Action方法上利用注解更精确地指定该类&#x2F;方法使用的策略；响应缓存中间件能够对用户对同一个接口的访问结果进行缓存，但该中间件没有手动删除缓存的操作。在主启动类启用该中间后，也需要在控制器类的方法上利用相关注解配置其具体的缓存选项。请求解压缩中间件">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-07T16:07:25.000Z">
-<meta property="article:modified_time" content="2025-07-10T00:35:33.905Z">
+<meta property="article:published_time" content="2025-07-10T23:09:18.000Z">
+<meta property="article:modified_time" content="2025-07-24T09:34:09.357Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
 <meta property="article:tag" content="日志">
@@ -36,7 +36,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>工作日志25-7-7 — 沖田さん の ブログ</title>
+  <title>日志25-7-10 — 沖田さん の ブログ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -321,7 +321,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="工作日志25-7-7"></span>
+            <span id="subtitle" data-typed-text="日志25-7-10"></span>
           
         </div>
 
@@ -332,8 +332,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-08 00:07" pubdate>
-          2025年7月8日星期二 00:07
+        <time datetime="2025-07-11 07:09" pubdate>
+          2025年7月11日星期五 07:09
         </time>
       </span>
     
@@ -344,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          166 字
+          459 字
         
       </span>
     
@@ -355,7 +355,7 @@
         
         
         
-          2 分钟
+          5 分钟
         
       </span>
     
@@ -404,12 +404,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">工作日志25-7-7</h1>
+            <h1 id="seo-header">日志25-7-10</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月10日星期四 08:35
+                    本文最后更新于 2025年7月24日星期四 17:34
                   
                 
               </p>
@@ -419,19 +419,7 @@
                 
                 <span id="more"></span>
 
-<p>跟着官方教程快速上手了部分Razor Pages Movie、了解工程中的各个目录&#x2F;文件的作用、程序启动后各组件之间的联系、@{}&#x2F;page&#x2F;model指令、本地数据库的GUI操作，过程中留意了一些C#的语法。<br>实操步骤主要分三步：</p>
-<ol>
-<li>创建工程</li>
-<li>建立实体目录、类</li>
-<li>建立页面目录、生成CRUD代码<br>  a. 根据写好的实体类 “使用实体框架生成Razor页面（CRUD）”<br>  b. 利用 PMC(程序包管理器控制台) 的两条命令：<ul>
-<li><code>Add-Migration</code></li>
-<li><code>Update-Database</code><blockquote>
-<p>在修改实体类后，可重新执行a、b步骤同步页面与数据库</p>
-</blockquote>
-</li>
-</ul>
-</li>
-</ol>
+<p>今天继续学习中间件、主机、配置、选项、环境、日志记录与监视<br>承接昨天速率中间件的学习：在主启动类注册好了中间件后，还可以在控制类&#x2F;Action方法上利用注解更精确地指定该类&#x2F;方法使用的策略；<br>响应缓存中间件能够对用户对同一个接口的访问结果进行缓存，但该中间件没有手动删除缓存的操作。在主启动类启用该中间后，也需要在控制器类的方法上利用相关注解配置其具体的缓存选项。<br>请求解压缩中间件能够检测传入的HTTP请求中是否压缩过的请求体，是的话会自动对其进行解压，该中间件默认支持Gzip、Brotli算法<br>中间件可以自定义，其中有一种基于工厂的实现方式，其优点是能够自主控制中间件的实例化方式。<br>配置的加载、覆盖顺序与SpringBoot中的规则相同，命令行配置大于代码配置。要在程序中读取配置，可以直接注入IConfiguration来读取，另一种是使用选项的方式，此方式是将配置绑定某个类上，然后再读取类的数据，此种方式还能用利用数据注解对字段进行验证。<br>环境比起配置而言是更高层次的程序配置，环境配置覆盖顺序与配置覆盖的优先级顺序相似，环境配置能够在代码中进行访问。<br>日志的几个关键点：类别、级别、ID。日志的使用方式：配置、注册、使用。除了.NET自带的日志，还可以集成第三方日志记录提供程序。</p>
 
                 
               </div>
@@ -486,8 +474,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>工作日志25-7-7</div>
-      <div>https://zhiyun.blog/工作日志25-7-7/</div>
+      <div>日志25-7-10</div>
+      <div>https://zhiyun.blog/日志25-7-10/</div>
     </div>
     <div class="license-meta">
       
@@ -499,7 +487,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月8日</div>
+          <div>2025年7月11日</div>
         </div>
       
       
@@ -531,9 +519,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%9725-7-8/" title="工作日志25-7-8">
+                      <a href="/%E6%97%A5%E5%BF%9725-7-11/" title="日志25-7-11">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">工作日志25-7-8</span>
+                        <span class="hidden-mobile">日志25-7-11</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -541,8 +529,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E6%AD%A3%E9%A2%8C%E6%AD%A3%E7%95%B825-4-22/" title="正颌正畸25-4-22">
-                        <span class="hidden-mobile">正颌正畸25-4-22</span>
+                      <a href="/%E6%97%A5%E5%BF%9725-7-9/" title="日志25-7-9">
+                        <span class="hidden-mobile">日志25-7-9</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
