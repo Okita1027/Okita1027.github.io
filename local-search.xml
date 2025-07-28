@@ -4,6 +4,93 @@
   
   
   <entry>
+    <title>日志25-7-29</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-29/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-29/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-7-28</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-28/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-28/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>今日学习小结：</p><ul><li>函数<ul><li>Function类型：所有函数的原型</li></ul></li><li>对象<ul><li>属性名的索引类型<ul><li>字符串</li><li>数字</li></ul></li><li>结构类型原则：鸭子类型</li><li>严格字面量检查：对象赋值时的字段数量必须等同于声明时的数量</li><li>最小可选属性原则：如果对象的所有属性都是可选的，在声明对象时必须至少添加一个可选属性</li><li>空对象：和JS不同的是，声明的空对象不能再被赋值，比如obj.a &#x3D; 1;</li></ul></li><li>interface</li><li>类<ul><li>实例属性的简写形式：直接在构造函数种声明 访问修饰符和属性名,比如 constructor(public name: string) {}</li></ul></li><li>泛型</li><li>枚举<ul><li>只读：枚举本身就是只读的，但在声明枚举时手动添加const能减少TS编译成JS的代码量，缺点是无法使用反向映射</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>周志25-7-26</title>
+    <link href="/%E5%91%A8%E5%BF%9725-7-26/"/>
+    <url>/%E5%91%A8%E5%BF%9725-7-26/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="本阶段我学到了什么"><a href="#本阶段我学到了什么" class="headerlink" title="本阶段我学到了什么"></a>本阶段我学到了什么</h2><ol><li>补充EF Core中DbContext的相关知识：生命周期、使用方法、DbContextOptions、Expression表达式树、已编译的模型</li><li>JavaScript：基础语法（变量与类型、模板字符串、循环与迭代）、函数（Arguments对象、标签函数、生成器函数、常见的预定义函数）、弱引用集合（WeakSet、WeakMap）、OOP（this、私有字段&#x2F;方法、?. ?.() ?.[]）、Promise(三种状态、与Async&#x2F;Await关系、时序)、类型化数组的组成部分、原型&#x2F;原型链、属性的可枚举型和所有权</li><li>TypeScrip：基础用法(类型声明与自动推断)</li></ol><h2 id="本阶段我发现了什么问题"><a href="#本阶段我发现了什么问题" class="headerlink" title="本阶段我发现了什么问题"></a>本阶段我发现了什么问题</h2><ol><li>较难理解JavaScript中所有对象的顶级机制：原型&#x2F;原型链</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>询问AI大模型</li><li>在评审过程中学习</li><li>与周围同学交流</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>周志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-7-25</title>
     <link href="/%E6%97%A5%E5%BF%9725-7-25/"/>
     <url>/%E6%97%A5%E5%BF%9725-7-25/</url>
