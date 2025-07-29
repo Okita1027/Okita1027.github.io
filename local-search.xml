@@ -4,11 +4,24 @@
   
   
   <entry>
+    <title>日志25-7-30</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-30/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-30/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-7-29</title>
     <link href="/%E6%97%A5%E5%BF%9725-7-29/"/>
     <url>/%E6%97%A5%E5%BF%9725-7-29/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><p>今天的进度：结束TS，开始REACT</p><ul><li>装饰器：在不修改原有代码的基础上用于增加或修改类的行为<ul><li>结构：value&#x3D;》被装饰的原有对象；context&#x3D;》上下文对象</li><li>类装饰器：修改类的构造函数或替代构造函数直接返回一个对象</li><li>方法装饰器：替换原有的方法，或返回一个函数</li><li>属性装饰器：可以返回一个函数，在类实例化时自动执行用于字段的赋值</li><li>get&#x2F;set装饰器</li><li>accessor装饰器：替换getter和setter方法</li></ul></li><li>类型运算符<ul><li>keyof</li><li>in</li><li>[]</li><li>extends ? : 与 infer</li><li>is</li></ul></li><li>类型映射：快速将一个已有类型映射为另一个类型</li><li>注释指令：有实际效果的注释<ul><li>&#x2F;&#x2F;&#x2F;</li><li>TS诊断指令</li><li>JS Doc</li><li>ES Lint</li></ul></li><li>React<ul><li>JSX基础语法</li><li>事件绑定</li><li>组件基础<ul><li>受控绑定：useState()</li><li>非受控绑定：useRef()</li></ul></li></ul></li></ul>]]></content>
     
     
     <categories>
@@ -243,6 +256,12 @@
     <content type="html"><![CDATA[<p>因为这个解决方案用得非常多，为了方便今后使用，在自己的站点上也放一份<br>原文：完美解决 git 报错 “fatal: unable to access ‘<a href="https://github.com/.../.git%E2%80%98">https://github.com/.../.git‘</a>: Recv failure Connection was rese</p><blockquote><p><a href="https://blog.csdn.net/qq_43546721/article/details/139506583">https://blog.csdn.net/qq_43546721/article/details/139506583</a></p></blockquote><span id="more"></span><h2 id="取消代理设置"><a href="#取消代理设置" class="headerlink" title="取消代理设置"></a>取消代理设置</h2><blockquote><p>端口号要根据实际更改：</p><ul><li>Clash For Windows ：7890</li><li>Clash Verge : 7897</li></ul></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global --<span class="hljs-built_in">unset</span> http.proxy<br>git config --global --<span class="hljs-built_in">unset</span> https.proxy<br></code></pre></td></tr></table></figure><h2 id="使用本地代理"><a href="#使用本地代理" class="headerlink" title="使用本地代理"></a>使用本地代理</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global http.proxy http://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+    </tags>
     
   </entry>
   

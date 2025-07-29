@@ -15,8 +15,29 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Mon, 28 Jul 2025 22:19:38 GMT</pubDate>
+    <pubDate>Tue, 29 Jul 2025 23:49:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>日志25-7-30</title>
+      <link>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-30/</link>
+      <guid>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-30/</guid>
+      <pubDate>Tue, 29 Jul 2025 23:49:46 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;span</description>
+          
+        
+      
+      
+      
+      
+      
+      
+    </item>
     
     <item>
       <title>日志25-7-29</title>
@@ -272,6 +293,8 @@
       
       
       
+      <category domain="https://zhiyun.blog/tags/Git/">Git</category>
+      
       
     </item>
     
@@ -395,29 +418,6 @@
 &lt;p&gt;今天开始进入EF Core的学习，主要学习了 DbContext的配置和初始化、创建模型</description>
           
         
-      
-      
-      
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/">孟腾</category>
-      
-      
-      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/">周志</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>工作周志25-7-12</title>
-      <link>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-7-12/</link>
-      <guid>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-7-12/</guid>
-      <pubDate>Sat, 12 Jul 2025 08:12:04 GMT</pubDate>
-      
-      <description>&lt;p&gt;周志&amp;amp;学习报告&lt;/p&gt;</description>
       
       
       

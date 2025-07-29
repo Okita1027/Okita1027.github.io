@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-07-28T22:19:38.864Z</updated>
+  <updated>2025-07-29T23:49:46.265Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日志25-7-30</title>
+    <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-30/"/>
+    <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-30/</id>
+    <published>2025-07-29T23:49:46.000Z</published>
+    <updated>2025-07-29T23:49:46.265Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>日志25-7-29</title>
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-29/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-29/</id>
     <published>2025-07-28T22:19:11.000Z</published>
-    <updated>2025-07-28T22:19:38.864Z</updated>
+    <updated>2025-07-29T23:49:26.072Z</updated>
     
     
       
@@ -260,7 +281,7 @@
     <link href="https://zhiyun.blog/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     <id>https://zhiyun.blog/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
     <published>2025-07-18T09:29:51.000Z</published>
-    <updated>2025-07-18T11:13:16.649Z</updated>
+    <updated>2025-07-29T23:50:02.474Z</updated>
     
     
     <summary type="html">&lt;p&gt;因为这个解决方案用得非常多，为了方便今后使用，在自己的站点上也放一份&lt;br&gt;原文：完美解决 git 报错 “fatal: unable to access ‘&lt;a href=&quot;https://github.com/.../.git%E2%80%98&quot;&gt;https://github.com/.../.git‘&lt;/a&gt;: Recv failure Connection was rese&lt;/p&gt;
@@ -270,6 +291,8 @@
     
     
     
+    
+    <category term="Git" scheme="https://zhiyun.blog/tags/Git/"/>
     
   </entry>
   
@@ -395,29 +418,6 @@
 &lt;p&gt;今天开始进入EF Core的学习，主要学习了 DbContext的配置和初始化、创建模型</summary>
         
       
-    
-    
-    
-    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
-    
-    
-    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="周志" scheme="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>工作周志25-7-12</title>
-    <link href="https://zhiyun.blog/%E5%91%A8%E5%BF%9725-7-12/"/>
-    <id>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-7-12/</id>
-    <published>2025-07-12T08:12:04.000Z</published>
-    <updated>2025-07-12T10:33:41.513Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;周志&amp;amp;学习报告&lt;/p&gt;</summary>
     
     
     
