@@ -1,7 +1,7 @@
 ---
 title: 由代理引起的Git报错解决方法
 categories: []
-tags: []
+tags: [Git]
 hide: false
 archive: false
 comment: false
