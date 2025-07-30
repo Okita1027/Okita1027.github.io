@@ -4,13 +4,58 @@
   
   
   <entry>
-    <title>日志25-7-30</title>
-    <link href="/%E6%97%A5%E5%BF%9725-7-30/"/>
-    <url>/%E6%97%A5%E5%BF%9725-7-30/</url>
+    <title>日志25-7-31</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-31/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-31/</url>
     
     <content type="html"><![CDATA[<span id="more"></span>]]></content>
     
     
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-7-30</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-30/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-30/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>今天学完React基础，明天看React Router，后天看Zustand</p><ul><li>组件通信<ul><li>父传子：父组件将数据定义好之后，将属性名写在子组件上，子组件用props接受数据</li><li>子传父：父组件传一个函数给子组件，子组件调用这个函数进行数据传递</li><li>兄弟通信：父传子&#x3D;&gt;子传父</li><li>跨级通信<ol><li>使用 <code>createContext</code>方法创建一个上下文对象Ctx</li><li>在顶层组件（App）中通过 <code>Ctx.Provider</code> 组件提供数据</li><li>在底层组件（B）中通过 <code>useContext</code> 钩子函数获取消费数据</li></ol></li></ul></li><li>副作用管理：useEffect()</li><li>Hook函数：以use开头的函数<ul><li>useReducer: 比useState()强大，更适合管理多个状态</li><li>useMemo: 缓存计算结果，避免重复计算,该函数必须是纯函数</li><li>useCallback: 缓存回调函数，避免重复创建，该函数必须返回一个函数</li><li>useImperativeHandle: 让父组件直接修改子组件的属性</li><li>useDeferredValue: 给某个值一个默认的过期值，让他相比UI组件来说延迟更新</li><li>useLayoutEffect: 跟useEffect()一样，但会在DOM更新之后、浏览器绘制之前执行</li><li>useOptimistic:乐观更新，前端提交后直接更新UI，然后发送请求完成后再更新实际数据</li><li>useId: 生成唯一的id，用于HTML元素，如input的name属性</li><li>useTransition: 作用与useDeferredValue()一样，但控制的粒度更细</li></ul></li><li>组件<ul><li><code>&lt;Fragment&gt;</code> &#x2F; <code>&lt;&gt;&lt;/&gt;</code>：空标签</li><li>StrictMode：严格模式，用于开发环境，会检查组件的渲染逻辑、数据流、事件处理、生命周期方法、组件的props、state和context</li><li>Suspense：用于异步组件，用于处理异步数据加载、错误、加载中状态</li><li>Profile:测量组件树渲染性能</li></ul></li><li>React API:<ul><li>memo:缓存组件渲染结果，避免重复渲染</li><li>lazy:懒加载</li><li>startTransition</li><li>CreateContext</li><li>use</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
     
   </entry>
   
@@ -253,7 +298,7 @@
     <link href="/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     <url>/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     
-    <content type="html"><![CDATA[<p>因为这个解决方案用得非常多，为了方便今后使用，在自己的站点上也放一份<br>原文：完美解决 git 报错 “fatal: unable to access ‘<a href="https://github.com/.../.git%E2%80%98">https://github.com/.../.git‘</a>: Recv failure Connection was rese</p><blockquote><p><a href="https://blog.csdn.net/qq_43546721/article/details/139506583">https://blog.csdn.net/qq_43546721/article/details/139506583</a></p></blockquote><span id="more"></span><h2 id="取消代理设置"><a href="#取消代理设置" class="headerlink" title="取消代理设置"></a>取消代理设置</h2><blockquote><p>端口号要根据实际更改：</p><ul><li>Clash For Windows ：7890</li><li>Clash Verge : 7897</li></ul></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global --<span class="hljs-built_in">unset</span> http.proxy<br>git config --global --<span class="hljs-built_in">unset</span> https.proxy<br></code></pre></td></tr></table></figure><h2 id="使用本地代理"><a href="#使用本地代理" class="headerlink" title="使用本地代理"></a>使用本地代理</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global http.proxy http://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>因为这个解决方案用得非常多，为了方便今后使用，在自己的站点上也放一份</p><blockquote><p>原文：完美解决 git 报错 “fatal: unable to access ‘https :&#x2F;&#x2F;github.com&#x2F;…&#x2F;.git‘: Recv failure Connection was rese<br><a href="https://blog.csdn.net/qq_43546721/article/details/139506583">https://blog.csdn.net/qq_43546721/article/details/139506583</a></p></blockquote><span id="more"></span><h2 id="取消代理设置"><a href="#取消代理设置" class="headerlink" title="取消代理设置"></a>取消代理设置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global --<span class="hljs-built_in">unset</span> http.proxy<br>git config --global --<span class="hljs-built_in">unset</span> https.proxy<br></code></pre></td></tr></table></figure><h2 id="使用本地代理"><a href="#使用本地代理" class="headerlink" title="使用本地代理"></a>使用本地代理</h2><blockquote><p>端口号要根据实际更改：</p><ul><li>Clash For Windows : 7890</li><li>Clash Verge : 7897</li></ul></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global http.proxy http://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
     
     
     
@@ -268,7 +313,7 @@
   
   
   <entry>
-    <title>工作周志25-7-18</title>
+    <title>周志25-7-18</title>
     <link href="/%E5%91%A8%E5%BF%9725-7-18/"/>
     <url>/%E5%91%A8%E5%BF%9725-7-18/</url>
     
@@ -413,7 +458,7 @@
   
   
   <entry>
-    <title>工作周志25-7-12</title>
+    <title>周志25-7-12</title>
     <link href="/%E5%91%A8%E5%BF%9725-7-12/"/>
     <url>/%E5%91%A8%E5%BF%9725-7-12/</url>
     
