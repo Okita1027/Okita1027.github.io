@@ -18,15 +18,15 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="周志&amp;学习报告本周主要学习的是EF Core，之后写了一个图书管理系统的DEMO">
+    <meta name="description" content="本阶段我学到了什么 TypeScript（类型系统、数组、元组、函数、对象、interface、class、泛型、Enum、装饰器、类型运算符、类型映射、注释指令） React（JSX&#x2F;TSX基础语法、事件绑定、组件基础、表单控制、组件通信、副作用管理、常见的钩子函数、组件、React API） React Router（路由配置、渲染策略、数据加载、Action、导航、Pendin">
 <meta property="og:type" content="article">
-<meta property="og:title" content="周志25-7-18">
-<meta property="og:url" content="https://zhiyun.blog/%E5%91%A8%E5%BF%9725-7-18/index.html">
+<meta property="og:title" content="周志25-8-1">
+<meta property="og:url" content="https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-1/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="周志&amp;学习报告本周主要学习的是EF Core，之后写了一个图书管理系统的DEMO">
+<meta property="og:description" content="本阶段我学到了什么 TypeScript（类型系统、数组、元组、函数、对象、interface、class、泛型、Enum、装饰器、类型运算符、类型映射、注释指令） React（JSX&#x2F;TSX基础语法、事件绑定、组件基础、表单控制、组件通信、副作用管理、常见的钩子函数、组件、React API） React Router（路由配置、渲染策略、数据加载、Action、导航、Pendin">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-18T01:44:57.000Z">
-<meta property="article:modified_time" content="2025-07-31T01:26:07.765Z">
+<meta property="article:published_time" content="2025-07-31T14:32:51.000Z">
+<meta property="article:modified_time" content="2025-08-01T07:15:08.031Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
 <meta property="article:tag" content="周志">
@@ -36,7 +36,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>周志25-7-18 — 沖田さん の ブログ</title>
+  <title>周志25-8-1 — 沖田さん の ブログ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -321,7 +321,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="周志25-7-18"></span>
+            <span id="subtitle" data-typed-text="周志25-8-1"></span>
           
         </div>
 
@@ -332,8 +332,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-18 09:44" pubdate>
-          2025年7月18日星期五 09:44
+        <time datetime="2025-07-31 22:32" pubdate>
+          2025年7月31日星期四 22:32
         </time>
       </span>
     
@@ -344,7 +344,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          386 字
+          231 字
         
       </span>
     
@@ -355,7 +355,7 @@
         
         
         
-          4 分钟
+          3 分钟
         
       </span>
     
@@ -404,12 +404,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">周志25-7-18</h1>
+            <h1 id="seo-header">周志25-8-1</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月31日星期四 09:26
+                    本文最后更新于 2025年8月1日星期五 15:15
                   
                 
               </p>
@@ -417,26 +417,23 @@
             
               <div class="markdown-body">
                 
-                <p>周志&amp;学习报告<br>本周主要学习的是EF Core，之后写了一个图书管理系统的DEMO</p>
-<span id="more"></span>
+                <span id="more"></span>
 
 <h2 id="本阶段我学到了什么"><a href="#本阶段我学到了什么" class="headerlink" title="本阶段我学到了什么"></a>本阶段我学到了什么</h2><ol>
-<li>数据库上下文：DbContext是EF Core和数据库进行交互的关键对象，该对象会读取数据库中的所有记录供用户进行读取、编辑，该上下文拥有池化技术。</li>
-<li>创建模型：定义数据库表中的字段是如何与.NET程序中的C#实体类对应、交互的。</li>
-<li>管理数据库架构：这是EF Core与其他语言的ORM框架的不同之处&#x3D;&gt;先写C#实体类字段、（导航）属性、外键，再生成数据库解构；用命令生成用于迁移数据库的文件以方便其他机器快速初始化数据库解构；EF Core也支持逆向工程。</li>
-<li>查询数据：跟踪&#x2F;不跟踪查询、加载导航属性的时机、拆分查询、复杂查询运算符、直接用原生SQL来查询、查询标记、NULL值的比较</li>
-<li>日志、事件和诊断：简单日志、传统saveChanges事件与拦截器、更偏底层，影响更小的侦听器与诊断侦听器。</li>
+<li>TypeScript（类型系统、数组、元组、函数、对象、interface、class、泛型、Enum、装饰器、类型运算符、类型映射、注释指令）</li>
+<li>React（JSX&#x2F;TSX基础语法、事件绑定、组件基础、表单控制、组件通信、副作用管理、常见的钩子函数、组件、React API）</li>
+<li>React Router（路由配置、渲染策略、数据加载、Action、导航、Pending UI）</li>
+<li>Zustand（基本使用、更新状态、不可变状态与合并、重置状态、用props初始化状态、切片模式、useShallow防止重新渲染、combine中间件、persist中间件）</li>
 </ol>
 <h2 id="本阶段我发现了什么问题"><a href="#本阶段我发现了什么问题" class="headerlink" title="本阶段我发现了什么问题"></a>本阶段我发现了什么问题</h2><ol>
-<li>在编写DEMO应用时，多对多关系的处理较棘手</li>
-<li>偏理论与底层的知识应用困难</li>
+<li>React、React Router中有些概念非常相似，没分清楚，不明确如何使用它们</li>
 </ol>
 <h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol>
-<li>与AI大模型交互</li>
-<li>查询相关文档、笔记</li>
-<li>与周围同学交流</li>
+<li>问AI</li>
+<li>在评审过程中记录问题、学习</li>
+<li>与其他人讨论</li>
 </ol>
-<h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>完成DEMO程序、学习.NET生态和VUE3</p>
+<h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>利用React完成第一阶段学习的前端界面、学习WPF</p>
 
                 
               </div>
@@ -491,8 +488,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>周志25-7-18</div>
-      <div>https://zhiyun.blog/周志25-7-18/</div>
+      <div>周志25-8-1</div>
+      <div>https://zhiyun.blog/周志25-8-1/</div>
     </div>
     <div class="license-meta">
       
@@ -504,7 +501,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月18日</div>
+          <div>2025年7月31日</div>
         </div>
       
       
@@ -536,18 +533,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="由代理引起的Git报错解决方法">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">由代理引起的Git报错解决方法</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E6%97%A5%E5%BF%9725-7-17/" title="日志25-7-17">
-                        <span class="hidden-mobile">日志25-7-17</span>
+                      <a href="/%E6%97%A5%E5%BF%9725-7-31/" title="日志25-7-31">
+                        <span class="hidden-mobile">日志25-7-31</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

@@ -4,6 +4,153 @@
   
   
   <entry>
+    <title>周志25-8-1</title>
+    <link href="/%E5%91%A8%E5%BF%9725-8-1/"/>
+    <url>/%E5%91%A8%E5%BF%9725-8-1/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="本阶段我学到了什么"><a href="#本阶段我学到了什么" class="headerlink" title="本阶段我学到了什么"></a>本阶段我学到了什么</h2><ol><li>TypeScript（类型系统、数组、元组、函数、对象、interface、class、泛型、Enum、装饰器、类型运算符、类型映射、注释指令）</li><li>React（JSX&#x2F;TSX基础语法、事件绑定、组件基础、表单控制、组件通信、副作用管理、常见的钩子函数、组件、React API）</li><li>React Router（路由配置、渲染策略、数据加载、Action、导航、Pending UI）</li><li>Zustand（基本使用、更新状态、不可变状态与合并、重置状态、用props初始化状态、切片模式、useShallow防止重新渲染、combine中间件、persist中间件）</li></ol><h2 id="本阶段我发现了什么问题"><a href="#本阶段我发现了什么问题" class="headerlink" title="本阶段我发现了什么问题"></a>本阶段我发现了什么问题</h2><ol><li>React、React Router中有些概念非常相似，没分清楚，不明确如何使用它们</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>问AI</li><li>在评审过程中记录问题、学习</li><li>与其他人讨论</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>利用React完成第一阶段学习的前端界面、学习WPF</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>周志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-7-31</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-31/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-31/</url>
+    
+    <content type="html"><![CDATA[<p>早上YZH的评审花的时间有点多了，今天的学习进度也因此拖慢了很多……</p><span id="more"></span><h2 id="YZH-第二阶段学习评审-问题记录"><a href="#YZH-第二阶段学习评审-问题记录" class="headerlink" title="YZH 第二阶段学习评审 问题记录"></a>YZH 第二阶段学习评审 问题记录</h2><h3 id="for…in-和-for-of"><a href="#for…in-和-for-of" class="headerlink" title="for…in 和 for..of"></a>for…in 和 for..of</h3><h3 id="Date-getFullYear-和-Date-getYear"><a href="#Date-getFullYear-和-Date-getYear" class="headerlink" title="Date.getFullYear() 和 Date.getYear()"></a>Date.getFullYear() 和 Date.getYear()</h3><h3 id="鼠标事件中mouseEnter、mouseLeave、mouseOver、mouseOut"><a href="#鼠标事件中mouseEnter、mouseLeave、mouseOver、mouseOut" class="headerlink" title="鼠标事件中mouseEnter、mouseLeave、mouseOver、mouseOut"></a>鼠标事件中mouseEnter、mouseLeave、mouseOver、mouseOut</h3><h3 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h3><h4 id="结构不能被打断"><a href="#结构不能被打断" class="headerlink" title="结构不能被打断"></a>结构不能被打断</h4><p>何为“结构不能被打断”<br>可以在v-if和v-else-if和v-else之间插入嵌套的if语句吗？</p><h2 id="今日学习记录"><a href="#今日学习记录" class="headerlink" title="今日学习记录"></a>今日学习记录</h2><p>React Router:</p><ul><li>路由（框架模式）<ul><li>配置路由</li><li>路由模块：在外面写好了路由组件，然后引进配置文件来用</li><li>嵌套路由</li><li>根路由</li><li>布局路由：做页面布局的</li><li>索引路由：默认显示的路由组件</li><li>路由前缀</li><li>动态片段</li><li>可选片段</li><li>通配符片段</li><li>组件式路由</li></ul></li><li>渲染策略<ul><li>CSR：客户端渲染</li><li>SSR：服务器端渲染</li><li>SSG：静态生成</li></ul></li><li>数据加载<ul><li>客户端加载（<code>useEffect()</code>）</li><li>服务器端加载(<code>loader()</code>)</li><li>渐进式加载(<code>defer() + Await</code>)</li><li>静态加载(<code>getStaticProps()</code>)</li></ul></li><li>action: 表单提交（GET,POST,PUT,DELETE）时的数据处理操作</li><li>导航<ul><li><code>useNavigate()</code>编程式导航</li><li><code>&lt;Link to=&quot;/&quot;&gt;</code> 声明式导航</li><li><code>&lt;NavLink to=&quot;/&quot;&gt;</code> 带样式的声明式导航</li><li>配置action进行跳转</li></ul></li><li>Pending UI<ul><li>三种状态<ul><li>idle</li><li>loading</li><li>submitting</li></ul></li><li>useNavigation():检测当前的导航状态</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>TODO</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-7-30</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-30/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-30/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>今天学完React基础，明天看React Router，后天看Zustand</p><ul><li>组件通信<ul><li>父传子：父组件将数据定义好之后，将属性名写在子组件上，子组件用props接受数据</li><li>子传父：父组件传一个函数给子组件，子组件调用这个函数进行数据传递</li><li>兄弟通信：父传子&#x3D;&gt;子传父</li><li>跨级通信<ol><li>使用 <code>createContext</code>方法创建一个上下文对象Ctx</li><li>在顶层组件（App）中通过 <code>Ctx.Provider</code> 组件提供数据</li><li>在底层组件（B）中通过 <code>useContext</code> 钩子函数获取消费数据</li></ol></li></ul></li><li>副作用管理：useEffect()</li><li>Hook函数：以use开头的函数<ul><li>useReducer: 比useState()强大，更适合管理多个状态</li><li>useMemo: 缓存计算结果，避免重复计算,该函数必须是纯函数</li><li>useCallback: 缓存回调函数，避免重复创建，该函数必须返回一个函数</li><li>useImperativeHandle: 让父组件直接修改子组件的属性</li><li>useDeferredValue: 给某个值一个默认的过期值，让他相比UI组件来说延迟更新</li><li>useLayoutEffect: 跟useEffect()一样，但会在DOM更新之后、浏览器绘制之前执行</li><li>useOptimistic:乐观更新，前端提交后直接更新UI，然后发送请求完成后再更新实际数据</li><li>useId: 生成唯一的id，用于HTML元素，如input的name属性</li><li>useTransition: 作用与useDeferredValue()一样，但控制的粒度更细</li></ul></li><li>组件<ul><li><code>&lt;Fragment&gt;</code> &#x2F; <code>&lt;&gt;&lt;/&gt;</code>：空标签</li><li>StrictMode：严格模式，用于开发环境，会检查组件的渲染逻辑、数据流、事件处理、生命周期方法、组件的props、state和context</li><li>Suspense：用于异步组件，用于处理异步数据加载、错误、加载中状态</li><li>Profile:测量组件树渲染性能</li></ul></li><li>React API:<ul><li>memo:缓存组件渲染结果，避免重复渲染</li><li>lazy:懒加载</li><li>startTransition</li><li>CreateContext</li><li>use</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-7-29</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-29/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-29/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>今天的进度：结束TS，开始REACT</p><ul><li>装饰器：在不修改原有代码的基础上用于增加或修改类的行为<ul><li>结构：value&#x3D;》被装饰的原有对象；context&#x3D;》上下文对象</li><li>类装饰器：修改类的构造函数或替代构造函数直接返回一个对象</li><li>方法装饰器：替换原有的方法，或返回一个函数</li><li>属性装饰器：可以返回一个函数，在类实例化时自动执行用于字段的赋值</li><li>get&#x2F;set装饰器</li><li>accessor装饰器：替换getter和setter方法</li></ul></li><li>类型运算符<ul><li>keyof</li><li>in</li><li>[]</li><li>extends ? : 与 infer</li><li>is</li></ul></li><li>类型映射：快速将一个已有类型映射为另一个类型</li><li>注释指令：有实际效果的注释<ul><li>&#x2F;&#x2F;&#x2F;</li><li>TS诊断指令</li><li>JS Doc</li><li>ES Lint</li></ul></li><li>React<ul><li>JSX基础语法</li><li>事件绑定</li><li>组件基础<ul><li>受控绑定：useState()</li><li>非受控绑定：useRef()</li></ul></li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-7-28</title>
+    <link href="/%E6%97%A5%E5%BF%9725-7-28/"/>
+    <url>/%E6%97%A5%E5%BF%9725-7-28/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>今日学习小结：</p><ul><li>函数<ul><li>Function类型：所有函数的原型</li></ul></li><li>对象<ul><li>属性名的索引类型<ul><li>字符串</li><li>数字</li></ul></li><li>结构类型原则：鸭子类型</li><li>严格字面量检查：对象赋值时的字段数量必须等同于声明时的数量</li><li>最小可选属性原则：如果对象的所有属性都是可选的，在声明对象时必须至少添加一个可选属性</li><li>空对象：和JS不同的是，声明的空对象不能再被赋值，比如obj.a &#x3D; 1;</li></ul></li><li>interface</li><li>类<ul><li>实例属性的简写形式：直接在构造函数种声明 访问修饰符和属性名,比如 constructor(public name: string) {}</li></ul></li><li>泛型</li><li>枚举<ul><li>只读：枚举本身就是只读的，但在声明枚举时手动添加const能减少TS编译成JS的代码量，缺点是无法使用反向映射</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>周志25-7-26</title>
     <link href="/%E5%91%A8%E5%BF%9725-7-26/"/>
     <url>/%E5%91%A8%E5%BF%9725-7-26/</url>
@@ -182,16 +329,22 @@
     <link href="/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     <url>/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     
-    <content type="html"><![CDATA[<p>因为这个解决方案用得非常多，为了方便今后使用，在自己的站点上也放一份<br>原文：完美解决 git 报错 “fatal: unable to access ‘<a href="https://github.com/.../.git%E2%80%98">https://github.com/.../.git‘</a>: Recv failure Connection was rese</p><blockquote><p><a href="https://blog.csdn.net/qq_43546721/article/details/139506583">https://blog.csdn.net/qq_43546721/article/details/139506583</a></p></blockquote><span id="more"></span><h2 id="取消代理设置"><a href="#取消代理设置" class="headerlink" title="取消代理设置"></a>取消代理设置</h2><blockquote><p>端口号要根据实际更改：</p><ul><li>Clash For Windows ：7890</li><li>Clash Verge : 7897</li></ul></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global --<span class="hljs-built_in">unset</span> http.proxy<br>git config --global --<span class="hljs-built_in">unset</span> https.proxy<br></code></pre></td></tr></table></figure><h2 id="使用本地代理"><a href="#使用本地代理" class="headerlink" title="使用本地代理"></a>使用本地代理</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global http.proxy http://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>因为这个解决方案用得非常多，为了方便今后使用，在自己的站点上也放一份</p><blockquote><p>原文：完美解决 git 报错 “fatal: unable to access ‘https :&#x2F;&#x2F;github.com&#x2F;…&#x2F;.git‘: Recv failure Connection was rese<br><a href="https://blog.csdn.net/qq_43546721/article/details/139506583">https://blog.csdn.net/qq_43546721/article/details/139506583</a></p></blockquote><span id="more"></span><h2 id="取消代理设置"><a href="#取消代理设置" class="headerlink" title="取消代理设置"></a>取消代理设置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global --<span class="hljs-built_in">unset</span> http.proxy<br>git config --global --<span class="hljs-built_in">unset</span> https.proxy<br></code></pre></td></tr></table></figure><h2 id="使用本地代理"><a href="#使用本地代理" class="headerlink" title="使用本地代理"></a>使用本地代理</h2><blockquote><p>端口号要根据实际更改：</p><ul><li>Clash For Windows : 7890</li><li>Clash Verge : 7897</li></ul></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs BASH">git config --global http.proxy http://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+    </tags>
     
   </entry>
   
   
   
   <entry>
-    <title>工作周志25-7-18</title>
+    <title>周志25-7-18</title>
     <link href="/%E5%91%A8%E5%BF%9725-7-18/"/>
     <url>/%E5%91%A8%E5%BF%9725-7-18/</url>
     
@@ -336,7 +489,7 @@
   
   
   <entry>
-    <title>工作周志25-7-12</title>
+    <title>周志25-7-12</title>
     <link href="/%E5%91%A8%E5%BF%9725-7-12/"/>
     <url>/%E5%91%A8%E5%BF%9725-7-12/</url>
     

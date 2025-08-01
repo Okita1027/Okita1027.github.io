@@ -18,25 +18,26 @@
   <meta name="author" content="Okita">
   <meta name="keywords" content="博客,编程,Hexo">
   
-    <meta name="description" content="周志&amp;学习报告本周主要学习的是EF Core，之后写了一个图书管理系统的DEMO">
+    <meta name="description" content="早上YZH的评审花的时间有点多了，今天的学习进度也因此拖慢了很多……">
 <meta property="og:type" content="article">
-<meta property="og:title" content="周志25-7-18">
-<meta property="og:url" content="https://zhiyun.blog/%E5%91%A8%E5%BF%9725-7-18/index.html">
+<meta property="og:title" content="日志25-7-31">
+<meta property="og:url" content="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-31/index.html">
 <meta property="og:site_name" content="沖田さん の ブログ">
-<meta property="og:description" content="周志&amp;学习报告本周主要学习的是EF Core，之后写了一个图书管理系统的DEMO">
+<meta property="og:description" content="早上YZH的评审花的时间有点多了，今天的学习进度也因此拖慢了很多……">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-18T01:44:57.000Z">
-<meta property="article:modified_time" content="2025-07-31T01:26:07.765Z">
+<meta property="article:published_time" content="2025-07-30T21:21:13.000Z">
+<meta property="article:modified_time" content="2025-08-01T03:27:09.041Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
-<meta property="article:tag" content="周志">
+<meta property="article:tag" content="日志">
+<meta property="article:tag" content="TODO">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>周志25-7-18 — 沖田さん の ブログ</title>
+  <title>日志25-7-31 — 沖田さん の ブログ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -321,7 +322,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="周志25-7-18"></span>
+            <span id="subtitle" data-typed-text="日志25-7-31"></span>
           
         </div>
 
@@ -332,8 +333,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-07-18 09:44" pubdate>
-          2025年7月18日星期五 09:44
+        <time datetime="2025-07-31 05:21" pubdate>
+          2025年7月31日星期四 05:21
         </time>
       </span>
     
@@ -344,7 +345,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          386 字
+          307 字
         
       </span>
     
@@ -355,7 +356,7 @@
         
         
         
-          4 分钟
+          3 分钟
         
       </span>
     
@@ -404,12 +405,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">周志25-7-18</h1>
+            <h1 id="seo-header">日志25-7-31</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年7月31日星期四 09:26
+                    本文最后更新于 2025年8月1日星期五 11:27
                   
                 
               </p>
@@ -417,26 +418,58 @@
             
               <div class="markdown-body">
                 
-                <p>周志&amp;学习报告<br>本周主要学习的是EF Core，之后写了一个图书管理系统的DEMO</p>
+                <p>早上YZH的评审花的时间有点多了，今天的学习进度也因此拖慢了很多……</p>
 <span id="more"></span>
 
-<h2 id="本阶段我学到了什么"><a href="#本阶段我学到了什么" class="headerlink" title="本阶段我学到了什么"></a>本阶段我学到了什么</h2><ol>
-<li>数据库上下文：DbContext是EF Core和数据库进行交互的关键对象，该对象会读取数据库中的所有记录供用户进行读取、编辑，该上下文拥有池化技术。</li>
-<li>创建模型：定义数据库表中的字段是如何与.NET程序中的C#实体类对应、交互的。</li>
-<li>管理数据库架构：这是EF Core与其他语言的ORM框架的不同之处&#x3D;&gt;先写C#实体类字段、（导航）属性、外键，再生成数据库解构；用命令生成用于迁移数据库的文件以方便其他机器快速初始化数据库解构；EF Core也支持逆向工程。</li>
-<li>查询数据：跟踪&#x2F;不跟踪查询、加载导航属性的时机、拆分查询、复杂查询运算符、直接用原生SQL来查询、查询标记、NULL值的比较</li>
-<li>日志、事件和诊断：简单日志、传统saveChanges事件与拦截器、更偏底层，影响更小的侦听器与诊断侦听器。</li>
-</ol>
-<h2 id="本阶段我发现了什么问题"><a href="#本阶段我发现了什么问题" class="headerlink" title="本阶段我发现了什么问题"></a>本阶段我发现了什么问题</h2><ol>
-<li>在编写DEMO应用时，多对多关系的处理较棘手</li>
-<li>偏理论与底层的知识应用困难</li>
-</ol>
-<h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol>
-<li>与AI大模型交互</li>
-<li>查询相关文档、笔记</li>
-<li>与周围同学交流</li>
-</ol>
-<h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>完成DEMO程序、学习.NET生态和VUE3</p>
+<h2 id="YZH-第二阶段学习评审-问题记录"><a href="#YZH-第二阶段学习评审-问题记录" class="headerlink" title="YZH 第二阶段学习评审 问题记录"></a>YZH 第二阶段学习评审 问题记录</h2><h3 id="for…in-和-for-of"><a href="#for…in-和-for-of" class="headerlink" title="for…in 和 for..of"></a>for…in 和 for..of</h3><h3 id="Date-getFullYear-和-Date-getYear"><a href="#Date-getFullYear-和-Date-getYear" class="headerlink" title="Date.getFullYear() 和 Date.getYear()"></a>Date.getFullYear() 和 Date.getYear()</h3><h3 id="鼠标事件中mouseEnter、mouseLeave、mouseOver、mouseOut"><a href="#鼠标事件中mouseEnter、mouseLeave、mouseOver、mouseOut" class="headerlink" title="鼠标事件中mouseEnter、mouseLeave、mouseOver、mouseOut"></a>鼠标事件中mouseEnter、mouseLeave、mouseOver、mouseOut</h3><h3 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h3><h4 id="结构不能被打断"><a href="#结构不能被打断" class="headerlink" title="结构不能被打断"></a>结构不能被打断</h4><p>何为“结构不能被打断”<br>可以在v-if和v-else-if和v-else之间插入嵌套的if语句吗？</p>
+<h2 id="今日学习记录"><a href="#今日学习记录" class="headerlink" title="今日学习记录"></a>今日学习记录</h2><p>React Router:</p>
+<ul>
+<li>路由（框架模式）<ul>
+<li>配置路由</li>
+<li>路由模块：在外面写好了路由组件，然后引进配置文件来用</li>
+<li>嵌套路由</li>
+<li>根路由</li>
+<li>布局路由：做页面布局的</li>
+<li>索引路由：默认显示的路由组件</li>
+<li>路由前缀</li>
+<li>动态片段</li>
+<li>可选片段</li>
+<li>通配符片段</li>
+<li>组件式路由</li>
+</ul>
+</li>
+<li>渲染策略<ul>
+<li>CSR：客户端渲染</li>
+<li>SSR：服务器端渲染</li>
+<li>SSG：静态生成</li>
+</ul>
+</li>
+<li>数据加载<ul>
+<li>客户端加载（<code>useEffect()</code>）</li>
+<li>服务器端加载(<code>loader()</code>)</li>
+<li>渐进式加载(<code>defer() + Await</code>)</li>
+<li>静态加载(<code>getStaticProps()</code>)</li>
+</ul>
+</li>
+<li>action: 表单提交（GET,POST,PUT,DELETE）时的数据处理操作</li>
+<li>导航<ul>
+<li><code>useNavigate()</code>编程式导航</li>
+<li><code>&lt;Link to=&quot;/&quot;&gt;</code> 声明式导航</li>
+<li><code>&lt;NavLink to=&quot;/&quot;&gt;</code> 带样式的声明式导航</li>
+<li>配置action进行跳转</li>
+</ul>
+</li>
+<li>Pending UI<ul>
+<li>三种状态<ul>
+<li>idle</li>
+<li>loading</li>
+<li>submitting</li>
+</ul>
+</li>
+<li>useNavigation():检测当前的导航状态</li>
+</ul>
+</li>
+</ul>
 
                 
               </div>
@@ -479,7 +512,9 @@
       
         <a href="/tags/%E5%B7%A5%E4%BD%9C/" class="print-no-link">#工作</a>
       
-        <a href="/tags/%E5%91%A8%E5%BF%97/" class="print-no-link">#周志</a>
+        <a href="/tags/%E6%97%A5%E5%BF%97/" class="print-no-link">#日志</a>
+      
+        <a href="/tags/TODO/" class="print-no-link">#TODO</a>
       
     </div>
   
@@ -491,8 +526,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>周志25-7-18</div>
-      <div>https://zhiyun.blog/周志25-7-18/</div>
+      <div>日志25-7-31</div>
+      <div>https://zhiyun.blog/日志25-7-31/</div>
     </div>
     <div class="license-meta">
       
@@ -504,7 +539,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年7月18日</div>
+          <div>2025年7月31日</div>
         </div>
       
       
@@ -536,9 +571,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/%E7%94%B1%E4%BB%A3%E7%90%86%E5%BC%95%E8%B5%B7%E7%9A%84Git%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="由代理引起的Git报错解决方法">
+                      <a href="/%E5%91%A8%E5%BF%9725-8-1/" title="周志25-8-1">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">由代理引起的Git报错解决方法</span>
+                        <span class="hidden-mobile">周志25-8-1</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -546,8 +581,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/%E6%97%A5%E5%BF%9725-7-17/" title="日志25-7-17">
-                        <span class="hidden-mobile">日志25-7-17</span>
+                      <a href="/%E6%97%A5%E5%BF%9725-7-30/" title="日志25-7-30">
+                        <span class="hidden-mobile">日志25-7-30</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
