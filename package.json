@@ -12,10 +12,10 @@
     "pushAll": "hexo clean && hexo generate && hexo deploy && git add . && git commit -m 默认信息 && git push origin master"
   },
   "hexo": {
-    "version": "7.2.0"
+    "version": "7.3.0"
   },
   "dependencies": {
-    "hexo": "^7.2.0",
+    "hexo": "^7.3.0",
     "hexo-blog-encrypt": "^3.1.9",
     "hexo-cli": "^4.3.2",
     "hexo-deployer-git": "^4.0.0",
