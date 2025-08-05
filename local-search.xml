@@ -4,13 +4,27 @@
   
   
   <entry>
-    <title>Windows系统激活指令</title>
+    <title>Windows、Office激活指令</title>
     <link href="/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/"/>
     <url>/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/</url>
     
-    <content type="html"><![CDATA[<p>命令行激活Windows系统、Office系列</p><span id="more"></span><p>管理员打开PowerShell，键入以下指令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs BASH">irm https://get.activated.win | iex<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>命令行激活Windows系统、Office系列</p><span id="more"></span><p>管理员方式打开 PowerShell ，键入以下指令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs BASH">irm https://get.activated.win | iex<br></code></pre></td></tr></table></figure><p>之后根据UI选择激活的项目</p>]]></content>
     
     
+    <categories>
+      
+      <category>Linux</category>
+      
+      <category>Shell</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工具</tag>
+      
+    </tags>
     
   </entry>
   
@@ -137,7 +151,7 @@
     <link href="/%E6%97%A5%E5%BF%9725-8-5/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-5/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="第二阶段学习评审"><a href="#第二阶段学习评审" class="headerlink" title="第二阶段学习评审"></a>第二阶段学习评审</h2><h3 id="XHY"><a href="#XHY" class="headerlink" title="XHY"></a>XHY</h3><h3 id="QZY"><a href="#QZY" class="headerlink" title="QZY"></a>QZY</h3><h3 id="ZQY"><a href="#ZQY" class="headerlink" title="ZQY"></a>ZQY</h3>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="第二阶段学习问题记录"><a href="#第二阶段学习问题记录" class="headerlink" title="第二阶段学习问题记录"></a>第二阶段学习问题记录</h2><p>REACT&#x2F;VUE  SCSS文件的全局样式</p><p>直接导出函数</p><p>创建组件的方式</p><p>组件传值</p><p>React学习</p><p>ZUSTAND异步函数</p><p>FUNCTION中调用REACT HOOK</p><p>样式，组件封装</p>]]></content>
     
     
     <categories>
@@ -155,6 +169,8 @@
       
       <tag>日志</tag>
       
+      <tag>TODO</tag>
+      
     </tags>
     
   </entry>
@@ -166,7 +182,7 @@
     <link href="/%E6%97%A5%E5%BF%9725-8-4/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-4/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span><p>上午看了会儿WPF、React Query<br>下午换了新的笔记本、装环境</p>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><p>上午看了会儿WPF、React Query<br>下午换了新的笔记本（DELL 11代I5）、装环境</p><p>最肝的一天，晚上只睡了3个多小时（02~06）</p>]]></content>
     
     
     <categories>

@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-08-04T09:15:36.086Z</updated>
+  <updated>2025-08-05T09:20:52.620Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -17,17 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Windows系统激活指令</title>
+    <title>Windows、Office激活指令</title>
     <link href="https://zhiyun.blog/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/"/>
     <id>https://zhiyun.blog/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/</id>
     <published>2025-08-04T09:13:49.000Z</published>
-    <updated>2025-08-04T09:15:36.086Z</updated>
+    <updated>2025-08-05T09:20:52.620Z</updated>
     
     
     <summary type="html">&lt;p&gt;命令行激活Windows系统、Office系列&lt;/p&gt;</summary>
     
     
     
+    <category term="Linux" scheme="https://zhiyun.blog/categories/Linux/"/>
+    
+    <category term="Shell" scheme="https://zhiyun.blog/categories/Linux/Shell/"/>
+    
+    
+    <category term="工具" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -154,7 +160,7 @@
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-5/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-5/</id>
     <published>2025-08-03T02:10:41.000Z</published>
-    <updated>2025-08-04T08:22:00.187Z</updated>
+    <updated>2025-08-05T08:53:39.052Z</updated>
     
     
       
@@ -163,7 +169,7 @@
         
     <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
-&lt;h2 id=&quot;第二阶段学习评审&quot;&gt;&lt;a href=&quot;#第二阶段学习评审&quot; class=&quot;headerlink&quot; title=&quot;第二阶段学习评审&quot;&gt;&lt;/a&gt;第二阶段学习评审&lt;/h2&gt;&lt;h3 id=&quot;XHY&quot;&gt;&lt;a</summary>
+&lt;h2 id=&quot;第二阶段学习问题记录&quot;&gt;&lt;a href=&quot;#第二阶段学习问题记录&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -178,6 +184,8 @@
     
     <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
     
+    <category term="TODO" scheme="https://zhiyun.blog/tags/TODO/"/>
+    
   </entry>
   
   <entry>
@@ -185,7 +193,7 @@
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-4/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-4/</id>
     <published>2025-08-03T02:10:16.000Z</published>
-    <updated>2025-08-04T09:17:05.468Z</updated>
+    <updated>2025-08-05T08:55:40.639Z</updated>
     
     
       
@@ -194,7 +202,7 @@
         
     <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
-&lt;p&gt;上午看了会儿WPF、React</summary>
+&lt;p&gt;上午看了会儿WPF、React Query&lt;br&gt;下午换了新的笔记本（DELL</summary>
         
       
     
