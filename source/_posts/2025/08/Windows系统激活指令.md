@@ -1,7 +1,7 @@
 ---
-title: Windows系统激活指令
-categories: []
-tags: []
+title: Windows、Office激活指令
+categories: [Linux, Shell]
+tags: [工具]
 hide: false
 archive: false
 comment: false
@@ -12,7 +12,8 @@ banner_img:
 ---
 命令行激活Windows系统、Office系列
 <!-- more -->
-管理员打开PowerShell，键入以下指令：
+管理员方式打开 PowerShell ，键入以下指令
 ```BASH
 irm https://get.activated.win | iex
 ```
+之后根据UI选择激活的项目
