@@ -15,8 +15,29 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Sun, 03 Aug 2025 02:12:26 GMT</pubDate>
+    <pubDate>Tue, 05 Aug 2025 12:07:52 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Windows、Office激活指令</title>
+      <link>https://zhiyun.blog/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/</link>
+      <guid>https://zhiyun.blog/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/</guid>
+      <pubDate>Mon, 04 Aug 2025 09:13:49 GMT</pubDate>
+      
+      <description>&lt;p&gt;命令行激活Windows系统、Office系列&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://zhiyun.blog/categories/Linux/">Linux</category>
+      
+      <category domain="https://zhiyun.blog/categories/Linux/Shell/">Shell</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      
+    </item>
     
     <item>
       <title>周志25-8-9</title>
@@ -117,7 +138,8 @@
         
           
           
-      <description>&lt;span</description>
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h2 id=&quot;工作内容&quot;&gt;&lt;a href=&quot;#工作内容&quot; class=&quot;headerlink&quot; title=&quot;工作内容&quot;&gt;&lt;/a&gt;工作内容&lt;/h2&gt;&lt;h3 id=&quot;解决昨天的问题&quot;&gt;&lt;a href=&quot;#解决昨天的问题&quot;</description>
           
         
       
@@ -146,7 +168,9 @@
         
           
           
-      <description>&lt;span</description>
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;第二阶段学习问题记录&quot;&gt;&lt;a href=&quot;#第二阶段学习问题记录&quot; class=&quot;headerlink&quot; title=&quot;第二阶段学习问题记录&quot;&gt;&lt;/a&gt;第二阶段学习问题记录&lt;/h2&gt;&lt;p&gt;可以导出组件export</description>
           
         
       
@@ -162,6 +186,8 @@
       
       <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
       
+      <category domain="https://zhiyun.blog/tags/TODO/">TODO</category>
+      
       
     </item>
     
@@ -175,7 +201,9 @@
         
           
           
-      <description>&lt;span</description>
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;p&gt;上午看了会儿WPF、React Query&lt;br&gt;下午换了新的笔记本（DELL</description>
           
         
       
@@ -425,31 +453,6 @@
       <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
       
       <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>日志25-7-23</title>
-      <link>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-23/</link>
-      <guid>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-23/</guid>
-      <pubDate>Wed, 23 Jul 2025 10:31:51 GMT</pubDate>
-      
-      <description>&lt;p&gt;今天上午进行了第一阶段学习的评审，也许是因为昨晚没睡好的原因，讲的时候感觉精神状态不是很好，有些知识点我当时完全想不起来；代码也没讲得很细致：虽说写了很详细的注释，但感觉还是应该把生疏的地方讲解一下的。&lt;br&gt;我讲完之后，大神指出了我对某些知识点的误解，我就做好标记，日后再重新看一下……&lt;br&gt;虽然没讲好，但总的来说大伙还算满意&lt;br&gt;最近实在是太肝了(晚上起码干道11点，早上6点又起来看)……被问道每天回去之后学多久的时候，我没敢说实话……）&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/">孟腾</category>
-      
-      
-      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
-      
-      <category domain="https://zhiyun.blog/tags/TODO/">TODO</category>
       
       
     </item>

@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Windows、Office激活指令</title>
+    <link href="/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/"/>
+    <url>/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<p>命令行激活Windows系统、Office系列</p><span id="more"></span><p>管理员方式打开 PowerShell ，键入以下指令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs BASH">irm https://get.activated.win | iex<br></code></pre></td></tr></table></figure><p>之后根据UI选择激活的项目</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Linux</category>
+      
+      <category>Shell</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工具</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>周志25-8-9</title>
     <link href="/%E5%91%A8%E5%BF%9725-8-9/"/>
     <url>/%E5%91%A8%E5%BF%9725-8-9/</url>
@@ -95,7 +122,7 @@
     <link href="/%E6%97%A5%E5%BF%9725-8-6/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-6/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="工作内容"><a href="#工作内容" class="headerlink" title="工作内容"></a>工作内容</h2><h3 id="解决昨天的问题"><a href="#解决昨天的问题" class="headerlink" title="解决昨天的问题"></a>解决昨天的问题</h3><p>前提：</p><ol><li>用<code>ZUSTAND</code>做全局状态管理，用户登录鉴权也是放在那里的。</li><li>启用了严格模式：<code>&lt;StrictMode&gt;</code><br>情况：<br>在后台管理页面 <em>退出登录</em> 后，会跳转到 <em>登录页面</em> 显示 2次 “请先登录”。<br>在 <em>退出登录</em> 这个方法中的最后我写的是跳转回 首页<code>/</code>，但是 由于登出让<code>isAuthenticated</code>变为了<code>false</code>,进而导致重新渲染<code>&lt;AdminRoute&gt;</code>，而<code>&lt;AdminRoute&gt;</code>中又写了跳转回到 登录页面和提示 <em>请先登录</em>。</li></ol><h3 id="阅读React官方文档"><a href="#阅读React官方文档" class="headerlink" title="阅读React官方文档"></a>阅读React官方文档</h3><p>粗略地看了看<code>学习React</code>：</p><ol><li>状态管理（useState）</li><li>脱围机制（如何让代码执行效率更高）</li></ol><h3 id="原子化CSS"><a href="#原子化CSS" class="headerlink" title="原子化CSS"></a>原子化CSS</h3><ol><li>Uno CSS</li><li>Tailwind CSS</li></ol>]]></content>
     
     
     <categories>
@@ -124,7 +151,7 @@
     <link href="/%E6%97%A5%E5%BF%9725-8-5/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-5/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="第二阶段学习问题记录"><a href="#第二阶段学习问题记录" class="headerlink" title="第二阶段学习问题记录"></a>第二阶段学习问题记录</h2><p>可以导出组件export deault 组件名称，可以直接导出函数export 函数名</p><p>创建组件的方式</p><ul><li>函数</li><li>类（已过时）</li></ul><p>组件传值</p><ul><li>props</li></ul><p>React学习(阅读官方文档)</p><p>Zustand异步操作</p><p>FUNCTION中调用REACT HOOK<br>要在函数中调用 Hook，你需要满足一个非常重要的规则：Hook 只能在 React 函数组件或自定义 Hook 的顶层调用。</p><p>这意味着你不能在以下情况调用 Hook：</p><ol><li><p>普通的 JavaScript 函数中：Hook 依赖于 React 内部的“Hooks 列表”，只有在 React 渲染组件时，这个列表才可用。</p></li><li><p>条件语句、循环或嵌套函数中：React 依赖 Hook 的调用顺序来正确地关联状态和 Hook。如果 Hook 的调用顺序不固定，React 将无法正确地工作。</p></li></ol><hr><p>样式，组件封装<br>REACT&#x2F;VUE  SCSS文件的全局样式</p><hr><p>JWT安全相关的问题</p>]]></content>
     
     
     <categories>
@@ -142,6 +169,8 @@
       
       <tag>日志</tag>
       
+      <tag>TODO</tag>
+      
     </tags>
     
   </entry>
@@ -153,7 +182,7 @@
     <link href="/%E6%97%A5%E5%BF%9725-8-4/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-4/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><p>上午看了会儿WPF、React Query<br>下午换了新的笔记本（DELL 11代I5）、装环境</p><p>最肝的一天，晚上只睡了3个多小时（02~06）</p>]]></content>
     
     
     <categories>
@@ -949,11 +978,11 @@
   
   
   <entry>
-    <title>面试记录6-26</title>
-    <link href="/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%956-26/"/>
-    <url>/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%956-26/</url>
+    <title>面试记录3-25</title>
+    <link href="/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%953-25/"/>
+    <url>/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%953-25/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="MCSJ"><a href="#MCSJ" class="headerlink" title="MCSJ"></a>MCSJ</h2><p>感觉是最正常的面试了，面试官就对着简历问八股文，自我感觉回答得还不错。<br>问完之后，面试官给我讲了一堆现在公司在做的东西。<br>最后的反问环节我问了他编程的学习方法：“最好去看看框架的源码，有能力的话自己手敲一遍”<br>我都以为面试过了，结果过了两天人事反馈说是有更合适的人选了……</p>]]></content>
+    <content type="html"><![CDATA[<p>正好这个礼拜要回学校准备毕业设计的中期检查，就多请了2天假出来面试……</p><span id="more"></span><h2 id="HLTX"><a href="#HLTX" class="headerlink" title="HLTX"></a>HLTX</h2><h3 id="笔试"><a href="#笔试" class="headerlink" title="笔试"></a>笔试</h3><p>选择：SpringBoot相关的注解<br>名词解释：Linux常见命令含义<br>简答：学生、课程、成绩三张表，按要求写SQL查询语句<br>编程：冒泡排序、递归求斐波那契数列</p><h3 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h3><p>第一个项目拿出来讲了讲，没怎么问专业技能上写的东西，了解我个人性格、家庭住址，讲述公司的业务。</p><h3 id="机试"><a href="#机试" class="headerlink" title="机试"></a>机试</h3><p>查询数据输出为树形结构</p><h2 id="JDRJ"><a href="#JDRJ" class="headerlink" title="JDRJ"></a>JDRJ</h2><h3 id="笔试-1"><a href="#笔试-1" class="headerlink" title="笔试"></a>笔试</h3><p>1：画一个短信登录的流程图<br>2：设计数据库表，要统计用户的登录次数<br>3：写前端<br>4：写后端<br>5：表中的数据量过大怎么办<br>6：访问用户过多，如何提高接口的响应速度<br>7：个人性格中最大的优缺点</p><h3 id="面试-1"><a href="#面试-1" class="headerlink" title="面试"></a>面试</h3><p>以前实习过没有？技术栈是什么？做的什么功能？数据库表是你设计的吗？</p><p>觉得自己设计的对吗？gmt_created中的gmt是什么意思？我要统计前几天的登录次数怎么办？统计次数放缓存里做那怎么保存呢？</p><p>为什么做<em>聚合搜索</em>这个项目，你对ES的理解</p><p>短信轰炸听说过没有？你觉得这是什么样的漏洞？怎么解决？后端怎么过滤请求？</p><h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>第一个过了，但不是很想去。</p><ul><li>上午做完笔试，叫我去面试的时候我就感觉面试已经过了，就是走个流程而已。</li><li>就算搬去同学家，通勤距离还是很远，更何况这也不是长久之计。</li><li>问了一些工作环境、待遇问题，人事最后表示“这些都不是主要的，主要是双方是否能长期做下去”<ul><li>综合待遇还不如现在这家，我要是不了解清楚这些东西，怎么可能长期做下去</li></ul></li></ul><p>第二个面的时候我就知道凉了。</p><ul><li>笔试做了1多钟头,我写得挺满的，感觉就只对着1、2题在问。</li><li>我简历上写的专业技能、RPC项目完全没问。</li><li>我回答问题时也没有仔细思考，因为上午的面试氛围比较轻松，我一直是面带微笑非常放松地回答的。面试官年纪很大，很严肃，只问技术，但我还是习惯性地过于放松，对面试官提出的问题有些没有认真考虑好，脑子一热就随口答了……</li><li>以后面对资深的面试官，得严肃一些，保证思考过程，想清楚了再回答。</li></ul><p>还发现一件事：我是作为实习生去面试的，但所有面试官甚至在面试的时候才知道我没毕业……</p>]]></content>
     
     
     <categories>
@@ -976,11 +1005,11 @@
   
   
   <entry>
-    <title>面试记录3-25</title>
-    <link href="/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%953-25/"/>
-    <url>/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%953-25/</url>
+    <title>面试记录6-26</title>
+    <link href="/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%956-26/"/>
+    <url>/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%956-26/</url>
     
-    <content type="html"><![CDATA[<p>正好这个礼拜要回学校准备毕业设计的中期检查，就多请了2天假出来面试……</p><span id="more"></span><h2 id="HLTX"><a href="#HLTX" class="headerlink" title="HLTX"></a>HLTX</h2><h3 id="笔试"><a href="#笔试" class="headerlink" title="笔试"></a>笔试</h3><p>选择：SpringBoot相关的注解<br>名词解释：Linux常见命令含义<br>简答：学生、课程、成绩三张表，按要求写SQL查询语句<br>编程：冒泡排序、递归求斐波那契数列</p><h3 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h3><p>第一个项目拿出来讲了讲，没怎么问专业技能上写的东西，了解我个人性格、家庭住址，讲述公司的业务。</p><h3 id="机试"><a href="#机试" class="headerlink" title="机试"></a>机试</h3><p>查询数据输出为树形结构</p><h2 id="JDRJ"><a href="#JDRJ" class="headerlink" title="JDRJ"></a>JDRJ</h2><h3 id="笔试-1"><a href="#笔试-1" class="headerlink" title="笔试"></a>笔试</h3><p>1：画一个短信登录的流程图<br>2：设计数据库表，要统计用户的登录次数<br>3：写前端<br>4：写后端<br>5：表中的数据量过大怎么办<br>6：访问用户过多，如何提高接口的响应速度<br>7：个人性格中最大的优缺点</p><h3 id="面试-1"><a href="#面试-1" class="headerlink" title="面试"></a>面试</h3><p>以前实习过没有？技术栈是什么？做的什么功能？数据库表是你设计的吗？</p><p>觉得自己设计的对吗？gmt_created中的gmt是什么意思？我要统计前几天的登录次数怎么办？统计次数放缓存里做那怎么保存呢？</p><p>为什么做<em>聚合搜索</em>这个项目，你对ES的理解</p><p>短信轰炸听说过没有？你觉得这是什么样的漏洞？怎么解决？后端怎么过滤请求？</p><h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>第一个过了，但不是很想去。</p><ul><li>上午做完笔试，叫我去面试的时候我就感觉面试已经过了，就是走个流程而已。</li><li>就算搬去同学家，通勤距离还是很远，更何况这也不是长久之计。</li><li>问了一些工作环境、待遇问题，人事最后表示“这些都不是主要的，主要是双方是否能长期做下去”<ul><li>综合待遇还不如现在这家，我要是不了解清楚这些东西，怎么可能长期做下去</li></ul></li></ul><p>第二个面的时候我就知道凉了。</p><ul><li>笔试做了1多钟头,我写得挺满的，感觉就只对着1、2题在问。</li><li>我简历上写的专业技能、RPC项目完全没问。</li><li>我回答问题时也没有仔细思考，因为上午的面试氛围比较轻松，我一直是面带微笑非常放松地回答的。面试官年纪很大，很严肃，只问技术，但我还是习惯性地过于放松，对面试官提出的问题有些没有认真考虑好，脑子一热就随口答了……</li><li>以后面对资深的面试官，得严肃一些，保证思考过程，想清楚了再回答。</li></ul><p>还发现一件事：我是作为实习生去面试的，但所有面试官甚至在面试的时候才知道我没毕业……</p>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="MCSJ"><a href="#MCSJ" class="headerlink" title="MCSJ"></a>MCSJ</h2><p>感觉是最正常的面试了，面试官就对着简历问八股文，自我感觉回答得还不错。<br>问完之后，面试官给我讲了一堆现在公司在做的东西。<br>最后的反问环节我问了他编程的学习方法：“最好去看看框架的源码，有能力的话自己手敲一遍”<br>我都以为面试过了，结果过了两天人事反馈说是有更合适的人选了……</p>]]></content>
     
     
     <categories>
