@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-08-05T12:07:52.393Z</updated>
+  <updated>2025-08-07T13:35:21.821Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -17,11 +17,72 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>更改.NET解决方案/项目名称的方法</title>
+    <link href="https://zhiyun.blog/%E6%9B%B4%E6%94%B9-NET%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://zhiyun.blog/%E6%9B%B4%E6%94%B9-NET%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+    <published>2025-08-07T12:49:50.000Z</published>
+    <updated>2025-08-07T13:35:21.821Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h2 id=&quot;更改-NET项目的名称的方法&quot;&gt;&lt;a href=&quot;#更改-NET项目的名称的方法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="后端" scheme="https://zhiyun.blog/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term=".NET" scheme="https://zhiyun.blog/categories/%E5%90%8E%E7%AB%AF/NET/"/>
+    
+    
+    <category term=".NET" scheme="https://zhiyun.blog/tags/NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日志25-8-20</title>
+    <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-20/"/>
+    <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-20/</id>
+    <published>2025-08-07T04:40:48.000Z</published>
+    <updated>2025-08-07T14:01:22.030Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h1 id=&quot;第三阶段学习&quot;&gt;&lt;a href=&quot;#第三阶段学习&quot; class=&quot;headerlink&quot; title=&quot;第三阶段学习&quot;&gt;&lt;/a&gt;第三阶段学习&lt;/h1&gt;&lt;h2 id=&quot;讲解大纲&quot;&gt;&lt;a href=&quot;#讲解大纲&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
+    
+    <category term="TODO" scheme="https://zhiyun.blog/tags/TODO/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Windows、Office激活指令</title>
     <link href="https://zhiyun.blog/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/"/>
     <id>https://zhiyun.blog/Windows%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%8C%87%E4%BB%A4/</id>
     <published>2025-08-04T09:13:49.000Z</published>
-    <updated>2025-08-05T12:07:52.393Z</updated>
+    <updated>2025-08-07T13:02:39.881Z</updated>
     
     
     <summary type="html">&lt;p&gt;命令行激活Windows系统、Office系列&lt;/p&gt;</summary>
@@ -73,14 +134,16 @@
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-8/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-8/</id>
     <published>2025-08-03T02:10:53.000Z</published>
-    <updated>2025-08-03T02:11:45.646Z</updated>
+    <updated>2025-08-07T12:48:43.995Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;span</summary>
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;ZY第二阶段学习问题记录&quot;&gt;&lt;a href=&quot;#ZY第二阶段学习问题记录&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -102,14 +165,16 @@
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-7/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-7/</id>
     <published>2025-08-03T02:10:50.000Z</published>
-    <updated>2025-08-03T02:11:40.950Z</updated>
+    <updated>2025-08-07T14:47:05.550Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;span</summary>
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;工作-学习内容&quot;&gt;&lt;a href=&quot;#工作-学习内容&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -131,7 +196,7 @@
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-6/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-6/</id>
     <published>2025-08-03T02:10:46.000Z</published>
-    <updated>2025-08-06T17:12:25.526Z</updated>
+    <updated>2025-08-07T11:51:20.058Z</updated>
     
     
       
@@ -393,65 +458,6 @@
     <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
     
     <category term="周志" scheme="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日志25-7-25</title>
-    <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-25/"/>
-    <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-25/</id>
-    <published>2025-07-24T23:13:10.000Z</published>
-    <updated>2025-07-25T14:48:28.137Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;h2 id=&quot;《魔女之旅》&quot;&gt;&lt;a href=&quot;#《魔女之旅》&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
-    
-    
-    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日志25-7-24</title>
-    <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-24/"/>
-    <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-24/</id>
-    <published>2025-07-24T22:57:16.000Z</published>
-    <updated>2025-07-24T23:12:04.108Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="孟腾" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/"/>
-    
-    
-    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   

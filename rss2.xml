@@ -15,8 +15,71 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Tue, 05 Aug 2025 12:07:52 GMT</pubDate>
+    <pubDate>Thu, 07 Aug 2025 13:35:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>更改.NET解决方案/项目名称的方法</title>
+      <link>https://zhiyun.blog/%E6%9B%B4%E6%94%B9-NET%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <guid>https://zhiyun.blog/%E6%9B%B4%E6%94%B9-NET%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <pubDate>Thu, 07 Aug 2025 12:49:50 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h2 id=&quot;更改-NET项目的名称的方法&quot;&gt;&lt;a href=&quot;#更改-NET项目的名称的方法&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://zhiyun.blog/categories/%E5%90%8E%E7%AB%AF/">后端</category>
+      
+      <category domain="https://zhiyun.blog/categories/%E5%90%8E%E7%AB%AF/NET/">.NET</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/NET/">.NET</category>
+      
+      
+      <comments>https://zhiyun.blog/%E6%9B%B4%E6%94%B9-NET%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0%E7%9A%84%E6%96%B9%E6%B3%95/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>日志25-8-20</title>
+      <link>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-20/</link>
+      <guid>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-20/</guid>
+      <pubDate>Thu, 07 Aug 2025 04:40:48 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h1 id=&quot;第三阶段学习&quot;&gt;&lt;a href=&quot;#第三阶段学习&quot; class=&quot;headerlink&quot; title=&quot;第三阶段学习&quot;&gt;&lt;/a&gt;第三阶段学习&lt;/h1&gt;&lt;h2 id=&quot;讲解大纲&quot;&gt;&lt;a href=&quot;#讲解大纲&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/">孟腾</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
+      
+      <category domain="https://zhiyun.blog/tags/TODO/">TODO</category>
+      
+      
+    </item>
     
     <item>
       <title>Windows、Office激活指令</title>
@@ -80,7 +143,9 @@
         
           
           
-      <description>&lt;span</description>
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;ZY第二阶段学习问题记录&quot;&gt;&lt;a href=&quot;#ZY第二阶段学习问题记录&quot; class=&quot;headerlink&quot;</description>
           
         
       
@@ -109,7 +174,9 @@
         
           
           
-      <description>&lt;span</description>
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;工作-学习内容&quot;&gt;&lt;a href=&quot;#工作-学习内容&quot; class=&quot;headerlink&quot;</description>
           
         
       
@@ -394,65 +461,6 @@
       <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
       
       <category domain="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/">周志</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>日志25-7-25</title>
-      <link>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-25/</link>
-      <guid>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-25/</guid>
-      <pubDate>Thu, 24 Jul 2025 23:13:10 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;h2 id=&quot;《魔女之旅》&quot;&gt;&lt;a href=&quot;#《魔女之旅》&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/">孟腾</category>
-      
-      
-      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>日志25-7-24</title>
-      <link>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-24/</link>
-      <guid>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-7-24/</guid>
-      <pubDate>Thu, 24 Jul 2025 22:57:16 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;span</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/%E5%AD%9F%E8%85%BE/">孟腾</category>
-      
-      
-      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
       
       
     </item>
