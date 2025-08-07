@@ -16,4 +16,4 @@ banner_img:
 ```BASH
 irm https://get.activated.win | iex
 ```
-之后根据UI选择激活的项目
+之后根据UI提示信息选择想要激活的项目
