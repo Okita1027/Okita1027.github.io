@@ -12,7 +12,33 @@ date: 2024-05-12 15:33:00
 这一段文字是摘要，显示在主页和文章页
 <!-- more -->
 
+# 语法高亮
 
+Hexo 对 [highlight.js](https://github.com/highlightjs/highlight.js) 与 [prismjs](https://github.com/PrismJS/prism) 两种代码高亮库提供内建支持。 本篇教程将展示如何将 Hexo 的内建语法高亮组件整合至你的模板中。
+
+## 如何插入代码块
+
+Hexo 支持两种代码块写法——[代码块标签插件](https://hexo.io/zh-cn/docs/tag-plugins#代码块)和[反引号代码块标签插件](https://hexo.io/zh-cn/docs/tag-plugins#反引号代码块)：
+
+````HEXO
+{% codeblock [title] [lang:language] [url] [link text] [additional options] %}
+code snippet
+{% endcodeblock %}
+
+{% code [title] [lang:language] [url] [link text] [additional options] %}
+code snippet
+{% endcode %}
+
+```[language] [title] [url] [link text] [additional options]
+code snippet
+```
+````
+
+上面的第三种是 Markdown 的 fenced code block 语法。 Hexo 对其进行了扩展，使其支持更多特性。 在[标签插件文档](https://hexo.io/zh-cn/docs/tag-plugins#代码块)中你可以找到可用的选项。
+
+> [!TIP]
+>
+> Hexo 支持用任何格式书写文章，只需安装相应渲染插件即可。 可以使用 markdown、ejs、swig、nunjucks、pug、asciidoc 等。 无论使用哪种格式，这三种代码块语法始终可用。
 
 # Hello World
 这是一段脚注
