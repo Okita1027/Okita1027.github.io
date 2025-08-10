@@ -14,7 +14,7 @@ date: 2024-05-12 15:33:00
 
 
 
-# HelloWorld
+# Hello World
 这是一段脚注
 <!-- 空一行 -->
     Indent paragraphs to include them in the footnote.
@@ -60,3 +60,7 @@ int num = 1;
 ## 脚注
 [^1]: https://pan.baidu.com
 [^2]: https://yiyan.baidu.com
+
+
+
+![花嫁光辉](./HelloWorld/花嫁光辉.jpg)

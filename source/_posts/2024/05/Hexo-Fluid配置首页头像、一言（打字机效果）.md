@@ -44,14 +44,16 @@ index:
 4. 把头像图放到主题目录下的 `source/img` 文件夹下，名称同步上面的`图片名.后缀`。
 # 配置一言
 {% gi 2 2 %}
-![配置多参数不生效](https://cdn.jsdelivr.net/gh/Okita1027/blog-images@master/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/invaild-default.png)
-![一言接口示例](https://cdn.jsdelivr.net/gh/Okita1027/blog-images@master/Hexo-Fluid%E9%85%8D%E7%BD%AE%E9%A6%96%E9%A1%B5%E5%A4%B4%E5%83%8F%E3%80%81%E4%B8%80%E8%A8%80%EF%BC%88%E6%89%93%E5%AD%97%E6%9C%BA%E6%95%88%E6%9E%9C%EF%BC%89/hitokoto-example.png)
+![配置多参数不生效](https://cdn.jsdelivr.net/gh/Okita1027/blog-images/2024/05/invaild-default.png)
+![一言接口示例](https://cdn.jsdelivr.net/gh/Okita1027/blog-images/2024/05/hitokoto-example.png)
 {% endgi %}
+
 - 现状：官方提供的配置能够请求接口获取JSON数据，但只能选定**其中一个字段**在首页渲染，此时我希望能同时保留`hitokoto`、`from_who`、`from`。
 - 解决方案：修改打字机程序`typed.ejs`，有背景色的是修改的代码。
-{% code lang:js mark:18-57 %}
-<% if(theme.fun_features.typing.enable && in_scope(theme.fun_features.typing.scope) && page.subtitle !== false) { %>
+  {% code lang:js mark:18-56 %}
+  <% if(theme.fun_features.typing.enable && in_scope(theme.fun_features.typing.scope) && page.subtitle !== false) { %>
     <%- js_ex(theme.static_prefix.typed, '/typed.min.js') %>
+
     <script>
         (function (window, document) {
             var typing = Fluid.plugins.typing;
@@ -119,8 +121,8 @@ index:
             <% } %>
         })(window, document);
     </script>
-<% } %> 
-{% endcode %}
+  <% } %> 
+  {% endcode %}
 # 参考
 [^1]: [一言开发者中心](https://developer.hitokoto.cn/sentence/demo.html)
 [^2]: [Fluid官方打字机配置](https://hexo.fluid-dev.com/docs/guide/#slogan-%E6%89%93%E5%AD%97%E6%9C%BA)
