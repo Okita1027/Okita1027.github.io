@@ -1,6 +1,6 @@
 ---
 title: Windows、Office激活指令
-categories: [Linux, Shell]
+categories: []
 tags: [工具]
 hide: false
 archive: false
