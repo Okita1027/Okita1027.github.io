@@ -8,11 +8,42 @@
     <link href="/%E6%97%A5%E5%BF%9725-8-11/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-11/</url>
     
-    <content type="html"><![CDATA[<p>正式工作有1个月了，昨天父母打电话问问我要不要回家一次，因为学习忙碌，我没打算回。<br>他们表示很想我，况且其他舍友都出差了，所以今天来宿舍看我（爷爷奶奶也一起来了）<br>老爸又给我买了块桌垫，但是我强调这材质根本不能用来当鼠标垫……<br>更让我惋惜的是：（本来我是让他把我家里用的带过来的）结果他以我买的鼠标垫有味道为由全给扔掉了……（我的天.JPG）</p><span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><p>今日</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>孟腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-8-10</title>
+    <link href="/%E6%97%A5%E5%BF%9725-8-10/"/>
+    <url>/%E6%97%A5%E5%BF%9725-8-10/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>正式工作有1个月了，昨天父母打电话问问我要不要回家一次，因为学习忙碌，我没打算回。<br>他们表示很想我，况且其他舍友都出差了，所以今天来宿舍看我（爷爷奶奶也一起来了）<br>老爸又给我买了块桌垫，但是我强调这材质根本不能用来当鼠标垫……<br>更让我惋惜的是：（本来我是让他把我家里用的带过来的）结果他以我买的鼠标垫有味道为由全给扔掉了……（我的天.JPG）</p><hr><p>《蛤蟆先生去看心理医生》<br>原生家庭&#x2F;童年生活会对人长大后的行为举止造成巨大的影响。如今的蛤蟆先生就是这样的</p>]]></content>
     
     
     
     <tags>
+      
+      <tag>阅读</tag>
       
       <tag>日志</tag>
       
@@ -73,7 +104,7 @@
     <link href="/%E6%97%A5%E5%BF%9725-8-20/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-20/</url>
     
-    <content type="html"><![CDATA[<p>WPF理论核心：</p><ol><li>依赖对象&#x2F;依赖属性&#x2F;路由事件等</li><li>数据模板&#x2F;控件模板”</li></ol><span id="more"></span><h1 id="第三阶段学习"><a href="#第三阶段学习" class="headerlink" title="第三阶段学习"></a>第三阶段学习</h1><h2 id="讲解大纲"><a href="#讲解大纲" class="headerlink" title="讲解大纲"></a>讲解大纲</h2><h3 id="React"><a href="#React" class="headerlink" title="React"></a>React</h3><h4 id="双重弹窗"><a href="#双重弹窗" class="headerlink" title="双重弹窗"></a>双重弹窗</h4><p>前提：开启了 严格模式<br>增加条件变量，根据该变量，控制弹窗是否显示</p><h4 id="控件封装"><a href="#控件封装" class="headerlink" title="控件封装"></a>控件封装</h4><p>将页面中的表单输入控件封装成可复用的组件，以避免页面中出现大量的属性声明代码</p><h4 id="原子化CSS"><a href="#原子化CSS" class="headerlink" title="原子化CSS"></a>原子化CSS</h4><ol><li>Uno CSS【实际使用】</li><li>Tailwind CSS【查阅文档】</li></ol><h3 id="WPF"><a href="#WPF" class="headerlink" title="WPF"></a>WPF</h3><h4 id="分页查询——无线滚动"><a href="#分页查询——无线滚动" class="headerlink" title="分页查询——无线滚动"></a>分页查询——无线滚动</h4><h2 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h2><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
+    <content type="html"><![CDATA[<p>WPF理论核心：</p><ol><li>依赖对象&#x2F;依赖属性&#x2F;路由事件等</li><li>数据模板&#x2F;控件模板”</li></ol><span id="more"></span><h1 id="第三阶段学习"><a href="#第三阶段学习" class="headerlink" title="第三阶段学习"></a>第三阶段学习</h1><h2 id="讲解大纲"><a href="#讲解大纲" class="headerlink" title="讲解大纲"></a>讲解大纲</h2><h3 id="React"><a href="#React" class="headerlink" title="React"></a>React</h3><h4 id="双重弹窗"><a href="#双重弹窗" class="headerlink" title="双重弹窗"></a>双重弹窗</h4><p>前提：开启了 严格模式<br>增加条件变量，根据该变量，控制弹窗是否显示</p><h4 id="控件封装"><a href="#控件封装" class="headerlink" title="控件封装"></a>控件封装</h4><p>将页面中的表单输入控件封装成可复用的组件，以避免页面中出现大量的属性声明代码</p><h4 id="原子化CSS"><a href="#原子化CSS" class="headerlink" title="原子化CSS"></a>原子化CSS</h4><ol><li>Uno CSS【实际使用】</li><li>Tailwind CSS【查阅文档】</li></ol><h3 id="WPF"><a href="#WPF" class="headerlink" title="WPF"></a>WPF</h3><h4 id="分页查询——无限滚动"><a href="#分页查询——无限滚动" class="headerlink" title="分页查询——无限滚动"></a>分页查询——无限滚动</h4><h2 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h2><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
     
     
     <categories>
@@ -123,7 +154,7 @@
     <link href="/%E5%91%A8%E5%BF%9725-8-9/"/>
     <url>/%E5%91%A8%E5%BF%9725-8-9/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><p>正式工作开始有1个月的时间了，昨天Black Fish（代）和主管在讨论让我们这批新人进项目的事情（不能让我们一直带薪学习，也该去现场贡献价值了）。再有大概10天就要去溧阳了，听前两个已经出差的同期生说：每天都加班到很晚……<br>《蛤蟆先生去看心理医生》：心理咨询是自发的，咨询者和咨询师双方都要出于自愿才行。</p><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><ol><li>通过Vite构建React前端项目，引入React生态相关依赖完成第一阶段后端项目对应的前端界面</li><li>进入“41拉”项目，.NET 6.102、SQL Server2022的安装，配置SQL Server身份验证，启动程序</li><li>了解WPF基本概念（数据绑定、MVVM、控件大全(布局、数据展示、用户交互)）</li><li>因为笔记本键盘较小，打字时两手靠得更近，在输入问号时，自然养成了使用左shift的习惯</li></ol><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>WPF是Windows窗体应用程序，与传统Web前端页面不一样，以前能用浏览器做的事情现在不好做了</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>问AI</li><li>在技术分享过程中讨论</li><li>与同事交流</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>学习WPF，并为第一阶段的后端项目制作对应的前端页面；熟悉公司项目</p>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="正式工作开始有1个月的时间了，昨天Black-Fish（代）和主管在讨论让我们这批新人进项目的事情（不能让我们一直带薪学习，也该去现场贡献价值了）。再有大概10天就要去溧阳了，听前两个已经出差的同期生说：每天都加班到很晚……"><a href="#正式工作开始有1个月的时间了，昨天Black-Fish（代）和主管在讨论让我们这批新人进项目的事情（不能让我们一直带薪学习，也该去现场贡献价值了）。再有大概10天就要去溧阳了，听前两个已经出差的同期生说：每天都加班到很晚……" class="headerlink" title="正式工作开始有1个月的时间了，昨天Black Fish（代）和主管在讨论让我们这批新人进项目的事情（不能让我们一直带薪学习，也该去现场贡献价值了）。再有大概10天就要去溧阳了，听前两个已经出差的同期生说：每天都加班到很晚……"></a>正式工作开始有1个月的时间了，昨天Black Fish（代）和主管在讨论让我们这批新人进项目的事情（不能让我们一直带薪学习，也该去现场贡献价值了）。再有大概10天就要去溧阳了，听前两个已经出差的同期生说：每天都加班到很晚……</h2><p>《蛤蟆先生去看心理医生》<br>心理咨询是自发的，咨询者和咨询师双方都要出于自愿才行。</p><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><ol><li>通过Vite构建React前端项目，引入React生态相关依赖完成第一阶段后端项目对应的前端界面</li><li>进入“41拉”项目，.NET 6.102、SQL Server2022的安装，配置SQL Server身份验证，启动程序</li><li>了解WPF基本概念（数据绑定、MVVM、控件大全(布局、数据展示、用户交互)）</li><li>因为笔记本键盘较小，打字时两手靠得更近，在输入问号时，自然养成了使用左shift的习惯</li></ol><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>WPF是Windows窗体应用程序，与传统Web前端页面不一样，以前能用浏览器做的事情现在不好做了</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>问AI</li><li>在技术分享过程中讨论</li><li>与同事交流</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>学习WPF，并为第一阶段的后端项目制作对应的前端页面；熟悉公司项目</p>]]></content>
     
     
     <categories>
@@ -136,6 +167,8 @@
     
     
     <tags>
+      
+      <tag>阅读</tag>
       
       <tag>工作</tag>
       
