@@ -3,16 +3,17 @@
 - 框架：Hexo
 - 主题：Fluid
 - 图床：
-  - 主要使用(GitHub + [jsDelivr](https://www.jsdelivr.com/?docs=gh))，偶尔用[sm.ms](https://sm.ms)
+  - 主要使用(GitHub + [jsDelivr](https://www.jsdelivr.com/?docs=gh))，偶尔会用[sm.ms](https://sm.ms)
   - 文章的封面、背景图放博客仓库（[Okita1027.github.io](https://github.com/Okita1027/Okita1027.github.io)），文章中其它图片放图床仓库[blog-images](https://github.com/Okita1027/blog-images)
 - 写作：
   - Typora + [插件](https://github.com/obgnail/typora_plugin) + [PicGo](https://github.com/Molunerfinn/PicGo)
 ## 分支说明
 - master：源代码（笔记、图片、配置），部署镜像站
-- gh-pages：生成的HTML页面，渲染GitHub Pages
+- gh-pages：生成的HTML页面，渲染 GitHub Pages
 ## 镜像站
-- Netlify(可直连) => https://zhiyun.netlify.app/
+- Netlify => https://zhiyun.netlify.app/
   - 自定义域名：https://zhiyun.space
+  - 待解决的问题：每篇文章的最后更新时间都一样
 - Vercel => https://okita1027-github-io.vercel.app/
 - CloudFlare => https://zhiyun.pages.dev/
 - Stormkit => https://razorbrass-zd2nww.stormkit.dev/
