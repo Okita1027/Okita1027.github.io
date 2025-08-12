@@ -28,7 +28,8 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Restore file modification time
-        run: git ls-files -z | while read -d '' path; do touch -d "$(git log -1 --format="@%ct" "$path")" "$path"; done
+        run: |
+          git ls-files -z | while read -d '' path; do touch -d "$(git log -1 --format="@%ct" "$path")" "$path"; done
       - name: Install Dependencies
         run: npm install
       - name: Build
