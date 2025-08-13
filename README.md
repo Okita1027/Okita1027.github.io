@@ -13,7 +13,6 @@
 ## 镜像站
 - Netlify => https://zhiyun.netlify.app/
   - 自定义域名：https://zhiyun.space
-  - 待解决的问题：每篇文章的最后更新时间都一样
 - Vercel => https://okita1027-github-io.vercel.app/
 - CloudFlare => https://zhiyun.pages.dev/
 - Stormkit => https://razorbrass-zd2nww.stormkit.dev/
