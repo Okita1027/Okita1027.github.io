@@ -108,11 +108,11 @@ encrypt:
   - {name: 实习, password: 7777}
   - {name: 面试, password: 7777}
   wrong_pass_message: 密码错误
-  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容
 
 # Live2D看板娘配置
 live2d:
-  enable: true
+  enable: false
   pluginModelPath: assets/
   model:
     #模板目录，在node_modules里
