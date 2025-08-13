@@ -2,8 +2,9 @@ name: Pages
 
 on:
   push:
+  pull_request:
     branches:
-      - master # default branch
+      - master
 
 jobs:
   build:
@@ -42,6 +43,14 @@ jobs:
           publish-dir: ./public
           production-branch: master
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy to Netlify From Github Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
