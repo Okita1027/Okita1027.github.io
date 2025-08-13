@@ -14,7 +14,7 @@ banner_img:
 hide: false
 archive: false
 comment: false
-password: ""
+# password: ""
 ---
 
 <!-- more -->
