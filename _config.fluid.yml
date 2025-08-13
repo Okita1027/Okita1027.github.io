@@ -366,8 +366,8 @@ navbar:
       icon: "iconfont icon-mirror",
       submenu: [
         { key: "Vercel", link: 'https://okita1027-github-io.vercel.app/', icon: "iconfont icon-vercel" },
-        { key: "Stormkit", link: 'https://razorbrass-zd2nww.stormkit.dev/', icon: "iconfont icon-storm" },
         { key: "Netlify", link: 'https://zhiyun.netlify.app/', icon: "iconfont icon-netlify" },
+        { key: "Stormkit", link: 'https://razorbrass-zd2nww.stormkit.dev/', icon: "iconfont icon-storm" },
         { key: "CloudFlare", link: 'https://zhiyun.pages.dev/', icon: "iconfont icon-cloudflare" }
         # { key: "Render", link: '', icon: "iconfont icon-render" }
       ]

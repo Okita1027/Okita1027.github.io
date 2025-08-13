@@ -50,8 +50,8 @@ Vercel:
 
 Netlify:
   menu: 'Netlify'
-  title: 'Netlify(推荐)'
-  subtitle: 'Netlify(推荐)'
+  title: 'Netlify'
+  subtitle: 'Netlify'
 
 CloudFlare:
   menu: 'CloudFlare'
