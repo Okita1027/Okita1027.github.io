@@ -15,8 +15,33 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Thu, 21 Aug 2025 22:59:04 GMT</pubDate>
+    <pubDate>Fri, 22 Aug 2025 16:38:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>周志25-8-23</title>
+      <link>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-23/</link>
+      <guid>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-23/</guid>
+      <pubDate>Fri, 22 Aug 2025 16:34:32 GMT</pubDate>
+      
+      <description>&lt;p&gt;原则上来说每周的最后一个工作日下班前提交学习报告，根据这两天的工作情况，我决定提前把这个写好上传。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/MT/">MT</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/">周志</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/">出差</category>
+      
+      
+    </item>
     
     <item>
       <title>日志25-8-22</title>
@@ -30,8 +55,7 @@
           
       <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
-&lt;h2 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot; title=&quot;阅读&quot;&gt;&lt;/a&gt;阅读&lt;/h2&gt;&lt;p&gt;《罪与罚》1.4&lt;/p&gt;
-&lt;h2 id=&quot;工作&quot;&gt;&lt;a href=&quot;#工作&quot;</description>
+&lt;h2 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot; title=&quot;阅读&quot;&gt;&lt;/a&gt;阅读&lt;/h2&gt;&lt;p&gt;《罪与罚》1.4 1.5</description>
           
         
       
@@ -45,9 +69,9 @@
       
       <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
       
-      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
-      
       <category domain="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/">出差</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
       
       
     </item>
@@ -102,9 +126,9 @@
       
       <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
       
-      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
-      
       <category domain="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/">出差</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
       
       
     </item>
@@ -395,37 +419,6 @@
       
       
       <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E5%85%B7/">工具</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>周志25-8-9</title>
-      <link>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-9/</link>
-      <guid>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-9/</guid>
-      <pubDate>Sun, 03 Aug 2025 02:10:57 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;h1 id=&quot;日志&quot;&gt;&lt;a href=&quot;#日志&quot; class=&quot;headerlink&quot; title=&quot;日志&quot;&gt;&lt;/a&gt;日志&lt;/h1&gt;&lt;p&gt;正式工作开始有1个月的时间了，昨天Black</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/MT/">MT</category>
-      
-      
-      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/">周志</category>
       
       
     </item>

@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-08-21T22:59:04.743Z</updated>
+  <updated>2025-08-22T16:38:03.734Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>周志25-8-23</title>
+    <link href="https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-23/"/>
+    <id>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-23/</id>
+    <published>2025-08-22T16:34:32.000Z</published>
+    <updated>2025-08-22T16:38:03.734Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;原则上来说每周的最后一个工作日下班前提交学习报告，根据这两天的工作情况，我决定提前把这个写好上传。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="MT" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/MT/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="周志" scheme="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/"/>
+    
+    <category term="出差" scheme="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日志25-8-22</title>
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-22/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-22/</id>
     <published>2025-08-21T15:45:06.000Z</published>
-    <updated>2025-08-21T22:59:04.743Z</updated>
+    <updated>2025-08-22T16:34:06.194Z</updated>
     
     
       
@@ -30,8 +55,7 @@
         
     <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
-&lt;h2 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot; title=&quot;阅读&quot;&gt;&lt;/a&gt;阅读&lt;/h2&gt;&lt;p&gt;《罪与罚》1.4&lt;/p&gt;
-&lt;h2 id=&quot;工作&quot;&gt;&lt;a href=&quot;#工作&quot;</summary>
+&lt;h2 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot; title=&quot;阅读&quot;&gt;&lt;/a&gt;阅读&lt;/h2&gt;&lt;p&gt;《罪与罚》1.4 1.5</summary>
         
       
     
@@ -44,9 +68,9 @@
     
     <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
     
-    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
-    
     <category term="出差" scheme="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
@@ -101,9 +125,9 @@
     
     <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
     
-    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
-    
     <category term="出差" scheme="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
@@ -390,37 +414,6 @@
     
     
     <category term="工具" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周志25-8-9</title>
-    <link href="https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-9/"/>
-    <id>https://zhiyun.blog/%E5%91%A8%E5%BF%9725-8-9/</id>
-    <published>2025-08-03T02:10:57.000Z</published>
-    <updated>2025-08-20T22:59:31.143Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;h1 id=&quot;日志&quot;&gt;&lt;a href=&quot;#日志&quot; class=&quot;headerlink&quot; title=&quot;日志&quot;&gt;&lt;/a&gt;日志&lt;/h1&gt;&lt;p&gt;正式工作开始有1个月的时间了，昨天Black</summary>
-        
-      
-    
-    
-    
-    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="MT" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/MT/"/>
-    
-    
-    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="周志" scheme="https://zhiyun.blog/tags/%E5%91%A8%E5%BF%97/"/>
     
   </entry>
   
