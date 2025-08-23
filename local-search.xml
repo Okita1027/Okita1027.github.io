@@ -4,11 +4,42 @@
   
   
   <entry>
+    <title>日志25-8-24</title>
+    <link href="/%E6%97%A5%E5%BF%9725-8-24/"/>
+    <url>/%E6%97%A5%E5%BF%9725-8-24/</url>
+    
+    <content type="html"><![CDATA[<p>出差期间休息日最好也去上班，否则差补会减半，不过休息日上班可以晚点去</p><span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《罪与罚》2.1</p><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>周志25-8-23</title>
     <link href="/%E5%91%A8%E5%BF%9725-8-23/"/>
     <url>/%E5%91%A8%E5%BF%9725-8-23/</url>
     
-    <content type="html"><![CDATA[<p>原则上来说每周的最后一个工作日下班前提交学习报告，根据这两天的工作情况，我决定提前把这个写好上传。</p><span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><p>1. </p><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>对现场项目的业务逻辑缺乏总体性的认识</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>询问AI</li><li>与前辈交流</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><ol><li>熟悉41拉项目代码</li><li>学习PACK线业务</li></ol>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《罪与罚》1.7<br>主角最终还是动手了，但令我感到意外的是这件事情居然只花了1小节来讲，并且整个过程的语言描述十分简单</p><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>今天开始联调了，联调其实就是测试，看看供应商的系统能否正常运行<br>今天测试的比较少：人工站OP010~OP040</p><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><ol><li>PACK线的大致业务逻辑、核心概念</li><li>各个供应商、部门人员之间的合作关系</li><li>项目前期的准备工作：上电、拉网线、配IP，杀毒、加域</li><li>MES系统的使用：工艺、配方</li></ol><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>对现场项目的业务逻辑缺乏总体性的认识</li><li>不了解项目代码，项目代码庞大，没有时间看、</li><li>现场没网，不利于学习</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>与前辈交流</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><ol><li>熟悉41拉项目代码</li><li>学习PACK线业务</li><li>解决常见的问题</li></ol>]]></content>
     
     
     <categories>
@@ -55,9 +86,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -117,9 +148,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
