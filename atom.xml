@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-08-23T14:52:57.520Z</updated>
+  <updated>2025-08-24T22:44:53.624Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日志25-8-25</title>
+    <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-25/"/>
+    <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-25/</id>
+    <published>2025-08-24T22:44:33.000Z</published>
+    <updated>2025-08-24T22:44:53.624Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot; title=&quot;阅读&quot;&gt;&lt;/a&gt;阅读&lt;/h2&gt;&lt;p&gt;《罪与罚》2.1&lt;/p&gt;
+&lt;h2 id=&quot;工作&quot;&gt;&lt;a href=&quot;#工作&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="MT" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/MT/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
+    
+    <category term="出差" scheme="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日志25-8-24</title>
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-24/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-24/</id>
     <published>2025-08-23T14:51:55.000Z</published>
-    <updated>2025-08-23T14:52:57.520Z</updated>
+    <updated>2025-08-24T22:43:00.932Z</updated>
     
     
     <summary type="html">&lt;p&gt;出差期间休息日最好也去上班，否则差补会减半，不过休息日上班可以晚点去&lt;/p&gt;</summary>
@@ -402,34 +436,6 @@
     
     
     <category term="工具" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>更改.NET解决方案/项目名称的方法</title>
-    <link href="https://zhiyun.blog/%E6%9B%B4%E6%94%B9-NET%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>https://zhiyun.blog/%E6%9B%B4%E6%94%B9-NET%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0%E7%9A%84%E6%96%B9%E6%B3%95/</id>
-    <published>2025-08-07T12:49:50.000Z</published>
-    <updated>2025-08-20T22:59:31.149Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;h2 id=&quot;更改-NET项目的名称的方法&quot;&gt;&lt;a href=&quot;#更改-NET项目的名称的方法&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="后端" scheme="https://zhiyun.blog/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    <category term=".NET" scheme="https://zhiyun.blog/categories/%E5%90%8E%E7%AB%AF/NET/"/>
-    
-    
-    <category term=".NET" scheme="https://zhiyun.blog/tags/NET/"/>
     
   </entry>
   
