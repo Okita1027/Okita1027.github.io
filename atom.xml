@@ -6,7 +6,7 @@
   <link href="https://zhiyun.blog/atom.xml" rel="self"/>
   
   <link href="https://zhiyun.blog/"/>
-  <updated>2025-08-24T22:44:53.624Z</updated>
+  <updated>2025-08-25T18:24:14.294Z</updated>
   <id>https://zhiyun.blog/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日志25-8-26</title>
+    <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-26/"/>
+    <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-26/</id>
+    <published>2025-08-25T18:24:14.000Z</published>
+    <updated>2025-08-25T18:24:14.294Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="MT" scheme="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/MT/"/>
+    
+    
+    <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
+    
+    <category term="出差" scheme="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日志25-8-25</title>
     <link href="https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-25/"/>
     <id>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-25/</id>
     <published>2025-08-24T22:44:33.000Z</published>
-    <updated>2025-08-24T22:44:53.624Z</updated>
+    <updated>2025-08-25T18:40:30.592Z</updated>
     
     
       
@@ -30,8 +61,7 @@
         
     <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
-&lt;h2 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot; title=&quot;阅读&quot;&gt;&lt;/a&gt;阅读&lt;/h2&gt;&lt;p&gt;《罪与罚》2.1&lt;/p&gt;
-&lt;h2 id=&quot;工作&quot;&gt;&lt;a href=&quot;#工作&quot;</summary>
+&lt;h2 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -419,23 +449,6 @@
     <category term="工作" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/"/>
     
     <category term="日志" scheme="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>尚硅谷资料地址</title>
-    <link href="https://zhiyun.blog/%E5%B0%9A%E7%A1%85%E8%B0%B7%E8%B5%84%E6%96%99%E5%9C%B0%E5%9D%80/"/>
-    <id>https://zhiyun.blog/%E5%B0%9A%E7%A1%85%E8%B0%B7%E8%B5%84%E6%96%99%E5%9C%B0%E5%9D%80/</id>
-    <published>2025-08-09T22:44:29.000Z</published>
-    <updated>2025-08-20T22:59:31.145Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;PC端微信是真难用：如果连着几天没登录，下次登录的时候就让我用手机确认&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="工具" scheme="https://zhiyun.blog/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
