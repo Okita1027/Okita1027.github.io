@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-8-27</title>
+    <link href="/%E6%97%A5%E5%BF%9725-8-27/"/>
+    <url>/%E6%97%A5%E5%BF%9725-8-27/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《罪与罚》2.2<br>在做完那件事情后，主角的内心充斥着恐惧不安，今天发生的很多事情都让他以为自己的行径已经被查出来了。</p><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>白玉兰酒店的早饭恐怕有问题，今天上午突然拉肚子了；最关键的是当时刚好有领导要来，一楼不让走，只能做物流的电梯上2楼，结果上厕所还要排队，我真是很长时间没有经历过这种事儿了……<br>上午自动站没走完，下午开始全程跟线，一直到下班，晚饭都没吃……</p><h3 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h3><ul><li>前置工序未完成<ul><li>找到数据库中的Task_Main表，复制、粘贴最后一条数据，改一下其中的工作站（Station）和步骤（Step）Id</li></ul></li><li>权限等级<ul><li>5：管理员</li><li>4：工程师</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>出差</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-8-26</title>
     <link href="/%E6%97%A5%E5%BF%9725-8-26/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-26/</url>
@@ -24,9 +55,9 @@
       
       <tag>工作</tag>
       
-      <tag>日志</tag>
-      
       <tag>出差</tag>
+      
+      <tag>日志</tag>
       
     </tags>
     
@@ -55,9 +86,9 @@
       
       <tag>工作</tag>
       
-      <tag>日志</tag>
-      
       <tag>出差</tag>
+      
+      <tag>日志</tag>
       
     </tags>
     
@@ -86,9 +117,9 @@
       
       <tag>工作</tag>
       
-      <tag>日志</tag>
-      
       <tag>出差</tag>
+      
+      <tag>日志</tag>
       
     </tags>
     
@@ -148,9 +179,9 @@
       
       <tag>工作</tag>
       
-      <tag>日志</tag>
-      
       <tag>出差</tag>
+      
+      <tag>日志</tag>
       
     </tags>
     
@@ -210,9 +241,9 @@
       
       <tag>工作</tag>
       
-      <tag>日志</tag>
-      
       <tag>出差</tag>
+      
+      <tag>日志</tag>
       
     </tags>
     
