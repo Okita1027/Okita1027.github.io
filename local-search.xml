@@ -4,6 +4,68 @@
   
   
   <entry>
+    <title>日志25-8-29</title>
+    <link href="/%E6%97%A5%E5%BF%9725-8-29/"/>
+    <url>/%E6%97%A5%E5%BF%9725-8-29/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-8-28</title>
+    <link href="/%E6%97%A5%E5%BF%9725-8-28/"/>
+    <url>/%E6%97%A5%E5%BF%9725-8-28/</url>
+    
+    <content type="html"><![CDATA[<p>晚上听一个基层C公司人员说加班连额外补贴都没有，这么大的单位连最基本的法律制度都不遵守……<br>最搞笑的是昨天一下午把现场都布置好了，今天彩排，然后明天为了庆祝LY7正式投产，邀请总部的法人、溧阳&#x2F;常州市的领导等高层干部来庆祝；也许是为了给这帮人对于现场的面子&#x2F;好印象，这两天还要求我们换条道进入车间，进车间穿鞋套（车间的地面干干净净，这合理吗？？？真叫人恶心）</p><span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>早晨又看了下《高效能人士的7个习惯》中的前3个习惯，回想起来，“以终为始”、“要事第一”我做的还是不够好，在车间的很多碎片化时间没有充分利用起来学习。<br>《罪与罚》这种大体量的小说果然还是不适合利用碎片化时间阅读；因此我还是决定阅读专业性的技术书籍了……</p><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><ol><li>一般的C公司人员提出的不合理需求（骚操作）可以不做，先顶住压力（话术拖延），不行再找SAS谈</li><li>拧紧枪错误的解决办法<ul><li>关机重启</li><li>若报错NG &#x2F; 角度不对，则重新操作（比如拧螺丝）</li><li>找PLC &#x2F; ME</li></ul></li><li>关于返工：设置确定返工在弹窗的右下角，而不是设置未完工</li><li>已完工&#x2F;前置工序未完成 怎么解决？<ul><li>手动设置当前工站&#x2F;前面工站的完工状态</li></ul></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-8-27</title>
     <link href="/%E6%97%A5%E5%BF%9725-8-27/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-27/</url>
@@ -24,9 +86,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -55,9 +117,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -86,9 +148,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -117,9 +179,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -179,9 +241,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -241,9 +303,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
