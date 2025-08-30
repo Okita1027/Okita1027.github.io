@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>周志25-8-30</title>
+    <link href="/%E5%91%A8%E5%BF%9725-8-30/"/>
+    <url>/%E5%91%A8%E5%BF%9725-8-30/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《人性的优点》第一部分</p><ol><li>活在当下：将今天活到极致，不要过分担忧过去&#x2F;未来的事情</li><li>最坏的情况是什么？假设真的发生了会怎样？如何处理？ 发生之后请保持冷静！</li><li>忧虑对身心健康有极大的负面影响</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>人工站各接口&#x2F;日志的执行顺序：</p><ol><li>SFC状态校验（Pack码是否合法）</li><li>AGV请求进站</li><li>扫码校验</li><li>组装物料（拧螺丝的站会有）</li><li>收数（出站）</li></ol><p>拧紧枪能自由使用，程序却不显示打螺丝的进度？<br>说明现在是自动模式，找ME切换为PLC控制模式<br>拧紧枪的2种模式：</p><ol><li>自动模式</li><li>PLC控制模式</li></ol><p>C公司人员的骚操作：人工推AGV小车跳站<br>需要去数据库表Task_Main手动新增一条<em>被跳过的站的完工数据</em></p><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><ol><li>报错代码&#x2F;消息&#x2F;日志的阅览方法</li><li>与C公司各部门人员、其它供应商协作解决问题</li><li>Pack线中常见问题的解决方案</li></ol><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>没问题</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>向前辈讨教</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>熟悉业务逻辑，准备42拉作业</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>周志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-8-29</title>
     <link href="/%E6%97%A5%E5%BF%9725-8-29/"/>
     <url>/%E6%97%A5%E5%BF%9725-8-29/</url>
