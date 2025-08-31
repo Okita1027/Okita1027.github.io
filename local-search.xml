@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-8-31</title>
+    <link href="/%E6%97%A5%E5%BF%9725-8-31/"/>
+    <url>/%E6%97%A5%E5%BF%9725-8-31/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《安徒生童话》</p><ul><li>《一个豆荚里的5粒豆》<ul><li>前4粒豆子志存高远（飞得高、走的远），但结局分别是被鸟吃掉、烂在水沟里；最后一个豆子只是希望自己对世界产生影响（只要能发芽就行），最终它在屋顶的缝隙里开始成长，屋内有一位虚弱的女孩，她看着这个不断坚强生长的豌豆藤，心中重拾了对生命的希望。</li></ul></li><li>《安琪儿》<ul><li>有时死亡并不是终结，而是另一种开始。</li></ul></li><li>《飞箱里的神》<ul><li>一位男子意外得到了一个能飞的箱子和能够让物品活动起来的药水，他靠这个获得了国王、王后、公主的青睐，结果在接近最后关头，因为自己的草率失去了这些道具，又沦为了一介凡人。</li></ul></li></ul><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><ul><li><p>OP560和OP580的pack码和出货码都是12位。</p></li><li><p>NC&#x2F;Marking代表大mes数据校验异常</p></li><li><p>PLC请求入箱异常，item xxxx-xxx（模组码） is assembled<br>说明该模组已经被组装，需要让PDR手动把料踢出去。</p></li><li><p>模组入箱超时怎么办？<br>在服务器注释掉入箱服务中的时间限制校验代码，改端口8128，启动程序，在超时的模组的机器上关掉当前程序，在代码中改启动端口为8128，启动程序后让PLC改上传时间（限制在涂胶开始后的1小时内）</p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>出差</tag>
+      
+      <tag>日志</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>周志25-8-30</title>
     <link href="/%E5%91%A8%E5%BF%9725-8-30/"/>
     <url>/%E5%91%A8%E5%BF%9725-8-30/</url>
