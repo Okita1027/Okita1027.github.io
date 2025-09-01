@@ -26,7 +26,7 @@
 <meta property="og:description" content="阅读《安徒生童话》  《一个豆荚里的5粒豆》 前4粒豆子志存高远（飞得高、走的远），但结局分别是被鸟吃掉、烂在水沟里；最后一个豆子只是希望自己对世界产生影响（只要能发芽就行），最终它在屋顶的缝隙里开始成长，屋内有一位虚弱的女孩，她看着这个不断坚强生长的豌豆藤，心中重拾了对生命的希望。   《安琪儿》 有时死亡并不是终结，而是另一种开始。   《飞箱里的神》 一位男子意外得到了一个能飞的箱子和能">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-08-30T16:02:52.000Z">
-<meta property="article:modified_time" content="2025-08-31T15:32:05.686Z">
+<meta property="article:modified_time" content="2025-09-01T15:10:07.726Z">
 <meta property="article:author" content="Okita">
 <meta property="article:tag" content="工作">
 <meta property="article:tag" content="日志">
@@ -337,7 +337,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          370 字
+          388 字
         
       </span>
     
@@ -402,7 +402,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2025年8月31日星期日 23:32
+                    本文最后更新于 2025年9月1日星期一 23:10
                   
                 
               </p>
@@ -434,7 +434,7 @@
 </li>
 <li><p>PLC请求入箱异常，item xxxx-xxx（模组码） is assembled<br>说明该模组已经被组装，需要让PDR手动把料踢出去。</p>
 </li>
-<li><p>模组入箱超时怎么办？<br>在服务器注释掉入箱服务中的时间限制校验代码，改端口8128，启动程序，在超时的模组的机器上关掉当前程序，在代码中改启动端口为8128，启动程序后让PLC改上传时间（限制在涂胶开始后的1小时内）</p>
+<li><p>模组入箱超时怎么办？<br>在服务器的<code>ModuleInBoxService.cs</code>中注释掉入箱服务中的时间限制校验代码，在<code>launchsettings.json</code>中改端口<em>8128</em>，启动程序；在超时的模组的机器上关掉当前程序，在<code>appsettings.json</code>代码中改启动端口为<em>8128</em>，启动程序后让PLC改上传时间（限制在上一次入箱时间之后和涂胶开始后的1小时内）</p>
 </li>
 </ul>
 
