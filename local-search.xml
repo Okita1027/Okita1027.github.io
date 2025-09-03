@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-9-3</title>
+    <link href="/%E6%97%A5%E5%BF%9725-9-3/"/>
+    <url>/%E6%97%A5%E5%BF%9725-9-3/</url>
+    
+    <content type="html"><![CDATA[<p>今天大概是出差以来最闲的一天了……</p><span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《人性的优点》第三部分<br>打破忧虑的习惯6个原则：</p><ol><li>用忙碌驱逐忧虑。行动是治愈忧愁的最佳药方</li><li>不要为琐事烦恼。不要让生活的鸡毛蒜皮毁掉你的幸福</li><li>用概率排除忧虑。问问自己：“这件事发生的概率究竟有多高？”</li><li>接受无法避免之事。如果事情不是你的能力能够改变的，告诉自己：“事成定局，没有其它可能。”</li><li>为忧虑设置止损线。判断事情值得焦虑多久，不要浪费更多时间<ol><li>我在担心的这件事情实际上对我有多重要？</li><li>我应该把“止损线”定在什么位置，然后忘掉这件事情？</li><li>我在这件事上付出的时间和生命是否已经超出了它的价值？</li></ol></li><li>把过去留在过去，不要试图改变过去做无用功</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><ul><li>CATL MES ERROR, CODE <code>10015</code>, Required value CATLid missing, enter a value in the catlid field,failed inventory:null<ul><li>把<code>catlconfig</code>中的<code>datafield</code>改成<code>XPXS</code>,过站模式写成<code>0</code><ul><li>0：不进站也不出站</li><li>1：进站</li><li>2：出站</li></ul></li></ul></li><li>扫码&#x2F;拧紧枪等物理设备更换过后需要在 后台管理系统中的 资源配置中更改相关属性</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-9-2</title>
     <link href="/%E6%97%A5%E5%BF%9725-9-2/"/>
     <url>/%E6%97%A5%E5%BF%9725-9-2/</url>

@@ -15,8 +15,33 @@
     <atom:link href="https://zhiyun.blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Okita的博客</description>
-    <pubDate>Tue, 02 Sep 2025 15:33:22 GMT</pubDate>
+    <pubDate>Wed, 03 Sep 2025 15:31:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>日志25-9-3</title>
+      <link>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-9-3/</link>
+      <guid>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-9-3/</guid>
+      <pubDate>Tue, 02 Sep 2025 16:05:01 GMT</pubDate>
+      
+      <description>&lt;p&gt;今天大概是出差以来最闲的一天了……&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/MT/">MT</category>
+      
+      
+      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
+      
+      <category domain="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/">出差</category>
+      
+      
+    </item>
     
     <item>
       <title>日志25-9-2</title>
@@ -451,37 +476,6 @@
       <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
       
       <category domain="https://zhiyun.blog/tags/%E5%87%BA%E5%B7%AE/">出差</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>日志25-8-19</title>
-      <link>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-19/</link>
-      <guid>https://zhiyun.blog/%E6%97%A5%E5%BF%9725-8-19/</guid>
-      <pubDate>Mon, 18 Aug 2025 23:10:45 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;h2 id=&quot;阅读&quot;&gt;&lt;a href=&quot;#阅读&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/categories/%E5%B7%A5%E4%BD%9C/MT/">MT</category>
-      
-      
-      <category domain="https://zhiyun.blog/tags/%E5%B7%A5%E4%BD%9C/">工作</category>
-      
-      <category domain="https://zhiyun.blog/tags/%E6%97%A5%E5%BF%97/">日志</category>
       
       
     </item>
