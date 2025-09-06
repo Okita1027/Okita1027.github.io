@@ -8,7 +8,7 @@
     <link href="/%E6%97%A5%E5%BF%9725-9-6/"/>
     <url>/%E6%97%A5%E5%BF%9725-9-6/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《人性的优点》</p><ul><li>Section 16 找到自己，做自己——请记住，你在这世界上是独一无二的<ul><li>无需模仿他人。重要的是发现自我，成为自己。</li></ul></li><li>Section 17 如果只有酸柠檬，那就做柠檬汁吧<ul><li>假如命运交给你一个酸柠檬，试着用它我榨出柠檬汁吧</li><li><blockquote><p>人生中最重要并不是利用你所拥有的，傻瓜都能做到这一点;</p></blockquote></li><li><blockquote><p>真正重要的是如何从损失中获益，这才需要智慧。</p></blockquote></li><li><blockquote><p>智者和傻瓜的区别就在这一线之隔。</p></blockquote></li></ul></li></ul><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>9-5记录TODO:</p><ol><li>今天入了1个箱，但是模组码错了，我要根据AGV号&#x2F;Pack码找到数据库中模组入箱相关的表中对应的那2条数据，把它们改成正确的模组码（PRD会给我）</li><li>由于涂胶时间超时，入箱1&#x2F;2&#x2F;3都要做一系列操作：需要在服务器注释限制时间的相关代码，开启8128端口程序；自动站客户端也开一个8128程序；然后让PLC重新抛数据</li></ol><hr><p><strong>问题记录：</strong></p><blockquote><p>今天遇到了前所未有的问题：模组线的错误引发了PACK线入箱时以下的2个错误：</p></blockquote><ol><li><p>报错：PLC请求入箱完成NG:1400,模组001MEE3R000002F950100016已经绑定到Pack001PEE3T000002F8X010003<br>说明：当前模组码应该要绑定到当前的Pack码，结果之前绑错了（给其他Pack码用掉了）。因此要先从数据库中删除这个错误的模组码记录，接着找PRD踢料，接着再找PLC重新抛数据。</p><blockquote><p>因为删除了整条记录，所以PLC在抛数据时需要 1：根据电芯码获得模组码；2：请求入站；3：请求出站。</p></blockquote></li><li><p>PLC请求入箱完成NG:20333-Inventory 001MEE3R000002F950100007 does not exist.OPN operator please separate this product，and check the status in SFC report(Message 20333)<br>说明：模组线的电芯&#x2F;模组码错乱了，需要手动扫描箱体每个部分的电芯码，然后让PRD去系统里找对应的正确的模组码；然后等会模组线的人说修复完毕后，再手动让PLC抛数。</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《人性的优点》</p><ul><li>Section 16 找到自己，做自己——请记住，你在这世界上是独一无二的<ul><li>无需模仿他人。重要的是发现自我，成为自己。</li></ul></li><li>Section 17 如果只有酸柠檬，那就做柠檬汁吧<ul><li>假如命运交给你一个酸柠檬，试着用它我榨出柠檬汁吧<blockquote><p>人生中最重要并不是利用你所拥有的，傻瓜都能做到这一点;<br>真正重要的是如何从损失中获益，这才需要智慧。<br>智者和傻瓜的区别就在这一线之隔。</p></blockquote></li></ul></li></ul><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>9-5记录TODO:</p><ol><li>今天入了1个箱，但是模组码错了，我要根据AGV号&#x2F;Pack码找到数据库中模组入箱相关的表中对应的那2条数据，把它们改成正确的模组码（PRD会给我）</li><li>由于涂胶时间超时，入箱1&#x2F;2&#x2F;3都要做一系列操作：需要在服务器注释限制时间的相关代码，开启8128端口程序；自动站客户端也开一个8128程序；然后让PLC重新抛数据</li></ol><hr><p><strong>问题记录：</strong></p><blockquote><p>今天遇到了前所未有的问题：模组线的错误引发了PACK线入箱时以下的2个错误：</p></blockquote><ol><li><p>报错：PLC请求入箱完成NG:1400,模组001MEE3R000002F950100016已经绑定到Pack001PEE3T000002F8X010003<br>说明：当前模组码应该要绑定到当前的Pack码，结果之前绑错了（给其他Pack码用掉了）。因此要先从数据库中删除这个错误的模组码记录，接着找PRD踢料，接着再找PLC重新抛数据。</p><blockquote><p>因为删除了整条记录，所以PLC在抛数据时需要 1：根据电芯码获得模组码；2：请求入站；3：请求出站。</p></blockquote></li><li><p>PLC请求入箱完成NG:20333-Inventory 001MEE3R000002F950100007 does not exist.OPN operator please separate this product，and check the status in SFC report(Message 20333)<br>说明：模组线的电芯&#x2F;模组码错乱了，需要手动扫描箱体每个部分的电芯码，然后让PRD去系统里找对应的正确的模组码；然后等会模组线的人说修复完毕后，再手动让PLC抛数。</p></li></ol>]]></content>
     
     
     <categories>
@@ -24,9 +24,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -55,9 +55,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -86,9 +86,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -117,9 +117,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -148,9 +148,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -179,9 +179,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -210,9 +210,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -272,9 +272,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -303,9 +303,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -334,9 +334,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -365,9 +365,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -396,9 +396,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -427,9 +427,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -489,9 +489,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
@@ -551,9 +551,9 @@
       
       <tag>工作</tag>
       
-      <tag>出差</tag>
-      
       <tag>日志</tag>
+      
+      <tag>出差</tag>
       
     </tags>
     
