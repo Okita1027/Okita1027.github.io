@@ -4,11 +4,42 @@
   
   
   <entry>
+    <title>日志25-9-9</title>
+    <link href="/%E6%97%A5%E5%BF%9725-9-9/"/>
+    <url>/%E6%97%A5%E5%BF%9725-9-9/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-9-8</title>
     <link href="/%E6%97%A5%E5%BF%9725-9-8/"/>
     <url>/%E6%97%A5%E5%BF%9725-9-8/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><h2 id="《人性的优点》-Section-18"><a href="#《人性的优点》-Section-18" class="headerlink" title="《人性的优点》- Section 18 "></a>《人性的优点》<br>- Section 18 </h2><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《人性的优点》<br>第六部分小结：如何避免因批评而焦虑</p><ol><li>不公的言论是变相的赞美，因为人红才会是非多</li><li>尽力而为，然后撑起内心的伞，无论风吹雨打都置之不理</li><li>把自己做过的蠢事写下来，时常自我批评。既然无法做到事事尽善尽美，不妨主动寻求公正有益的建设性批评</li></ol><p>第七部分小结：预防疲劳，保持精力的方法</p><ol><li>不要等到累了才休息</li><li>学会在工作时小憩</li><li>防止疲劳和忧虑的四个工作习惯<ol><li>清理书桌上的所有资料，只留下和手头工作相关的文件</li><li>按照轻重缓急处理事务</li><li>遇到问题的时候，如何你已经掌握了决策所需的信心，就立即着手解决，不要拖延。</li><li>学会组织、委任和监督指导</li></ol></li><li>以工作热情击败忧虑和疲劳<blockquote><p>大脑就算连续工作10小时也不会疲劳<br>心理因素比生理因素对倦怠的影响更大</p></blockquote></li><li>没有人会因为失眠而死，为失眠担心对你造成的伤害远大于失眠本身</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>没想到人生中第一次通宵是在工作上……<br>上午跑了一套包，下午跑了三套包，本来以为今天就这么结束了，到了晚上8点突然说客户要12套包，让我们通宵干（焊房还噶了，紧急抢修又花了一段时间）<br>目前的作业路线已经几乎稳定，我不可能时时刻刻盯着线，等他出问题；我就一直呆在休息室，把手机放在手里，戴好耳机，电话一响再去线上。</p>]]></content>
     
     
     <categories>
@@ -39,7 +70,7 @@
     <link href="/%E5%91%A8%E5%BF%9725-9-7/"/>
     <url>/%E5%91%A8%E5%BF%9725-9-7/</url>
     
-    <content type="html"><![CDATA[<p>出差以来，头一天没有加班到很晚</p><span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>问题：OP010 AGV到站，但是给的小车号是0，把车拉回去再重复进站后出现C公司报错提示<br>解决：让PRD去拉站</p><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><ol><li>阅读日志的方法</li><li>常见错误&#x2F;报错代码的解决思路</li><li>通过口头描述问题给前辈，获得解决思路</li></ol><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>某些问题是由其它供应商产生的，模组线的问题会带到Pack线，此类问题需要联系相关供应商</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>向前辈请教</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>42拉加域后，配置各个工站的配置文件</p>]]></content>
+    <content type="html"><![CDATA[<p>出差以来，头一天没有加班到很晚</p><span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《人性的优点》</p><ul><li>Section 18 如何在14天内走出忧虑<ul><li>忘记自我，关心他人。每天做一件能够让别人微笑的好事</li></ul></li><li>第四部分小结：心态平和的七个方法<ol><li>让心中充满平和、勇敢、健康与希望，因为“思想塑造人生”</li><li>不要报复敌人，因为得不偿失；不要浪费一秒钟时间想那些我们讨厌的人</li><li>与其为别人忘恩负义而烦恼，不如不对别人抱有期待。<ol><li>耶稣在1天之内治好了10个麻风病患者，却只得到了一人的感谢。我们凭什么期待自己比耶稣得到更多的感谢呢？</li><li>获得幸福的唯一方式，是享受给予的快乐，不期待对方的感激</li><li>感恩是教养的结果，如果希望子女懂得感恩，就要以身作则</li></ol></li><li>多想想自己的收获，少想自己的烦恼</li><li>不要模仿他人。找到自我，从容做自己，因为“嫉妒源自无知”、“模仿无异于自杀”</li><li>如果命运交给我们一颗酸柠檬，试着用它榨出柠檬汁</li><li>让我们忘记自己的不幸，试着为他人创造幸福。“善待他人就是善待自己”</li></ol></li></ul><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>问题：OP010 AGV到站，但是给的小车号是0，把车拉回去再重复进站后出现C公司报错提示<br>解决：让PRD去拉站</p><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><ol><li>阅读日志的方法</li><li>常见错误&#x2F;报错代码的解决思路</li><li>通过口头描述问题给前辈，获得解决思路</li></ol><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>某些问题是由其它供应商产生的，模组线的问题会带到Pack线，此类问题需要联系相关供应商</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>向前辈请教</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>42拉加域后，配置各个工站的配置文件</p>]]></content>
     
     
     <categories>
