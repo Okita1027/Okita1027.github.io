@@ -4,6 +4,68 @@
   
   
   <entry>
+    <title>周志25-9-14</title>
+    <link href="/%E5%91%A8%E5%BF%9725-9-14/"/>
+    <url>/%E5%91%A8%E5%BF%9725-9-14/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么？"><a href="#本阶段我学到了什么？" class="headerlink" title="本阶段我学到了什么？"></a>本阶段我学到了什么？</h2><p>所属项目：溧阳7——41拉Pack线+42拉Pack线</p><ol><li>联调前该向PE提哪些需求文档</li><li>各个人工&#x2F;自动站的<code>CatlConfig</code>配置方法</li><li>出现问题，如何拉通C公司人员（PRD班长-&gt;PE&#x2F;ME&#x2F;SAS）解决</li></ol><h2 id="本阶段我发现了什么问题？"><a href="#本阶段我发现了什么问题？" class="headerlink" title="本阶段我发现了什么问题？"></a>本阶段我发现了什么问题？</h2><ol><li>由于业务熟练度不足，有时无法判断一个问题是哪个供应商的&#x2F;哪个部门的</li><li>由于没有详细看过代码，无法处理疑难杂症</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>向前辈讨教</li><li>参考41拉配置</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>42拉联调、自动站配置</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>周志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-9-13</title>
+    <link href="/%E6%97%A5%E5%BF%9725-9-13/"/>
+    <url>/%E6%97%A5%E5%BF%9725-9-13/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>问题记录：</p><ol><li><p>肩部涂胶NG：0,Selected SFC xxxxx is not in work queue “PALXXX” …..<br>肩部涂胶和上一站（焊后检测&#x2F;清洗）都是自动站，但是上一站是另外一家供应商的；上一站的任务做完了，但是大MES返回NG了，但是允许AGV进入下一站做肩部涂胶的工作。等到肩部涂胶任务做完了，要出站了，这时候大MES报了上面的错。 大MES的CheckSFCStatus这个接口只会告诉你该PACK码任务包是否在排队中，不会告诉你前面的任务做完了没有。</p><blockquote><p>LQC更改了相关代码，该小车后续进度暂未跟踪</p></blockquote></li><li><p>入箱1，2完成后，去补胶，然后再入箱3，此时进站接口报错：涂胶时间超时；<br>解决：PLC不需要请求进站接口，直接走下一个抛数流程即可。</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-9-12</title>
     <link href="/%E6%97%A5%E5%BF%9725-9-12/"/>
     <url>/%E6%97%A5%E5%BF%9725-9-12/</url>
