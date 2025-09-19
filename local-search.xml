@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-9-19</title>
+    <link href="/%E6%97%A5%E5%BF%9725-9-19/"/>
+    <url>/%E6%97%A5%E5%BF%9725-9-19/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《被讨厌的勇气》<br>第五夜  认真的人生“活在当下”</p><ol><li>过多的自我意识，反而会束缚自己</li><li>不是肯定自我，而是接纳自我</li><li>信用和信赖有何区别</li><li>工作的本质是对他人的贡献</li><li>年轻人也有胜过长者之处</li><li>“工作狂”是人生谎言</li><li>从这一刻起，就能变得幸福</li><li>追求理想者面前的两条路</li><li>甘于平凡的勇气</li><li>人生是一连串的刹那</li><li>舞动人生</li><li>最重要的是“此时此刻”</li><li>对决“人生最大的谎言”</li><li>人生的意义，由你自己决定</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><ul><li>出现问题需要更细致地追踪，如果当时草草解决后续会很难定位问题的根本原因。</li><li>解决9.13肩部涂胶出站时出现的问题，现在肩部涂胶进站逻辑写在<code>CatlConfig</code>中。</li><li>OP510上盖拧紧任务做完了，CATL MES错误，缺少物料；有一个PRD去2楼，在系统里操作了一下，有物料了， 结果等他下楼的时候发现另外一个PRD已经手动放行，让车走到下一站气密测试了。 现在CATL MES系统显示该PACK条码还在上一个操作序列的活动中。<br>让他们把车推回去重新把最后一步上传数据做完。当时每辆车之间卡得很死，可以等做完测试之后再推回来重新上传数据。</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-9-18</title>
     <link href="/%E6%97%A5%E5%BF%9725-9-18/"/>
     <url>/%E6%97%A5%E5%BF%9725-9-18/</url>
