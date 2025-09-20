@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-9-20</title>
+    <link href="/%E6%97%A5%E5%BF%9725-9-20/"/>
+    <url>/%E6%97%A5%E5%BF%9725-9-20/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL42开始涂胶、入箱；首次入箱先跳MES，后续补数据让PLC重新走3次请求完成入箱，最后再来个总的请求完成出站；<br>保险起见，还可以在每次请求入箱完成前增加三次电芯码换模组码的流程。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-9-19</title>
     <link href="/%E6%97%A5%E5%BF%9725-9-19/"/>
     <url>/%E6%97%A5%E5%BF%9725-9-19/</url>
