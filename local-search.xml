@@ -4,11 +4,42 @@
   
   
   <entry>
+    <title>日志25-9-21</title>
+    <link href="/%E5%91%A8%E5%BF%9725-9-21/"/>
+    <url>/%E5%91%A8%E5%BF%9725-9-21/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>《金字塔原理》第一篇  表达的逻辑</p><ul><li><p>SCQA结构</p><ul><li>背景</li><li>冲突</li><li>疑问</li><li>解答</li></ul></li><li><p>演绎推理与归纳推理</p></li></ul><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么"><a href="#本阶段我学到了什么" class="headerlink" title="本阶段我学到了什么?"></a>本阶段我学到了什么?</h2><p>所属项目：溧阳7——PL41Pack线+PL42Pack线</p><ol><li>模组入箱中非常规操作的解决方案</li><li>下箱底&#x2F;肩部涂胶常见的C公司报错代码含义</li><li>与其它供应商&#x2F;部门人员协作解决问题的方法</li></ol><h2 id="本阶段我发现了什么问题"><a href="#本阶段我发现了什么问题" class="headerlink" title="本阶段我发现了什么问题?"></a>本阶段我发现了什么问题?</h2><ol><li>难以分析、处理疑难杂症</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>向前辈请教</li><li>查阅网络资料</li><li>阅读源程序</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>PL42联调、PL41陪产中的问题修复</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-9-20</title>
     <link href="/%E6%97%A5%E5%BF%9725-9-20/"/>
     <url>/%E6%97%A5%E5%BF%9725-9-20/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL42开始涂胶、入箱；首次入箱先跳MES，后续补数据让PLC重新走3次请求完成入箱，最后再来个总的请求完成出站；<br>保险起见，还可以在每次请求入箱完成前增加三次电芯码换模组码的流程。</p>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL42开始涂胶、入箱；首次入箱先跳MES，后续补数据让PLC重新走3次电芯码换模组码、请求完成入箱，最后再来个请求完成出站。</p>]]></content>
     
     
     <categories>
