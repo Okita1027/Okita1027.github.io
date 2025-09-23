@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-9-23</title>
+    <link href="/%E6%97%A5%E5%BF%9725-9-23/"/>
+    <url>/%E6%97%A5%E5%BF%9725-9-23/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL42 OP160 CCS安装，报错CATLID missing……<br><code>CatlConfig</code>中的过站模式应该改成0，而不是2；然后顺延更改后面1个有 收数 的 大站 的 <code>CatlConfig</code>中的<code>dcgroup</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-9-22</title>
     <link href="/%E6%97%A5%E5%BF%9725-9-22/"/>
     <url>/%E6%97%A5%E5%BF%9725-9-22/</url>
