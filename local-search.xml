@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>周志25-10-4</title>
+    <link href="/%E5%91%A8%E5%BF%9725-10-4/"/>
+    <url>/%E5%91%A8%E5%BF%9725-10-4/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><p><strong>《认知觉醒》</strong><br>第六章  行动力————没有行动世界只是个概念</p><ol><li>清晰：一个观念，重构你的行动力</li><li>“傻瓜”：这个世界会奖励那些不计得失的“傻瓜”</li><li>行动：“道理都懂，就是不做”怎么破解</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><ol><li>补胶模式可以先物理涂胶，PLC再走DB200，把补胶时间数据传给MES；</li><li>模组入箱补抛数据时，必须确保这个包在大MES中的状态是‘工作中’</li><li>IO盒子配置注意事项：把大交换机到当站电箱的网线拔掉！</li></ol><h1 id="周志"><a href="#周志" class="headerlink" title="周志"></a>周志</h1><h2 id="本阶段我学到了什么"><a href="#本阶段我学到了什么" class="headerlink" title="本阶段我学到了什么?"></a>本阶段我学到了什么?</h2><p>所属项目：江苏时代 LY7 —— PL41&#x2F;42&#x2F;46 Pack线</p><ol><li>PL46 IO盒子配置</li><li>PL41&#x2F;42 自动站业务逻辑</li><li>补胶模式、模组入箱与数据重传</li></ol><h2 id="本阶段我发现了什么问题"><a href="#本阶段我发现了什么问题" class="headerlink" title="本阶段我发现了什么问题?"></a>本阶段我发现了什么问题?</h2><ol><li>手动上传数据须让对应PACK包在CATL MES中出于活动状态</li></ol><h2 id="解决措施"><a href="#解决措施" class="headerlink" title="解决措施"></a>解决措施</h2><ol><li>向前辈请教</li><li>咨询AI大模型</li></ol><h2 id="下阶段学习内容"><a href="#下阶段学习内容" class="headerlink" title="下阶段学习内容"></a>下阶段学习内容</h2><p>PL41&#x2F;42陪产、PL46实施</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>周志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-10-3</title>
     <link href="/%E6%97%A5%E5%BF%9725-10-3/"/>
     <url>/%E6%97%A5%E5%BF%9725-10-3/</url>
