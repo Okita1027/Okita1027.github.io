@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-10-10</title>
+    <link href="/%E6%97%A5%E5%BF%9725-10-10/"/>
+    <url>/%E6%97%A5%E5%BF%9725-10-10/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><p><strong>《认知驱动》</strong><br>第一章  价值————改变自己的关键是创造价值<br>4. 镜子：所有的社交都是一面镜子<br>5. 内向：被动社交，内向成长者的制胜之道</p><p>第二章  身份————一切从信念开始</p><ol><li>层次：你在这个世界的哪一层</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL42:<br>模组入箱2出站时CATL MES报错13921缺料，在CATL MES中查询发现没有入箱1的其中一个模组；<br>本地数据库表GrabRecords中也没有查找到相关记录，但是DataCollect表中是有该模组数据的。<br>解决方案：</p><ol><li>重走入箱1的单模组入箱逻辑，把数据传到本地和CATL MES中，再去入箱2出站</li><li>此时出现新的错误：时长不在管控范围内（0-60）；由于这次是跑的PV包，涂胶的时候把另一个块区域用塑料纸贴住了，入箱1走完再把塑料膜拿掉，重新涂胶；此时入箱1+入箱2时长已经超过了60分钟，需要PLC去下箱底涂胶走一遍补胶流程以刷新本地和CATL MES中的涂胶时间，再在入箱2出站时让PLC调整入箱完成时间为刚刚新上传的补胶时间</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-10-9</title>
     <link href="/%E6%97%A5%E5%BF%9725-10-9/"/>
     <url>/%E6%97%A5%E5%BF%9725-10-9/</url>
