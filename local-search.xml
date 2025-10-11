@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-10-11</title>
+    <link href="/%E6%97%A5%E5%BF%9725-10-11/"/>
+    <url>/%E6%97%A5%E5%BF%9725-10-11/</url>
+    
+    <content type="html"><![CDATA[<p>明天开始又要转夜班喽……</p><span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><p><strong>《认知驱动》</strong><br>第二章  身份————一切从信念开始<br>2. 身份：改变自己的终极力量<br>3. 语言：美好的人生从好好说话开始<br>4. 理性：成功，最怕一开始就对自己说不可能</p><p>第三章  心理————清除成事路上的情绪障碍</p><ol><li>负面偏好：为什么你总是不快乐</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><ol><li>模组入箱1&#x2F;2&#x2F;3可以各抛各的数据，即使前一站未完工也可以抛，但是无法正常出站。</li><li>模组入箱的完成时间需要设置在涂胶后的1个小时之内，本地MES会用当前时间减去涂胶时间；但是CATL MES不会用实际时间减去涂胶时间，只会判断上传的模组入箱的完成时间是否在涂胶时间后的1个小时之内；因此在补超时的入箱数据时，可以带AGV走一次补胶模式，也可以直接更改本地数据库中记录的涂胶时间。</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-10-10</title>
     <link href="/%E6%97%A5%E5%BF%9725-10-10/"/>
     <url>/%E6%97%A5%E5%BF%9725-10-10/</url>
