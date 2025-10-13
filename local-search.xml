@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-10-13</title>
+    <link href="/%E6%97%A5%E5%BF%9725-10-13/"/>
+    <url>/%E6%97%A5%E5%BF%9725-10-13/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><p><strong>《认知驱动》</strong><br>第三章  心理————清除成事路上的障碍<br>2. 二元对立：恭喜你走出二元对立，来到真正的成人世界<br>3. 一劳永逸：想要一劳永逸？还是死了这条心吧</p><p><strong>下篇  做成一件事的技法</strong><br>第四章  策略————方法和路径</p><ol><li>认知驱动：做一个真正的长期主义者</li><li>写下来：我们都低估了写下来的能力</li><li>假设：什么能力可以让自己快速进步</li><li>降低期待：命运一定钟爱那些愿意慢慢变好的人</li><li>深度练习：跨越从普通到卓越分水岭</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL41模组入箱NG:模组<code>&#123;blockData.ModuleCode&#125;</code>入箱位置[<code>&#123;formu.Location&#125;</code>]与单个入记录的位置[<code>&#123;moduleInfo.ModuleLocation&#125;</code>]不一致，请检查后重试!<br>此为异常包，当时不清楚情况，先让PLC把模组物理入进去了；在补数据的时候发现模组位置3入了位置4的模组码，而模组位置4没有已经入进去的模组码；<br>让PLC重新走2次单模组入箱（让正确的模组进入正确的位置），然后复位出站。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-10-11</title>
     <link href="/%E6%97%A5%E5%BF%9725-10-11/"/>
     <url>/%E6%97%A5%E5%BF%9725-10-11/</url>
