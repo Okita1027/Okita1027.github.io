@@ -4,11 +4,73 @@
   
   
   <entry>
+    <title>日志25-10-18</title>
+    <link href="/%E6%97%A5%E5%BF%9725-10-18/"/>
+    <url>/%E6%97%A5%E5%BF%9725-10-18/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><p><strong>《微习惯：简单到不可能失败的自我管理法则》</strong><br>第7章 微习惯策略的八大规则</p><ol><li>绝不要自欺欺人</li><li>满意每一个进步</li><li>经常回报自己，尤其是在完成微习惯之后</li><li>保持头脑清醒</li><li>感到强烈抵触时，后退并缩小目标</li><li>提醒自己这件事很轻松</li><li>绝不要小看微步骤</li><li>用多余精力超额完成任务，而不是制定更大目标</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL41 OP200 CSS安装报错：不在CCS安装的工作序列。<br>查看数据库发现OP200未完工，卡在最后一步放行。<br>实际情况：OP200扫码任务完成后，没有按放行按钮，手动按了AGV的放行，进入焊房后，因发生某种故障，无法作业，又把车退回来重新进站，就报了上述错误。<br>解决方案：请PRD将该包拉入CCS安装的‘活动中’状态，然后重新进站任务（放行）。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>日志25-10-17</title>
+    <link href="/%E6%97%A5%E5%BF%9725-10-17/"/>
+    <url>/%E6%97%A5%E5%BF%9725-10-17/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><p><strong>《微习惯：简单到不可能失败的自我管理法则》</strong><br>第6章 彻底改变只需八步</p><ol><li>选择适合你的微习惯和计划<ol><li>一周弹性计划</li><li>单一微计划</li><li>多项微计划</li><li>把你的习惯变成“小得不可思议的一小步”</li><li>如何培养每周微习惯</li></ol></li><li>挖掘每个微习惯的内在价值<ol><li>用“为什么钻头”找到来源</li></ol></li><li>明确习惯依据，将其纳入日程<ol><li>自由度高的非具体习惯</li><li>决策时刻</li></ol></li><li>建立回报机制，以奖励提升成就感<ol><li>回报关联</li><li>回报策略</li><li>回报对意志力的重建作用</li></ol></li><li>记录与追踪完成情况<ol><li>大日历</li><li>数字化追踪</li></ol></li><li>微量开始，超额完成<ol><li>强化意志力的微习惯</li><li>带来进步的微习惯</li><li>减轻意志力损耗的微习惯</li></ol></li><li>服从计划安排，摆脱高期待值</li><li>留意习惯养成的标识<blockquote><p>警告：对超额完成任务的态度</p></blockquote></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-10-16</title>
     <link href="/%E6%97%A5%E5%BF%9725-10-16/"/>
     <url>/%E6%97%A5%E5%BF%9725-10-16/</url>
     
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><p><strong>《微习惯：简单到不可能失败的自我管理法则》</strong><br>第4章 微习惯策略<br>牛顿第一运动定律</p><ol><li>除非受到外力作用，否则静止的物体总保持静止状态</li><li>除非受到外力作用，否则处于运动状态中的物体的速度不会改变<br>一小步+想做的事&#x3D;较高的进一步行动的可能性</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL42模组入箱补数据：</p><ol><li>更改涂胶时间</li><li>请求入箱完成<ol><li>成功</li></ol></li><li>请求入箱完成2<ol><li>NG:13920-&gt;模组物料不足</li><li>本地数据库发现入箱1少了一个模组的抓取记录</li></ol></li><li>入箱1补足缺失的模组<ol><li>拍电芯码</li><li>单模组入箱</li><li>入箱完成</li></ol></li><li>入箱2复位请求入箱完成</li></ol>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><p><strong>《微习惯：简单到不可能失败的自我管理法则》</strong><br>第4章 微习惯策略<br>牛顿第一运动定律</p><ol><li>除非受到外力作用，否则静止的物体总保持静止状态</li><li>除非受到外力作用，否则处于运动状态中的物体的速度不会改变<br>一小步+想做的事&#x3D;较高的进一步行动的可能性</li></ol><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL42模组入箱补数据：</p><ol><li>更改涂胶时间</li><li>请求入箱完成<ol><li>成功</li></ol></li><li>请求入箱完成2<ol><li>NG:13920-&gt;模组物料不足</li><li>本地数据库发现入箱1少了一个模组的抓取记录</li></ol></li><li>入箱1补足缺失的模组<ol><li>拍电芯码</li><li>单模组入箱</li><li>入箱完成</li></ol></li><li>入箱2复位请求入箱完成</li></ol><p>TODO:<br>考虑在入箱1加一条逻辑：抓取记录条数是否和配方中的应入模组个数一致</p>]]></content>
     
     
     <categories>
