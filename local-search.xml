@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>日志25-11-2</title>
+    <link href="/%E6%97%A5%E5%BF%9725-11-2/"/>
+    <url>/%E6%97%A5%E5%BF%9725-11-2/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p><strong>《高效能人士的七个习惯》</strong><br>积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、不断更新</p><h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><p>PL46:<br>电芯肩部涂胶 出站 NC 13926（工艺配方与数据收集组不一致导致）<br>待PRD向PQE申请解除NC后，到压条加压出站时报错 NG 15441（不在当前工作序列），原因是PRD之前申请解除NC时没有同时向PQE说明要拉站。<br>结论：解NC本身并不是自动过站的，必须让PRD在向PQE申请解除NC的同时申请拉到下一站。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工作</category>
+      
+      <category>MT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工作</tag>
+      
+      <tag>日志</tag>
+      
+      <tag>出差</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>日志25-11-1</title>
     <link href="/%E6%97%A5%E5%BF%9725-11-1/"/>
     <url>/%E6%97%A5%E5%BF%9725-11-1/</url>
